@@ -1,0 +1,101 @@
+:root {
+  /* Color Palette - Dark Mechanical Theme */
+  --color-bg-dark: #121212;
+  --color-bg-card: #1E1E1E;
+  --color-text-primary: #E0E0E0;
+  --color-text-secondary: #A0A0A0;
+  --color-accent-orange: #FF6B00; /* Vibrant mechanical orange */
+  --color-accent-steel: #4A5568;
+  --color-border: #333333;
+
+  /* Typography */
+  --font-family-base: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-family-heading: 'Roboto', sans-serif; /* Placeholder for a more mechanical font if needed */
+
+  /* Spacing */
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 4rem;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family-base);
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+a {
+  color: var(--color-accent-orange);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: #ff8533;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: 600;
+  text-align: center;
+  transition: all var(--transition-fast);
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--color-accent-orange);
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #e65c00;
+  transform: translateY(-1px);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid var(--color-accent-orange);
+  color: var(--color-accent-orange);
+}
+
+.btn-outline:hover {
+  background-color: var(--color-accent-orange);
+  color: #ffffff;
+}
+
+.section {
+  padding: var(--spacing-xl) 0;
+}
