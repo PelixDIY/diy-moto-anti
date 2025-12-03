@@ -28,3 +28,8 @@ function App() {
 }
 
 export default App;
+<h1>DIY MOTO GARAGE in Bali</h1>
+<p>
+  Self-service motorcycle workshop in Bali. Fix, maintain and upgrade your bike
+  using professional tools, lifts and spare parts.
+</p>
