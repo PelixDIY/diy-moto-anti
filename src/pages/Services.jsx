@@ -1,6 +1,5 @@
 import React from 'react';
 import ServiceCard from '../components/ServiceCard';
-import SEO from '../components/SEO';
 
 const Services = () => {
   const services = [
