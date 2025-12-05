@@ -4,13 +4,13 @@ import ServiceCard from '../components/ServiceCard';
 const Services = () => {
   const services = [
     {
-      title: 'Basic Bay Rental',
+      title: 'Paddock Bay Rental',
       price: 'Rp 150k / hr',
       description: 'Just the space. Simply tools.',
       features: ['Designated Bay', 'Paddock Stand', 'Waste Oil Disposal', 'Shop Towels'],
     },
     {
-      title: 'Standard Bay Rental',
+      title: 'Lift Bay Rental',
       price: 'Rp 200k / hr',
       description: 'Bay with lift and basic tools.',
       features: ['Hydraulic Lift', 'Basic Tool Set', 'Air Compressor', 'Work Bench'],

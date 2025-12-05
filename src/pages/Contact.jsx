@@ -12,7 +12,7 @@ const Contact = () => {
                 <div className="contact-info">
                     <div className="info-item">
                         <h3>Address</h3>
-                        <p>Jalan Raya Kesambi No. 43<br />Kerobokan, Bali 80361</p>
+                        <p>Jalan Raya Kesambi No. 34<br />Kerobokan, Bali 80361</p>
                     </div>
                     <div className="info-item">
                         <h3>Phone / WhatsApp</h3>
@@ -20,7 +20,7 @@ const Contact = () => {
                     </div>
                     <div className="info-item">
                         <h3>Email</h3>
-                        <p>info@diymotogarage.com</p>
+                        <p>hello@diymotogarage.com</p>
                     </div>
                     <div className="info-item">
                         <h3>Opening Hours</h3>
@@ -49,11 +49,17 @@ const Contact = () => {
             </div>
 
             <div className="map-section">
-                {/* Placeholder for Google Maps Embed */}
-                <div className="map-placeholder">
-                    <p>Google Maps Location</p>
-                </div>
-            </div>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6527.778605947963!2d115.1725651!3d-8.6533354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd247137df659a1%3A0xc570529f290be803!2sDIY%20MotoGarage!5e1!3m2!1sru!2sid!4v1764916018124!5m2!1sru!2sid"
+    width="100%"
+    height="100%"
+    style={{ border: 0 }}
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    title="DIY Moto Garage Bali"
+  />
+</div>
 
             <style>{`
         .section-header {
