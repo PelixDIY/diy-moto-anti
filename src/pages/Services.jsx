@@ -31,11 +31,7 @@ const Services = () => {
 
   return (
     <div className="page-container container section">
-      <SEO
-        title="Services & Pricing"
-        description="Check our rental rates for motorcycle work bays, tools, and tire changing services in Bali."
-      />
-      <div className="section-header">
+            <div className="section-header">
         <h1>Services & Pricing</h1>
         <p>Transparent pricing. No hidden fees.</p>
       </div>

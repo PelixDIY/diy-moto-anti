@@ -4,11 +4,7 @@ import BookingForm from '../components/BookingForm';
 const Booking = () => {
   return (
     <div className="page-container container section">
-      <SEO
-        title="Book a Bay"
-        description="Reserve your motorcycle work bay online. Choose your time and tools."
-      />
-      <div className="section-header">
+          <div className="section-header">
         <h1>Book Your Bay</h1>
         <p>Select your time and tools below.</p>
       </div>

@@ -20,11 +20,7 @@ const Home = () => {
 
     return (
         <div className="home-page">
-            <SEO
-                title="Home"
-                description="Rent a professional motorcycle work bay in Bali. Fully equipped with lifts and tools."
-            />
-            <Hero />
+                       <Hero />
 
             <section className="section container">
                 <div className="section-header">

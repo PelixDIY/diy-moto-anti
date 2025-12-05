@@ -3,11 +3,7 @@ import React from 'react';
 const Contact = () => {
     return (
         <div className="page-container container section">
-            <SEO
-                title="Contact Us"
-                description="Get in touch with DIY MotoGarage Bali. Find our location, opening hours, and contact details."
-            />
-            <div className="section-header">
+                       <div className="section-header">
                 <h1>Contact Us</h1>
                 <p>Get in touch or drop by the garage.</p>
             </div>
