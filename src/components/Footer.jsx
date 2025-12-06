@@ -1,28 +1,31 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
-    return (
-        <footer className="footer">
-            <div className="container footer-content">
-                <div className="footer-section">
-                    <h3>DIY MotoGarage</h3>
-                    <p>Your space to fix, build, and ride.</p>
-                </div>
-                <div className="footer-section">
-                    <h4>Contact</h4>
-                    <p>Kerobokan, Bali</p>
-                    <p>Email: info@diymotogarage.com</p>
-                </div>
-                <div className="footer-section">
-                    <h4>Hours</h4>
-                    <p>Mon - Sun: 8am - 8pm</p>
-                </div>
-            </div>
-            <div className="footer-bottom">
-                <p>&copy; {new Date().getFullYear()} DIY MotoGarage. All rights reserved.</p>
-            </div>
+  const { t } = useTranslation();
 
-            <style>{`
+  return (
+    <footer className="footer">
+      <div className="container footer-content">
+        <div className="footer-section">
+          <h3>DIY MotoGarage</h3>
+          <p>{t('footer.tagline')}</p>
+        </div>
+        <div className="footer-section">
+          <h4>{t('footer.contact')}</h4>
+          <p>Kerobokan, Bali</p>
+          <p>Email: hello@diymotogarage.com</p>
+        </div>
+        <div className="footer-section">
+          <h4>{t('footer.hours')}</h4>
+          <p>{t('footer.hoursValue')}</p>
+        </div>
+      </div>
+      <div className="footer-bottom">
+        <p>&copy; {new Date().getFullYear()} {t('footer.copyright')}</p>
+      </div>
+
+      <style>{`
         .footer {
           background-color: var(--color-bg-card);
           border-top: 1px solid var(--color-border);
@@ -51,8 +54,8 @@ const Footer = () => {
           font-size: 0.9rem;
         }
       `}</style>
-        </footer>
-    );
+    </footer>
+  );
 };
 
 export default Footer;

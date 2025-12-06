@@ -1,0 +1,171 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services & Pricing",
+        "contact": "Contact",
+        "bookNow": "Book Now"
+    },
+    "home": {
+        "hero": {
+            "title": "Your Garage, Your Rules",
+            "subtitle": "Professional tools and space for your motorcycle projects",
+            "cta": "Book a Bay"
+        },
+        "services": {
+            "title": "Our Services",
+            "subtitle": "Everything you need to maintain your ride.",
+            "liftBay": {
+                "title": "Lift Bay Rental",
+                "description": "Rent a professional work bay with a hydraulic lift.",
+                "features": {
+                    "lift": "Hydraulic Lift",
+                    "bench": "Work Bench",
+                    "compressor": "Air Compressor",
+                    "tools": "Basic Hand Tools"
+                }
+            },
+            "proBay": {
+                "title": "Pro Bay Rental",
+                "description": "The ultimate DIY experience with everything included.",
+                "features": {
+                    "bayLift": "Bay + Lift",
+                    "specialtyTools": "All Specialty Tools",
+                    "disposal": "Oil Disposal",
+                    "advice": "Expert Advice"
+                }
+            }
+        },
+        "cta": {
+            "title": "Ready to get your hands dirty?",
+            "subtitle": "Book your slot now and start working on your motorcycle.",
+            "button": "Book Now"
+        }
+    },
+    "about": {
+        "title": "About DIY MotoGarage",
+        "lead": "Born from a passion for mechanics and the freedom of the ride, DIY MotoGarage is Bali's first community-focused self-service motorcycle workshop.",
+        "mission": {
+            "title": "Our Mission",
+            "p1": "We believe that every rider should have the opportunity to understand and maintain their machine.",
+            "p2": "Whether you're changing oil, swapping tires, or doing a full engine rebuild, we have the space and professional tools you need."
+        },
+        "imagePlaceholder": "Garage Interior",
+        "features": {
+            "equipment": {
+                "title": "Professional Equipment",
+                "description": "Hydraulic lifts, air compressors, and high-quality hand tools."
+            },
+            "community": {
+                "title": "Community",
+                "description": "Connect with other riders and share knowledge."
+            },
+            "support": {
+                "title": "Support",
+                "description": "Expert advice available when you get stuck."
+            }
+        }
+    },
+    "servicesPage": {
+        "title": "Services & Pricing",
+        "subtitle": "Transparent pricing. No hidden fees.",
+        "paddockBay": {
+            "title": "Paddock Bay Rental",
+            "description": "Just the space. Simply tools.",
+            "features": {
+                "bay": "Designated Bay",
+                "stand": "Paddock Stand",
+                "disposal": "Waste Oil Disposal",
+                "towels": "Shop Towels"
+            }
+        },
+        "liftBay": {
+            "title": "Lift Bay Rental",
+            "description": "Bay with lift and basic tools.",
+            "features": {
+                "lift": "Hydraulic Lift",
+                "tools": "Basic Tool Set",
+                "compressor": "Air Compressor",
+                "bench": "Work Bench"
+            }
+        },
+        "proBay": {
+            "title": "Pro Bay Rental",
+            "description": "Full access to everything.",
+            "features": {
+                "lift": "Hydraulic Lift",
+                "masterTools": "Master Tool Set",
+                "specialtyTools": "Specialty Tools",
+                "scanner": "Diagnostic Scanner",
+                "electricTools": "Electric Tools"
+            }
+        },
+        "membership": {
+            "title": "Membership Options",
+            "description": "Frequent fixer? Ask us about our monthly membership plans for unlimited access."
+        }
+    },
+    "contact": {
+        "title": "Contact Us",
+        "subtitle": "Get in touch or drop by the garage.",
+        "info": {
+            "address": {
+                "title": "Address",
+                "value": "Jalan Raya Kesambi No. 34<br />Kerobokan, Bali 80361"
+            },
+            "phone": {
+                "title": "Phone / WhatsApp",
+                "value": "+62 877 000 77 111"
+            },
+            "email": {
+                "title": "Email",
+                "value": "hello@diymotogarage.com"
+            },
+            "hours": {
+                "title": "Opening Hours",
+                "value": "Monday - Sunday: 10:00 AM - 10:00 PM"
+            }
+        },
+        "form": {
+            "title": "Send us a message",
+            "name": "Name",
+            "namePlaceholder": "Your Name",
+            "email": "Email",
+            "emailPlaceholder": "Your Email",
+            "message": "Message",
+            "messagePlaceholder": "How can we help?",
+            "submit": "Send Message"
+        }
+    },
+    "booking": {
+        "title": "Book Your Bay",
+        "subtitle": "Select your time and tools below.",
+        "policy": {
+            "title": "Booking Policy",
+            "arrival": "Please arrive 15 minutes before your scheduled time.",
+            "cancellation": "Cancellations must be made at least 24 hours in advance.",
+            "safety": "Safety gear (closed-toe shoes) is mandatory."
+        }
+    },
+    "bookingForm": {
+        "name": "Name",
+        "namePlaceholder": "Your Name",
+        "service": "Service",
+        "date": "Date",
+        "time": "Time",
+        "submit": "Book via WhatsApp",
+        "services": {
+            "paddock": "Paddock Bay Rental (Rp 150k / hr)",
+            "lift": "Lift Bay Rental (Rp 200k / hr)",
+            "pro": "Pro Bay Rental (Rp 250k / hr)"
+        },
+        "whatsappMessage": "Hello, I would like to book a slot at DIY MotoGarage."
+    },
+    "footer": {
+        "tagline": "Your space to fix, service, and ride.",
+        "contact": "Contact",
+        "hours": "Hours",
+        "hoursValue": "Mon - Sun: 10am - 10pm",
+        "copyright": "DIY MotoGarage. All rights reserved."
+    }
+}

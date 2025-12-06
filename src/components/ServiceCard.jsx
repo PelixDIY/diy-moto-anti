@@ -1,26 +1,29 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const ServiceCard = ({ title, price, description, features, icon }) => {
-    return (
-        <div className="service-card">
-            <div className="card-header">
-                {icon && <div className="card-icon">{icon}</div>}
-                <h3 className="card-title">{title}</h3>
-                <div className="card-price">{price}</div>
-            </div>
-            <div className="card-body">
-                <p className="card-description">{description}</p>
-                <ul className="card-features">
-                    {features.map((feature, index) => (
-                        <li key={index}>{feature}</li>
-                    ))}
-                </ul>
-            </div>
-            <div className="card-footer">
-                <a href="/booking" className="btn btn-primary full-width">Book Now</a>
-            </div>
+  const { t } = useTranslation();
 
-            <style>{`
+  return (
+    <div className="service-card">
+      <div className="card-header">
+        {icon && <div className="card-icon">{icon}</div>}
+        <h3 className="card-title">{title}</h3>
+        <div className="card-price">{price}</div>
+      </div>
+      <div className="card-body">
+        <p className="card-description">{description}</p>
+        <ul className="card-features">
+          {features.map((feature, index) => (
+            <li key={index}>{feature}</li>
+          ))}
+        </ul>
+      </div>
+      <div className="card-footer">
+        <a href="/booking" className="btn btn-primary full-width">{t('navbar.bookNow')}</a>
+      </div>
+
+      <style>{`
         .service-card {
           background-color: var(--color-bg-card);
           border: 1px solid var(--color-border);
@@ -80,8 +83,8 @@ const ServiceCard = ({ title, price, description, features, icon }) => {
           display: block;
         }
       `}</style>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default ServiceCard;

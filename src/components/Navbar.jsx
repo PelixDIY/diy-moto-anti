@@ -1,48 +1,69 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
-    const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const { t, i18n } = useTranslation();
 
-    const toggleMenu = () => {
-        setIsOpen(!isOpen);
-    };
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
-    const navLinks = [
-        { name: 'Home', href: '/' },
-        { name: 'About', href: '/about' },
-        { name: 'Services & Pricing', href: '/services' },
-        { name: 'Contact', href: '/contact' },
-        { name: 'Book Now', href: '/booking', isCta: true },
-    ];
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
-    return (
-        <nav className="navbar">
-            <div className="container navbar-container">
-                <a href="/" className="logo">
-                    DIY <span className="text-orange">MotoGarage</span>
-                </a>
+  const navLinks = [
+    { name: t('navbar.home'), href: '/' },
+    { name: t('navbar.about'), href: '/about' },
+    { name: t('navbar.services'), href: '/services' },
+    { name: t('navbar.contact'), href: '/contact' },
+    { name: t('navbar.bookNow'), href: '/booking', isCta: true },
+  ];
 
-                <div className={`nav-links ${isOpen ? 'active' : ''}`}>
-                    {navLinks.map((link) => (
-                        <a
-                            key={link.name}
-                            href={link.href}
-                            className={`nav-link ${link.isCta ? 'btn btn-primary' : ''}`}
-                            onClick={() => setIsOpen(false)}
-                        >
-                            {link.name}
-                        </a>
-                    ))}
-                </div>
+  return (
+    <nav className="navbar">
+      <div className="container navbar-container">
+        <a href="/" className="logo">
+          DIY <span className="text-orange">MotoGarage</span>
+        </a>
 
-                <button className="mobile-menu-btn" onClick={toggleMenu}>
-                    <span className="bar"></span>
-                    <span className="bar"></span>
-                    <span className="bar"></span>
-                </button>
-            </div>
+        <div className={`nav-links ${isOpen ? 'active' : ''}`}>
+          {navLinks.map((link) => (
+            <a
+              key={link.name}
+              href={link.href}
+              className={`nav-link ${link.isCta ? 'btn btn-primary' : ''}`}
+              onClick={() => setIsOpen(false)}
+            >
+              {link.name}
+            </a>
+          ))}
+          <div className="lang-switcher">
+            <button
+              className={`lang-btn ${i18n.language === 'en' ? 'active' : ''}`}
+              onClick={() => changeLanguage('en')}
+            >
+              EN
+            </button>
+            <span className="lang-divider">|</span>
+            <button
+              className={`lang-btn ${i18n.language === 'ru' ? 'active' : ''}`}
+              onClick={() => changeLanguage('ru')}
+            >
+              RU
+            </button>
+          </div>
+        </div>
 
-            <style>{`
+        <button className="mobile-menu-btn" onClick={toggleMenu}>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </button>
+      </div>
+
+      <style>{`
         .navbar {
           background-color: var(--color-bg-card);
           border-bottom: 1px solid var(--color-border);
@@ -93,6 +114,28 @@ const Navbar = () => {
           transition: 0.3s;
         }
 
+        .lang-switcher {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          margin-left: 1rem;
+        }
+        .lang-btn {
+          background: none;
+          border: none;
+          color: var(--color-text-secondary);
+          cursor: pointer;
+          font-weight: 500;
+          padding: 0;
+          font-size: 0.9rem;
+        }
+        .lang-btn:hover, .lang-btn.active {
+          color: var(--color-accent-orange);
+        }
+        .lang-divider {
+          color: var(--color-text-secondary);
+        }
+
         @media (max-width: 768px) {
           .mobile-menu-btn {
             display: flex;
@@ -112,10 +155,14 @@ const Navbar = () => {
           .nav-links.active {
             transform: translateY(0);
           }
+          .lang-switcher {
+            margin-left: 0;
+            margin-top: 1rem;
+          }
         }
       `}</style>
-        </nav>
-    );
+    </nav>
+  );
 };
 
 export default Navbar;

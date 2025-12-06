@@ -1,48 +1,48 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="page-container container section">
       <div className="about-content">
-        <h1>About DIY MotoGarage</h1>
+        <h1>{t('about.title')}</h1>
 
         <p className="lead">
-          Born from a passion for mechanics and the freedom of the ride, 
-          DIY MotoGarage is Bali's first community-focused self-service motorcycle workshop.
+          {t('about.lead')}
         </p>
 
         <div className="about-grid">
           <div className="about-text">
-            <h2>Our Mission</h2>
+            <h2>{t('about.mission.title')}</h2>
             <p>
-              We believe that every rider should have the opportunity to understand 
-              and maintain their machine.
+              {t('about.mission.p1')}
             </p>
             <p>
-              Whether you're changing oil, swapping tires, or doing a full engine rebuild, 
-              we have the space and professional tools you need.
+              {t('about.mission.p2')}
             </p>
           </div>
 
           <div className="about-image">
-            <div className="image-placeholder">Garage Interior</div>
+            <div className="image-placeholder">{t('about.imagePlaceholder')}</div>
           </div>
         </div>
 
         <div className="features-list">
           <div className="feature-item">
-            <h3>Professional Equipment</h3>
-            <p>Hydraulic lifts, air compressors, and high-quality hand tools.</p>
+            <h3>{t('about.features.equipment.title')}</h3>
+            <p>{t('about.features.equipment.description')}</p>
           </div>
 
           <div className="feature-item">
-            <h3>Community</h3>
-            <p>Connect with other riders and share knowledge.</p>
+            <h3>{t('about.features.community.title')}</h3>
+            <p>{t('about.features.community.description')}</p>
           </div>
 
           <div className="feature-item">
-            <h3>Support</h3>
-            <p>Expert advice available when you get stuck.</p>
+            <h3>{t('about.features.support.title')}</h3>
+            <p>{t('about.features.support.description')}</p>
           </div>
         </div>
       </div>

@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const BookingForm = () => {
+    const { t } = useTranslation();
     const [formData, setFormData] = useState({
         name: '',
         date: '',
         time: '',
-        service: 'Basic Bay Rental (Rp 150k / hr)' // Default service
+        service: 'lift' // Default service key
     });
 
     const handleChange = (e) => {
@@ -21,8 +23,10 @@ const BookingForm = () => {
 
         const { name, date, time, service } = formData;
 
+        const serviceLabel = t(`bookingForm.services.${service}`);
+
         // Format the message for WhatsApp
-        const message = `Hello, I would like to book a slot at DIY MotoGarage.%0A%0A*Name:* ${name}%0A*Service:* ${service}%0A*Date:* ${date}%0A*Time:* ${time}`;
+        const message = `${t('bookingForm.whatsappMessage')}%0A%0A*${t('bookingForm.name')}:* ${name}%0A*${t('bookingForm.service')}:* ${serviceLabel}%0A*${t('bookingForm.date')}:* ${date}%0A*${t('bookingForm.time')}:* ${time}`;
 
         // WhatsApp API URL
         // Using the corrected number: +6287700077111
@@ -39,7 +43,7 @@ const BookingForm = () => {
         <div className="booking-form-container">
             <form onSubmit={handleSubmit} className="booking-form">
                 <div className="form-group">
-                    <label htmlFor="name">Name</label>
+                    <label htmlFor="name">{t('bookingForm.name')}</label>
                     <input
                         type="text"
                         id="name"
@@ -47,13 +51,13 @@ const BookingForm = () => {
                         value={formData.name}
                         onChange={handleChange}
                         required
-                        placeholder="Your Name"
+                        placeholder={t('bookingForm.namePlaceholder')}
                         className="form-input"
                     />
                 </div>
 
                 <div className="form-group">
-                    <label htmlFor="service">Service</label>
+                    <label htmlFor="service">{t('bookingForm.service')}</label>
                     <select
                         id="service"
                         name="service"
@@ -61,15 +65,15 @@ const BookingForm = () => {
                         onChange={handleChange}
                         className="form-input"
                     >
-                        <option value="Basic Bay Rental (Rp 150k / hr)">Basic Bay Rental (Rp 150k / hr)</option>
-                        <option value="Standard Bay Rental (Rp 200k / hr)">Standard Bay Rental (Rp 200k / hr)</option>
-                        <option value="Pro Bay Rental (Rp 250k / hr)">Pro Bay Rental (Rp 250k / hr)</option>
+                        <option value="paddock">{t('bookingForm.services.paddock')}</option>
+                        <option value="lift">{t('bookingForm.services.lift')}</option>
+                        <option value="pro">{t('bookingForm.services.pro')}</option>
                     </select>
                 </div>
 
                 <div className="form-row">
                     <div className="form-group">
-                        <label htmlFor="date">Date</label>
+                        <label htmlFor="date">{t('bookingForm.date')}</label>
                         <input
                             type="date"
                             id="date"
@@ -83,7 +87,7 @@ const BookingForm = () => {
                     </div>
 
                     <div className="form-group">
-                        <label htmlFor="time">Time</label>
+                        <label htmlFor="time">{t('bookingForm.time')}</label>
                         <input
                             type="time"
                             id="time"
@@ -97,7 +101,7 @@ const BookingForm = () => {
                 </div>
 
                 <button type="submit" className="btn btn-primary submit-btn">
-                    Book via WhatsApp
+                    {t('bookingForm.submit')}
                 </button>
             </form>
 

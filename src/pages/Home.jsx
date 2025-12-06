@@ -1,48 +1,61 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import Hero from '../components/Hero';
 import ServiceCard from '../components/ServiceCard';
 
 const Home = () => {
-    const featuredServices = [
-        {
-            title: 'Bay Rental',
-            price: 'Rp 200k / hr',
-            description: 'Rent a professional work bay with a hydraulic lift.',
-            features: ['Hydraulic Lift', 'Work Bench', 'Air Compressor', 'Basic Hand Tools'],
-        },
-        {
-            title: 'Full Garage Access',
-            price: 'Rp 250k / hr',
-            description: 'The ultimate DIY experience with everything included.',
-            features: ['Bay + Lift', 'All Specialty Tools', 'Oil Disposal', 'Expert Advice'],
-        },
-    ];
+  const { t } = useTranslation();
 
-    return (
-        <div className="home-page">
-                       <Hero />
+  const featuredServices = [
+    {
+      title: t('home.services.liftBay.title'),
+      price: 'Rp 200k / hr',
+      description: t('home.services.liftBay.description'),
+      features: [
+        t('home.services.liftBay.features.lift'),
+        t('home.services.liftBay.features.bench'),
+        t('home.services.liftBay.features.compressor'),
+        t('home.services.liftBay.features.tools')
+      ],
+    },
+    {
+      title: t('home.services.proBay.title'),
+      price: 'Rp 250k / hr',
+      description: t('home.services.proBay.description'),
+      features: [
+        t('home.services.proBay.features.bayLift'),
+        t('home.services.proBay.features.specialtyTools'),
+        t('home.services.proBay.features.disposal'),
+        t('home.services.proBay.features.advice')
+      ],
+    },
+  ];
 
-            <section className="section container">
-                <div className="section-header">
-                    <h2>Our Services</h2>
-                    <p>Everything you need to maintain your ride.</p>
-                </div>
-                <div className="services-grid">
-                    {featuredServices.map((service, index) => (
-                        <ServiceCard key={index} {...service} />
-                    ))}
-                </div>
-            </section>
+  return (
+    <div className="home-page">
+      <Hero />
 
-            <section className="section bg-card">
-                <div className="container cta-section">
-                    <h2>Ready to get your hands dirty?</h2>
-                    <p>Book your slot now and start working on your motorcycle.</p>
-                    <a href="/booking" className="btn btn-primary">Book Now</a>
-                </div>
-            </section>
+      <section className="section container">
+        <div className="section-header">
+          <h2>{t('home.services.title')}</h2>
+          <p>{t('home.services.subtitle')}</p>
+        </div>
+        <div className="services-grid">
+          {featuredServices.map((service, index) => (
+            <ServiceCard key={index} {...service} />
+          ))}
+        </div>
+      </section>
 
-            <style>{`
+      <section className="section bg-card">
+        <div className="container cta-section">
+          <h2>{t('home.cta.title')}</h2>
+          <p>{t('home.cta.subtitle')}</p>
+          <a href="/booking" className="btn btn-primary">{t('home.cta.button')}</a>
+        </div>
+      </section>
+
+      <style>{`
         .section-header {
           text-align: center;
           margin-bottom: 3rem;
@@ -77,8 +90,8 @@ const Home = () => {
           color: var(--color-text-secondary);
         }
       `}</style>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Home;

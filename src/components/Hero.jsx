@@ -1,27 +1,29 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
-    return (
-        <section className="hero">
-            <div className="hero-overlay"></div>
-            <div className="container hero-content">
-                <h1 className="hero-title">
-                    DIY <span className="text-orange">MotoGarage</span>
-                </h1>
-                <p className="hero-subtitle">
-                    Your Space. Your Tools. Your Ride.
-                </p>
-                <p className="hero-description">
-                    Rent a fully equipped bay with lifts and professional tools.
-                    Fix, maintain, and customize your motorcycle in a pro environment.
-                </p>
-                <div className="hero-actions">
-                    <a href="/booking" className="btn btn-primary">Book a Bay</a>
-                    <a href="/services" className="btn btn-outline">View Services</a>
-                </div>
-            </div>
+  const { t } = useTranslation();
 
-            <style>{`
+  return (
+    <section className="hero">
+      <div className="hero-overlay"></div>
+      <div className="container hero-content">
+        <h1 className="hero-title">
+          DIY <span className="text-orange">MotoGarage</span>
+        </h1>
+        <p className="hero-subtitle">
+          {t('home.hero.title')}
+        </p>
+        <p className="hero-description">
+          {t('home.hero.subtitle')}
+        </p>
+        <div className="hero-actions">
+          <a href="/booking" className="btn btn-primary">{t('home.hero.cta')}</a>
+          <a href="/services" className="btn btn-outline">{t('navbar.services')}</a>
+        </div>
+      </div>
+
+      <style>{`
         .hero {
           position: relative;
           height: 80vh;
@@ -88,8 +90,8 @@ const Hero = () => {
           }
         }
       `}</style>
-        </section>
-    );
+    </section>
+  );
 };
 
 export default Hero;

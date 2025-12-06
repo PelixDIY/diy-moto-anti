@@ -1,39 +1,52 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import ServiceCard from '../components/ServiceCard';
 
 const Services = () => {
+  const { t } = useTranslation();
+
   const services = [
     {
-      title: 'Paddock Bay Rental',
+      title: t('servicesPage.paddockBay.title'),
       price: 'Rp 150k / hr',
-      description: 'Just the space. Simply tools.',
-      features: ['Designated Bay', 'Paddock Stand', 'Waste Oil Disposal', 'Shop Towels'],
-    },
-    {
-      title: 'Lift Bay Rental',
-      price: 'Rp 200k / hr',
-      description: 'Bay with lift and basic tools.',
-      features: ['Hydraulic Lift', 'Basic Tool Set', 'Air Compressor', 'Work Bench'],
-    },
-    {
-      title: 'Pro Bay Rental',
-      price: 'Rp 250k / hr',
-      description: 'Full access to everything.',
+      description: t('servicesPage.paddockBay.description'),
       features: [
-        'Hydraulic Lift',
-        'Master Tool Set',
-        'Specialty Tools',
-        'Diagnostic Scanner',
-        'Electric Tools'
+        t('servicesPage.paddockBay.features.bay'),
+        t('servicesPage.paddockBay.features.stand'),
+        t('servicesPage.paddockBay.features.disposal'),
+        t('servicesPage.paddockBay.features.towels')
+      ],
+    },
+    {
+      title: t('servicesPage.liftBay.title'),
+      price: 'Rp 200k / hr',
+      description: t('servicesPage.liftBay.description'),
+      features: [
+        t('servicesPage.liftBay.features.lift'),
+        t('servicesPage.liftBay.features.tools'),
+        t('servicesPage.liftBay.features.compressor'),
+        t('servicesPage.liftBay.features.bench')
+      ],
+    },
+    {
+      title: t('servicesPage.proBay.title'),
+      price: 'Rp 250k / hr',
+      description: t('servicesPage.proBay.description'),
+      features: [
+        t('servicesPage.proBay.features.lift'),
+        t('servicesPage.proBay.features.masterTools'),
+        t('servicesPage.proBay.features.specialtyTools'),
+        t('servicesPage.proBay.features.scanner'),
+        t('servicesPage.proBay.features.electricTools')
       ],
     },
   ];
 
   return (
     <div className="page-container container section">
-            <div className="section-header">
-        <h1>Services & Pricing</h1>
-        <p>Transparent pricing. No hidden fees.</p>
+      <div className="section-header">
+        <h1>{t('servicesPage.title')}</h1>
+        <p>{t('servicesPage.subtitle')}</p>
       </div>
 
       <div className="services-grid">
@@ -43,8 +56,8 @@ const Services = () => {
       </div>
 
       <div className="additional-info section">
-        <h2>Membership Options</h2>
-        <p>Frequent fixer? Ask us about our monthly membership plans for unlimited access.</p>
+        <h2>{t('servicesPage.membership.title')}</h2>
+        <p>{t('servicesPage.membership.description')}</p>
       </div>
 
       <style>{`

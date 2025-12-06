@@ -1,12 +1,15 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import BookingForm from '../components/BookingForm';
 
 const Booking = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="page-container container section">
-          <div className="section-header">
-        <h1>Book Your Bay</h1>
-        <p>Select your time and tools below.</p>
+      <div className="section-header">
+        <h1>{t('booking.title')}</h1>
+        <p>{t('booking.subtitle')}</p>
       </div>
 
       <div className="booking-wrapper">
@@ -14,11 +17,11 @@ const Booking = () => {
       </div>
 
       <div className="booking-info">
-        <h3>Booking Policy</h3>
+        <h3>{t('booking.policy.title')}</h3>
         <ul>
-          <li>Please arrive 15 minutes before your scheduled time.</li>
-          <li>Cancellations must be made at least 24 hours in advance.</li>
-          <li>Safety gear (closed-toe shoes) is mandatory.</li>
+          <li>{t('booking.policy.arrival')}</li>
+          <li>{t('booking.policy.cancellation')}</li>
+          <li>{t('booking.policy.safety')}</li>
         </ul>
       </div>
 
