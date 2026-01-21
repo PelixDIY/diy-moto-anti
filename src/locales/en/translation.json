@@ -14,7 +14,7 @@
         },
         "services": {
             "title": "Our Services",
-            "subtitle": "Everything you need to maintain your ride.",
+            "subtitle": "Everything you need to maintain your bike. Rent professional workspace and tools.",
             "liftBay": {
                 "title": "Lift Bay Rental",
                 "description": "Rent a professional work bay with a hydraulic lift.",
@@ -70,8 +70,9 @@
         "title": "Services & Pricing",
         "subtitle": "Transparent pricing. No hidden fees.",
         "paddockBay": {
-            "title": "Paddock Bay Rental",
-            "description": "Just the space. Simply tools.",
+            "title": "Scooters / Small Bikes up to 170cc",
+            "price": "Rp 150k / hr",
+            "description": "Scooter lift. Tools Set",
             "features": {
                 "bay": "Designated Bay",
                 "stand": "Paddock Stand",
@@ -80,7 +81,8 @@
             }
         },
         "liftBay": {
-            "title": "Lift Bay Rental",
+            "title": "Bikes from 170cc",
+            "price": "Rp 200k / hr",
             "description": "Bay with lift and basic tools.",
             "features": {
                 "lift": "Hydraulic Lift",
@@ -90,7 +92,8 @@
             }
         },
         "proBay": {
-            "title": "Pro Bay Rental",
+            "title": "Helper For Technical Support & Coaching",
+            "price": "Rp 250k / hr",
             "description": "Full access to everything.",
             "features": {
                 "lift": "Hydraulic Lift",
@@ -155,9 +158,9 @@
         "time": "Time",
         "submit": "Book via WhatsApp",
         "services": {
-            "paddock": "Paddock Bay Rental (Rp 150k / hr)",
-            "lift": "Lift Bay Rental (Rp 200k / hr)",
-            "pro": "Pro Bay Rental (Rp 250k / hr)"
+            "paddock": "Scooters / Small Bikes up to 170cc (Rp 150k / hr)",
+            "lift": "Bikes from 170cc (Rp 200k / hr)",
+            "pro": "Helper For Technical Support & Coaching (Rp 250k / hr)"
         },
         "whatsappMessage": "Hello, I would like to book a slot at DIY MotoGarage."
     },

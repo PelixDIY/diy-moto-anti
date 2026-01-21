@@ -8,7 +8,7 @@ const Services = () => {
   const services = [
     {
       title: t('servicesPage.paddockBay.title'),
-      price: 'Rp 150k / hr',
+      price: t('servicesPage.paddockBay.price'),
       description: t('servicesPage.paddockBay.description'),
       features: [
         t('servicesPage.paddockBay.features.bay'),
@@ -19,7 +19,7 @@ const Services = () => {
     },
     {
       title: t('servicesPage.liftBay.title'),
-      price: 'Rp 200k / hr',
+      price: t('servicesPage.liftBay.price'),
       description: t('servicesPage.liftBay.description'),
       features: [
         t('servicesPage.liftBay.features.lift'),
@@ -30,7 +30,7 @@ const Services = () => {
     },
     {
       title: t('servicesPage.proBay.title'),
-      price: 'Rp 250k / hr',
+      price: t('servicesPage.proBay.price'),
       description: t('servicesPage.proBay.description'),
       features: [
         t('servicesPage.proBay.features.lift'),

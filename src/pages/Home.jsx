@@ -8,25 +8,37 @@ const Home = () => {
 
   const featuredServices = [
     {
-      title: t('home.services.liftBay.title'),
-      price: 'Rp 200k / hr',
-      description: t('home.services.liftBay.description'),
+      title: t('servicesPage.paddockBay.title'),
+      price: t('servicesPage.paddockBay.price'),
+      description: t('servicesPage.paddockBay.description'),
       features: [
-        t('home.services.liftBay.features.lift'),
-        t('home.services.liftBay.features.bench'),
-        t('home.services.liftBay.features.compressor'),
-        t('home.services.liftBay.features.tools')
+        t('servicesPage.paddockBay.features.bay'),
+        t('servicesPage.paddockBay.features.stand'),
+        t('servicesPage.paddockBay.features.disposal'),
+        t('servicesPage.paddockBay.features.towels')
       ],
     },
     {
-      title: t('home.services.proBay.title'),
-      price: 'Rp 250k / hr',
-      description: t('home.services.proBay.description'),
+      title: t('servicesPage.liftBay.title'),
+      price: t('servicesPage.liftBay.price'),
+      description: t('servicesPage.liftBay.description'),
       features: [
-        t('home.services.proBay.features.bayLift'),
-        t('home.services.proBay.features.specialtyTools'),
-        t('home.services.proBay.features.disposal'),
-        t('home.services.proBay.features.advice')
+        t('servicesPage.liftBay.features.lift'),
+        t('servicesPage.liftBay.features.tools'),
+        t('servicesPage.liftBay.features.compressor'),
+        t('servicesPage.liftBay.features.bench')
+      ],
+    },
+    {
+      title: t('servicesPage.proBay.title'),
+      price: t('servicesPage.proBay.price'),
+      description: t('servicesPage.proBay.description'),
+      features: [
+        t('servicesPage.proBay.features.lift'),
+        t('servicesPage.proBay.features.masterTools'),
+        t('servicesPage.proBay.features.specialtyTools'),
+        t('servicesPage.proBay.features.scanner'),
+        t('servicesPage.proBay.features.electricTools')
       ],
     },
   ];
