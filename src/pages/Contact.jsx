@@ -29,6 +29,31 @@ const Contact = () => {
             <h3>{t('contact.info.hours.title')}</h3>
             <p>{t('contact.info.hours.value')}</p>
           </div>
+          <div className="info-item">
+            <h3>Social Media</h3>
+            <p>
+              <a href="https://www.instagram.com/diymotogarage/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-orange)', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="instagram-gradient" x1="0%" y1="100%" x2="100%" y2="0%">
+                    <stop offset="0%" stopColor="#f09433"/>
+                    <stop offset="25%" stopColor="#e6683c"/>
+                    <stop offset="50%" stopColor="#dc2743"/>
+                    <stop offset="75%" stopColor="#cc2366"/>
+                    <stop offset="100%" stopColor="#bc1888"/>
+                  </linearGradient>
+                </defs>
+                <g fill="url(#instagram-gradient)">
+                  <rect x="2" y="2" width="20" height="20" rx="6" ry="6"></rect>
+                </g>
+                <rect x="5" y="5" width="14" height="14" rx="4" ry="4" fill="none" stroke="#fff" strokeWidth="2"></rect>
+                <circle cx="12" cy="12" r="3.5" fill="none" stroke="#fff" strokeWidth="2"></circle>
+                <circle cx="16.5" cy="7.5" r="1.2" fill="#fff"></circle>
+              </svg>
+                @diymotogarage
+              </a>
+            </p>
+          </div>
         </div>
 
         <div className="contact-form-container">

@@ -2,7 +2,7 @@
     "navbar": {
         "home": "Home",
         "about": "About",
-        "services": "Services & Pricing",
+        "services": "Services & Prices",
         "contact": "Contact",
         "bookNow": "Book Now"
     },
@@ -67,8 +67,8 @@
         }
     },
     "servicesPage": {
-        "title": "Services & Pricing",
-        "subtitle": "Transparent pricing. No hidden fees.",
+        "title": "Self service price",
+        "subtitle": "",
         "paddockBay": {
             "title": "Scooters / Small Bikes up to 170cc",
             "price": "Rp 150k / hr",
@@ -126,7 +126,7 @@
             },
             "hours": {
                 "title": "Opening Hours",
-                "value": "Monday - Sunday: 10:00 AM - 10:00 PM"
+                "value": "Monday - Sunday: 9:00 AM - 6:00 PM"
             }
         },
         "form": {
@@ -164,11 +164,224 @@
         },
         "whatsappMessage": "Hello, I would like to book a slot at DIY MotoGarage."
     },
+    "priceList": {
+        "title": "MECHANICS WORK PRICE LIST",
+        "subtitle": "Professional service for scooters & bikes in Bali",
+        "categories": {
+            "bigBikes": {
+                "title": "BIG SCOOTERS & SPORT BIKES",
+                "icon": "🏍️",
+                "sections": [
+                    {
+                        "title": "BASIC MAINTENANCE",
+                        "icon": "🔧",
+                        "items": [
+                            {"name": "Oil change", "price": "80K–120K"},
+                            {"name": "Oil + filter", "price": "100K–150K"},
+                            {"name": "Air filter", "price": "50K–150K"},
+                            {"name": "Spark plugs (2–4 cyl)", "price": "200K–250K"},
+                            {"name": "Full basic service", "price": "150K–250K"}
+                        ]
+                    },
+                    {
+                        "title": "BRAKE SERVICE",
+                        "icon": "🛑",
+                        "items": [
+                            {"name": "Brake pads", "price": "80K–120K"},
+                            {"name": "Brake fluid", "price": "100K–150K"},
+                            {"name": "Brake bleeding", "price": "100K–150K"},
+                            {"name": "Caliper service", "price": "200K–300K"}
+                        ]
+                    },
+                    {
+                        "title": "CHAIN & DRIVE",
+                        "icon": "🔗",
+                        "items": [
+                            {"name": "Lubrication", "price": "30K–50K"},
+                            {"name": "Adjustment", "price": "50K–80K"},
+                            {"name": "Chain & sprocket", "price": "150K–250K"}
+                        ]
+                    },
+                    {
+                        "title": "ELECTRICAL",
+                        "icon": "🔋",
+                        "items": [
+                            {"name": "Battery install", "price": "50K–80K"},
+                            {"name": "Diagnostics", "price": "100K–200K"},
+                            {"name": "Charging check", "price": "80K–150K"}
+                        ]
+                    },
+                    {
+                        "title": "SUSPENSION",
+                        "icon": "🛠️",
+                        "items": [
+                            {"name": "Fork oil", "price": "500K–650K"},
+                            {"name": "Fork seals", "price": "500K–650K"},
+                            {"name": "Shock replacement", "price": "250K–350K"}
+                        ]
+                    },
+                    {
+                        "title": "ENGINE",
+                        "icon": "🔧",
+                        "items": [
+                            {"name": "Valve adjustment", "price": "1M–1.5M"},
+                            {"name": "Head gasket", "price": "600K–1M"},
+                            {"name": "Water pump", "price": "250K–400K"}
+                        ]
+                    },
+                    {
+                        "title": "COOLING",
+                        "icon": "🌡️",
+                        "items": [
+                            {"name": "Coolant", "price": "100K–150K"},
+                            {"name": "Flush", "price": "150K–250K"}
+                        ]
+                    },
+                    {
+                        "title": "DIAGNOSTICS",
+                        "icon": "🧠",
+                        "items": [
+                            {"name": "Computer scan", "price": "250K–350K"},
+                            {"name": "Full inspection", "price": "250K–350K"}
+                        ]
+                    }
+                ],
+                "packagesTitle": "SERVICE PACKAGES",
+                "packagesTitleIcon": "💰",
+                "packages": [
+                    {
+                        "title": "BASIC",
+                        "icon": "🟢",
+                        "price": "180K–250K",
+                        "features": ["Oil change", "General check"]
+                    },
+                    {
+                        "title": "STANDARD",
+                        "icon": "🔵",
+                        "price": "300K–450K",
+                        "features": ["Oil + filter", "Brake check", "Chain service", "Diagnostics"]
+                    },
+                    {
+                        "title": "FULL",
+                        "icon": "🔴",
+                        "price": "500K–800K",
+                        "features": ["Oil + filters", "Brakes", "Suspension", "Full diagnostics"]
+                    }
+                ]
+            },
+            "scooters": {
+                "title": "SCOOTERS (NMAX • PCX • ADV)",
+                "icon": "🛵",
+                "sections": [
+                    {
+                        "title": "BASIC MAINTENANCE",
+                        "icon": "🔧",
+                        "items": [
+                            {"name": "Oil change", "price": "50K–80K"},
+                            {"name": "Oil + filter", "price": "70K–100K"},
+                            {"name": "Air filter", "price": "30K–50K"},
+                            {"name": "Spark plug", "price": "20K–40K"},
+                            {"name": "Basic service", "price": "100K–150K"}
+                        ]
+                    },
+                    {
+                        "title": "CVT SERVICE",
+                        "icon": "⚙️",
+                        "items": [
+                            {"name": "Cleaning", "price": "100K–150K"},
+                            {"name": "Belt", "price": "100K–150K"},
+                            {"name": "Rollers", "price": "100K–150K"},
+                            {"name": "Full CVT", "price": "150K–250K"}
+                        ]
+                    },
+                    {
+                        "title": "BRAKES",
+                        "icon": "🛑",
+                        "items": [
+                            {"name": "Pads", "price": "50K–80K"},
+                            {"name": "Fluid", "price": "80K–120K"},
+                            {"name": "Bleeding", "price": "50K–150K"},
+                            {"name": "Caliper", "price": "150K–250K"}
+                        ]
+                    },
+                    {
+                        "title": "ELECTRICAL",
+                        "icon": "🔋",
+                        "items": [
+                            {"name": "Battery", "price": "30K–50K"},
+                            {"name": "Charging check", "price": "50K–100K"},
+                            {"name": "Diagnostics", "price": "100K–150K"}
+                        ]
+                    },
+                    {
+                        "title": "SUSPENSION",
+                        "icon": "🛠️",
+                        "items": [
+                            {"name": "Fork oil", "price": "300K–500K"},
+                            {"name": "Fork seals", "price": "300K–500K"},
+                            {"name": "Shock replacement", "price": "300K–500K"}
+                        ]
+                    },
+                    {
+                        "title": "ENGINE",
+                        "icon": "🔧",
+                        "items": [
+                            {"name": "Valve adjustment", "price": "300K–500K"},
+                            {"name": "Head gasket", "price": "300K–500K"},
+                            {"name": "Water pump", "price": "150K–250K"}
+                        ]
+                    },
+                    {
+                        "title": "COOLING",
+                        "icon": "🌡️",
+                        "items": [
+                            {"name": "Coolant", "price": "100K–150K"},
+                            {"name": "Flush", "price": "120K–180K"}
+                        ]
+                    },
+                    {
+                        "title": "DIAGNOSTICS",
+                        "icon": "🧠",
+                        "items": [
+                            {"name": "Scan", "price": "100K–150K"},
+                            {"name": "Full check", "price": "150K–250K"}
+                        ]
+                    }
+                ],
+                "packagesTitle": "SERVICE PACKAGES",
+                "packagesTitleIcon": "💰",
+                "packages": [
+                    {
+                        "title": "BASIC",
+                        "icon": "🟢",
+                        "price": "120K–150K",
+                        "features": []
+                    },
+                    {
+                        "title": "STANDARD",
+                        "icon": "🔵",
+                        "price": "180K–250K",
+                        "features": []
+                    },
+                    {
+                        "title": "FULL",
+                        "icon": "🔴",
+                        "price": "300K–450K",
+                        "features": []
+                    }
+                ]
+            }
+        },
+        "footer": {
+            "guarantee": "Clean garage. Professional mechanics. Guaranteed results.",
+            "cta": "DM now to book your service!"
+        }
+    },
     "footer": {
         "tagline": "Your space to fix, service, and ride.",
         "contact": "Contact",
         "hours": "Hours",
-        "hoursValue": "Mon - Sun: 10am - 10pm",
+        "hoursValue": "Mon - Sun: 9am - 6pm",
         "copyright": "DIY MotoGarage. All rights reserved."
     }
 }

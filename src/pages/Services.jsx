@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import ServiceCard from '../components/ServiceCard';
+import PriceList from '../components/PriceList';
 
 const Services = () => {
   const { t } = useTranslation();
@@ -54,6 +55,8 @@ const Services = () => {
           <ServiceCard key={index} {...service} />
         ))}
       </div>
+
+      <PriceList />
 
       <div className="additional-info section">
         <h2>{t('servicesPage.membership.title')}</h2>

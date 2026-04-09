@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,20 +25,20 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="container navbar-container">
-        <a href="/" className="logo">
+        <Link to="/" className="logo">
           DIY <span className="text-orange">MotoGarage</span>
-        </a>
+        </Link>
 
         <div className={`nav-links ${isOpen ? 'active' : ''}`}>
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.name}
-              href={link.href}
+              to={link.href}
               className={`nav-link ${link.isCta ? 'btn btn-primary' : ''}`}
               onClick={() => setIsOpen(false)}
             >
               {link.name}
-            </a>
+            </Link>
           ))}
           <div className="lang-switcher">
             <button

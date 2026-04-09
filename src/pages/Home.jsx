@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
 import ServiceCard from '../components/ServiceCard';
 
@@ -63,7 +64,7 @@ const Home = () => {
         <div className="container cta-section">
           <h2>{t('home.cta.title')}</h2>
           <p>{t('home.cta.subtitle')}</p>
-          <a href="/booking" className="btn btn-primary">{t('home.cta.button')}</a>
+          <Link to="/booking" className="btn btn-primary">{t('home.cta.button')}</Link>
         </div>
       </section>
 
