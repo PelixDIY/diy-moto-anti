@@ -9,39 +9,38 @@ const Home = () => {
 
   const featuredServices = [
     {
-      title: t('servicesPage.paddockBay.title'),
-      price: t('servicesPage.paddockBay.price'),
-      description: t('servicesPage.paddockBay.description'),
+      title: t('home.services.fullService.title'),
+      description: t('home.services.fullService.description'),
       features: [
-        t('servicesPage.paddockBay.features.bay'),
-        t('servicesPage.paddockBay.features.stand'),
-        t('servicesPage.paddockBay.features.disposal'),
-        t('servicesPage.paddockBay.features.towels')
+        t('home.services.fullService.features.f1'),
+        t('home.services.fullService.features.f2'),
+        t('home.services.fullService.features.f3'),
+        t('home.services.fullService.features.f4')
       ],
+      bgImage: '/full_service_repair.png',
+      linkUrl: '/booking?type=service'
     },
     {
-      title: t('servicesPage.liftBay.title'),
-      price: t('servicesPage.liftBay.price'),
-      description: t('servicesPage.liftBay.description'),
+      title: t('home.services.diyWorkspace.title'),
+      description: t('home.services.diyWorkspace.description'),
       features: [
-        t('servicesPage.liftBay.features.lift'),
-        t('servicesPage.liftBay.features.tools'),
-        t('servicesPage.liftBay.features.compressor'),
-        t('servicesPage.liftBay.features.bench')
+        t('home.services.diyWorkspace.features.f1'),
+        t('home.services.diyWorkspace.features.f2'),
+        t('home.services.diyWorkspace.features.f3'),
+        t('home.services.diyWorkspace.features.f4')
       ],
-    },
-    {
-      title: t('servicesPage.proBay.title'),
-      price: t('servicesPage.proBay.price'),
-      description: t('servicesPage.proBay.description'),
-      features: [
-        t('servicesPage.proBay.features.lift'),
-        t('servicesPage.proBay.features.masterTools'),
-        t('servicesPage.proBay.features.specialtyTools'),
-        t('servicesPage.proBay.features.scanner'),
-        t('servicesPage.proBay.features.electricTools')
-      ],
-    },
+      bgImage: '/diy_garage_workspace.png',
+      linkUrl: '/booking?type=diy'
+    }
+  ];
+
+  const whyChooseUsFeatures = [
+    t('home.whyChooseUs.items.community'),
+    t('home.whyChooseUs.items.pricing'),
+    t('home.whyChooseUs.items.tools'),
+    t('home.whyChooseUs.items.expert'),
+    t('home.whyChooseUs.items.lounge'),
+    t('home.whyChooseUs.items.fast'),
   ];
 
   return (
@@ -61,7 +60,23 @@ const Home = () => {
       </section>
 
       <section className="section bg-card">
-        <div className="container cta-section">
+        <div className="container">
+          <div className="section-header">
+            <h2>{t('home.whyChooseUs.title')}</h2>
+          </div>
+          <div className="features-grid">
+            {whyChooseUsFeatures.map((feature, idx) => (
+              <div key={idx} className="feature-item">
+                <span style={{color: 'var(--color-accent-orange)', marginRight: '10px'}}>✔</span>
+                {feature}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container cta-section bg-card" style={{ padding: '4rem 2rem', borderRadius: '8px' }}>
           <h2>{t('home.cta.title')}</h2>
           <p>{t('home.cta.subtitle')}</p>
           <Link to="/booking" className="btn btn-primary">{t('home.cta.button')}</Link>
@@ -84,16 +99,32 @@ const Home = () => {
         }
         .services-grid {
           display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+          grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
           gap: 2rem;
+        }
+        .features-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+          gap: 1.5rem;
+          max-width: 1000px;
+          margin: 0 auto;
+        }
+        .feature-item {
+          display: flex;
+          align-items: center;
+          font-size: 1.1rem;
+          background: rgba(255, 255, 255, 0.03);
+          padding: 1rem 1.5rem;
+          border-radius: 8px;
+          border: 1px solid rgba(255, 255, 255, 0.05);
         }
         .bg-card {
           background-color: var(--color-bg-card);
-          margin-top: 2rem;
+          padding-top: 4rem;
+          padding-bottom: 4rem;
         }
         .cta-section {
           text-align: center;
-          padding: 4rem 0;
         }
         .cta-section h2 {
           margin-bottom: 1rem;

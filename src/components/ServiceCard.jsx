@@ -2,15 +2,15 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
-const ServiceCard = ({ title, price, description, features, icon }) => {
+const ServiceCard = ({ title, price, description, features, icon, bgImage, linkUrl }) => {
   const { t } = useTranslation();
 
   return (
-    <div className="service-card">
+    <div className="service-card" style={bgImage ? { backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url(${bgImage})`, backgroundSize: 'cover', backgroundPosition: 'center', borderColor: 'transparent' } : {}}>
       <h4 className="card-title">
         {icon && <span className="icon">{icon}</span>} {title}
       </h4>
-      <div className="card-price">{price}</div>
+      {price && <div className="card-price">{price}</div>}
       <div className="card-body">
         <p className="card-description">{description}</p>
         <ul className="card-features">
@@ -20,7 +20,7 @@ const ServiceCard = ({ title, price, description, features, icon }) => {
         </ul>
       </div>
       <div className="card-footer">
-        <Link to="/booking" className="btn btn-primary full-width">{t('navbar.bookNow')}</Link>
+        <Link to={linkUrl || "/booking"} className="btn btn-primary full-width">{t('navbar.bookNow')}</Link>
       </div>
 
       <style>{`
@@ -56,16 +56,20 @@ const ServiceCard = ({ title, price, description, features, icon }) => {
           margin-bottom: 1.5rem;
         }
         .card-description {
-          color: var(--color-text-secondary);
-          font-size: 0.9rem;
+          color: #fff;
+          font-size: 1rem;
+          font-weight: 500;
           margin-bottom: 1rem;
+          text-shadow: 0 1px 3px rgba(0,0,0,0.8);
         }
         .card-features {
           list-style: none;
           padding: 0;
           margin: 0;
-          color: var(--color-text-secondary);
-          font-size: 0.9rem;
+          color: #fff;
+          font-size: 1rem;
+          font-weight: 500;
+          text-shadow: 0 1px 3px rgba(0,0,0,0.8);
         }
         .card-features li {
           margin-bottom: 0.5rem;

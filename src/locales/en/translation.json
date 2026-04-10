@@ -8,32 +8,44 @@
     },
     "home": {
         "hero": {
-            "title": "Your Garage, Your Rules",
-            "subtitle": "Professional tools and space for your motorcycle projects",
-            "cta": "Book a Bay"
+            "title": "Professional Motorcycle and Scooter Service in Bali",
+            "subtitle": "Professional Mechanics or DIY - You choose",
+            "ctaService": "Book Service",
+            "ctaDIY": "Book DIY Workspace"
         },
         "services": {
             "title": "Our Services",
-            "subtitle": "Everything you need to maintain your bike. Rent professional workspace and tools.",
-            "liftBay": {
-                "title": "Lift Bay Rental",
-                "description": "Rent a professional work bay with a hydraulic lift.",
+            "subtitle": "Everything you need from DIY workspace to full-service repairs.",
+            "fullService": {
+                "title": "Full-Service Repair",
+                "description": "Drop your bike off and let our expert mechanics handle everything.",
                 "features": {
-                    "lift": "Hydraulic Lift",
-                    "bench": "Work Bench",
-                    "compressor": "Air Compressor",
-                    "tools": "Basic Hand Tools"
+                    "f1": "Expert Diagnostics",
+                    "f2": "Genuine Parts",
+                    "f3": "Warranty Included",
+                    "f4": "Fast Turnaround"
                 }
             },
-            "proBay": {
-                "title": "Pro Bay Rental",
-                "description": "The ultimate DIY experience with everything included.",
+            "diyWorkspace": {
+                "title": "DIY Garage Workspace",
+                "description": "Rent a professional work bay, complete with tools and a lift, to work on your own bike.",
                 "features": {
-                    "bayLift": "Bay + Lift",
-                    "specialtyTools": "All Specialty Tools",
-                    "disposal": "Oil Disposal",
-                    "advice": "Expert Advice"
+                    "f1": "Hydraulic Lift",
+                    "f2": "Professional Tools",
+                    "f3": "Expert Advice",
+                    "f4": "Oil Disposal"
                 }
+            }
+        },
+        "whyChooseUs": {
+            "title": "Why Choose Us?",
+            "items": {
+                "community": "Friendly Community",
+                "pricing": "Transparent Pricing",
+                "tools": "Professional Tools",
+                "expert": "Expert Mechanics",
+                "lounge": "Lounge Area",
+                "fast": "Fast Service"
             }
         },
         "cta": {
@@ -162,7 +174,12 @@
             "lift": "Bikes from 170cc (Rp 200k / hr)",
             "pro": "Helper For Technical Support & Coaching (Rp 250k / hr)"
         },
-        "whatsappMessage": "Hello, I would like to book a slot at DIY MotoGarage."
+        "bikeModel": "Bike Model",
+        "bikeModelPlaceholder": "e.g., Yamaha Nmax 155",
+        "problemDescription": "Problem Description",
+        "problemPlaceholder": "What seems to be the issue?",
+        "whatsappMessageDIY": "Hello, I would like to book a DIY slot at DIY MotoGarage.",
+        "whatsappMessageService": "Hello, I need a service/repair for my bike."
     },
     "priceList": {
         "title": "MECHANICS WORK PRICE LIST",

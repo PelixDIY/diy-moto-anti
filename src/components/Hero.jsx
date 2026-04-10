@@ -10,17 +10,14 @@ const Hero = () => {
       <div className="hero-overlay"></div>
       <div className="container hero-content">
         <h1 className="hero-title">
-          DIY <span className="text-orange">MotoGarage</span>
+          {t('home.hero.title')}
         </h1>
         <p className="hero-subtitle">
-          {t('home.hero.title')}
-        </p>
-        <p className="hero-description">
           {t('home.hero.subtitle')}
         </p>
         <div className="hero-actions">
-          <Link to="/booking" className="btn btn-primary">{t('home.hero.cta')}</Link>
-          <Link to="/services" className="btn btn-outline">{t('navbar.services')}</Link>
+          <Link to="/booking?type=service" className="btn btn-primary">{t('home.hero.ctaService')}</Link>
+          <Link to="/booking?type=diy" className="btn btn-outline">{t('home.hero.ctaDIY')}</Link>
         </div>
       </div>
 
