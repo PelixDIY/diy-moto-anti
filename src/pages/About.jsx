@@ -1,11 +1,14 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import SEO from '../components/SEO';
+import ImageCarousel from '../components/ImageCarousel';
 
 const About = () => {
   const { t } = useTranslation();
 
   return (
     <div className="page-container container section">
+      <SEO pageKey="about" />
       <div className="about-content">
         <h1>{t('about.title')}</h1>
 
@@ -25,7 +28,7 @@ const About = () => {
           </div>
 
           <div className="about-image">
-            <div className="image-placeholder">{t('about.imagePlaceholder')}</div>
+            <ImageCarousel />
           </div>
         </div>
 
@@ -73,14 +76,10 @@ const About = () => {
           color: var(--color-text-primary);
         }
 
-        .image-placeholder {
-          background-color: var(--color-bg-card);
-          height: 300px;
+        .about-image {
           display: flex;
           align-items: center;
           justify-content: center;
-          border: 1px dashed var(--color-border);
-          color: var(--color-text-secondary);
         }
 
         .features-list {

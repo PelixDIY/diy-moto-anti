@@ -9,15 +9,16 @@ const Hero = () => {
     <section className="hero">
       <div className="hero-overlay"></div>
       <div className="container hero-content">
-        <h1 className="hero-title">
+        <h1 className="hero-title" style={{ whiteSpace: 'pre-line' }}>
           {t('home.hero.title')}
         </h1>
-        <p className="hero-subtitle">
+        <p className="hero-subtitle" style={{ whiteSpace: 'pre-line', lineHeight: '1.6' }}>
           {t('home.hero.subtitle')}
         </p>
         <div className="hero-actions">
-          <Link to="/booking?type=service" className="btn btn-primary">{t('home.hero.ctaService')}</Link>
-          <Link to="/booking?type=diy" className="btn btn-outline">{t('home.hero.ctaDIY')}</Link>
+          <Link to="/booking?type=service" className="btn btn-primary">{t('home.hero.ctaPrimary')}</Link>
+          <a href="https://wa.me/6287700077111" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ backgroundColor: '#25D366', color: '#fff', border: 'none' }}>{t('home.hero.ctaSecondary')}</a>
+          <Link to="/booking?type=diy" className="btn btn-outline">{t('home.hero.ctaGhost')}</Link>
         </div>
       </div>
 
@@ -28,7 +29,7 @@ const Hero = () => {
           min-height: 500px;
           display: flex;
           align-items: center;
-          background-image: url('https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); /* Placeholder motorcycle garage image */
+          background-image: url('https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); /* Motorcycle garage image */
           background-size: cover;
           background-position: center;
           color: #fff;

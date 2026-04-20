@@ -1,11 +1,13 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import SEO from '../components/SEO';
 
 const Contact = () => {
   const { t } = useTranslation();
 
   return (
     <div className="page-container container section">
+      <SEO pageKey="contact" />
       <div className="section-header">
         <h1>{t('contact.title')}</h1>
         <p>{t('contact.subtitle')}</p>
@@ -15,15 +17,21 @@ const Contact = () => {
         <div className="contact-info">
           <div className="info-item">
             <h3>{t('contact.info.address.title')}</h3>
-            <p dangerouslySetInnerHTML={{ __html: t('contact.info.address.value') }}></p>
+            <a href="https://www.google.com/maps/search/?api=1&query=DIY+MotoGarage+Bali" target="_blank" rel="noopener noreferrer" className="contact-link">
+              <span dangerouslySetInnerHTML={{ __html: t('contact.info.address.value') }}></span>
+            </a>
           </div>
           <div className="info-item">
             <h3>{t('contact.info.phone.title')}</h3>
-            <p>{t('contact.info.phone.value')}</p>
+            <a href="https://wa.me/6287700077111" target="_blank" rel="noopener noreferrer" className="contact-link">
+              {t('contact.info.phone.value')}
+            </a>
           </div>
           <div className="info-item">
             <h3>{t('contact.info.email.title')}</h3>
-            <p>{t('contact.info.email.value')}</p>
+            <a href="mailto:hello@diymotogarage.com" className="contact-link">
+              {t('contact.info.email.value')}
+            </a>
           </div>
           <div className="info-item">
             <h3>{t('contact.info.hours.title')}</h3>
@@ -115,6 +123,16 @@ const Contact = () => {
         }
         .info-item p {
           color: var(--color-text-primary);
+        }
+        .contact-link {
+          color: var(--color-text-primary);
+          text-decoration: none;
+          transition: color 0.2s ease;
+          display: inline-block;
+          line-height: 1.5;
+        }
+        .contact-link:hover {
+          color: var(--color-accent-orange);
         }
         .contact-form-container {
           background-color: var(--color-bg-card);

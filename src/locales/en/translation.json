@@ -1,4 +1,26 @@
 {
+    "seo": {
+        "home": {
+            "title": "Motorcycle Repair Bali | DIY Moto Garage",
+            "description": "Motorcycle repair and service in Bali. Professional mechanics + DIY garage option."
+        },
+        "about": {
+            "title": "About DIY Moto Garage | Bali Motorcycle Community",
+            "description": "Learn about DIY Moto Garage. We provide a space for motorcycle enthusiasts in Bali to fix, maintain, and connect in a professional workspace."
+        },
+        "services": {
+            "title": "Motorcycle Service & DIY Workspace Pricing Bali",
+            "description": "Check our prices for DIY motorcycle workspaces, lifts, and professional repair packages in Bali. Suitable for scooters, big bikes, and all models."
+        },
+        "contact": {
+            "title": "Contact DIY Moto Garage Bali",
+            "description": "Get in touch with DIY Moto Garage in Kerobokan, Bali. Find our address, phone number, WhatsApp and opening hours."
+        },
+        "booking": {
+            "title": "Book a Motorcycle Repair Service or DIY Workspace",
+            "description": "Easily book your motorcycle repair service or rent a self-service DIY workspace at DIY Moto Garage Bali."
+        }
+    },
     "navbar": {
         "home": "Home",
         "about": "About",
@@ -8,73 +30,116 @@
     },
     "home": {
         "hero": {
-            "title": "Professional Motorcycle and Scooter Service in Bali",
-            "subtitle": "Professional Mechanics or DIY - You choose",
-            "ctaService": "Book Service",
-            "ctaDIY": "Book DIY Workspace"
+            "title": "Motorcycle Repair & Service in Bali",
+            "subtitle": "Professional mechanics for Honda, Yamaha, Kawasaki & scooters.\nFast, reliable service — or fix your bike yourself in our DIY garage.",
+            "ctaPrimary": "Book Service",
+            "ctaSecondary": "WhatsApp Now",
+            "ctaGhost": "Try DIY Garage"
+        },
+        "trustBar": {
+            "mechanics": "Experienced Mechanics",
+            "fast": "Same-Day Service",
+            "pricing": "Transparent Pricing",
+            "tools": "All Tools Available",
+            "location": "Bali-Based Workshop"
         },
         "services": {
-            "title": "Our Services",
-            "subtitle": "Everything you need from DIY workspace to full-service repairs.",
-            "fullService": {
-                "title": "Full-Service Repair",
-                "description": "Drop your bike off and let our expert mechanics handle everything.",
-                "features": {
-                    "f1": "Expert Diagnostics",
-                    "f2": "Genuine Parts",
-                    "f3": "Warranty Included",
-                    "f4": "Fast Turnaround"
-                }
-            },
-            "diyWorkspace": {
-                "title": "DIY Garage Workspace",
-                "description": "Rent a professional work bay, complete with tools and a lift, to work on your own bike.",
-                "features": {
-                    "f1": "Hydraulic Lift",
-                    "f2": "Professional Tools",
-                    "f3": "Expert Advice",
-                    "f4": "Oil Disposal"
-                }
-            }
-        },
-        "whyChooseUs": {
-            "title": "Why Choose Us?",
+            "title": "Our Motorcycle Services",
+            "description": "We provide professional motorcycle repair and maintenance in Bali.",
             "items": {
-                "community": "Friendly Community",
-                "pricing": "Transparent Pricing",
-                "tools": "Professional Tools",
-                "expert": "Expert Mechanics",
-                "lounge": "Lounge Area",
-                "fast": "Fast Service"
-            }
+                "oil": { "title": "Oil Change", "desc": "Premium Motul packages for all bikes." },
+                "brakes": { "title": "Brake Service", "desc": "Pads replacement, bleeding, and fluid." },
+                "engine": { "title": "Engine Repair", "desc": "Valve adjustments, CVT service, and rebuilds." },
+                "suspension": { "title": "Suspension Service", "desc": "Fork seals and shock replacement." },
+                "electrical": { "title": "Electrical Diagnostics", "desc": "Battery testing and wiring repairs." },
+                "maintenance": { "title": "Full Maintenance", "desc": "Comprehensive check and tune-ups." }
+            },
+            "cta": "View All Services"
         },
-        "cta": {
-            "title": "Ready to get your hands dirty?",
-            "subtitle": "Book your slot now and start working on your motorcycle.",
-            "button": "Book Now"
+        "tourists": {
+            "title": "Motorcycle Repair for Tourists in Bali",
+            "features": [
+                "Fast service while you wait",
+                "No appointment needed",
+                "English-speaking staff",
+                "Suitable for scooters & sport bikes"
+            ],
+            "cta": "Book Now"
+        },
+        "howItWorks": {
+            "title": "How It Works",
+            "steps": [
+                "Contact us / Book",
+                "Bring your motorcycle",
+                "We inspect & quote",
+                "We fix it",
+                "You ride"
+            ]
+        },
+        "pricingPreview": {
+            "title": "Service Pricing",
+            "cards": {
+                "oil": "Oil Change (from 50K IDR)",
+                "diagnostics": "Diagnostics",
+                "hourly": "Hourly Work",
+                "packages": "Service Packages"
+            },
+            "cta": "View Full Pricing"
+        },
+        "diyGarage": {
+            "title": "Prefer to Work on Your Bike Yourself?",
+            "text": "If you prefer, you can also use our fully equipped DIY motorcycle garage in Bali:\n\n- Lift rental\n- Professional tools\n- Mechanic assistance if needed",
+            "cta": "Explore DIY Garage"
+        },
+        "toolsShop": {
+            "title": "Professional Equipment & Workspace"
+        },
+        "reviews": {
+            "title": "What Riders Say"
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "questions": [
+                { "q": "Do you repair motorcycles in Bali?", "a": "Yes, we provide professional motorcycle repair and maintenance services in Bali. Our expert mechanics are experienced with a wide range of motorcycles and scooters." },
+                { "q": "Can you service Honda PCX or Yamaha NMAX?", "a": "Absolutely. We specialize in scooter repair in Bali, including popular models like Honda PCX, Yamaha NMAX, and ADV." },
+                { "q": "How much does motorcycle service cost?", "a": "Our pricing is transparent. Basic services like an oil change start at very affordable rates, and we offer comprehensive service packages. See our pricing page for details." },
+                { "q": "Do I need to book in advance?", "a": "While we recommend booking for major repairs, we also offer fast service while you wait for minor issues. No appointment is strictly needed for quick fixes." },
+                { "q": "Can tourists use your service?", "a": "Yes! We offer dedicated motorcycle repair for tourists in Bali with English-speaking staff to ensure smooth communication and fast turnarounds." },
+                { "q": "Do you also offer DIY garage?", "a": "Yes. While we focus on professional repair, if you prefer to work on your bike yourself, you can rent our fully equipped DIY garage space by the hour." }
+            ]
+        },
+        "location": {
+            "title": "Visit Our Workshop"
+        },
+        "finalCta": {
+            "title": "Need Motorcycle Repair in Bali?",
+            "buttons": {
+                "primary": "Book Service",
+                "secondary": "WhatsApp Now"
+            }
         }
     },
     "about": {
         "title": "About DIY MotoGarage",
-        "lead": "Born from a passion for mechanics and the freedom of the ride, DIY MotoGarage is Bali's first community-focused self-service motorcycle workshop.",
+        "lead": "Born from a passion for mechanics and the freedom of the ride, DIY MotoGarage is a full-service professional motorcycle workshop in Bali, offering both expert repairs and a community workspace.",
         "mission": {
-            "title": "Our Mission",
-            "p1": "We believe that every rider should have the opportunity to understand and maintain their machine.",
-            "p2": "Whether you're changing oil, swapping tires, or doing a full engine rebuild, we have the space and professional tools you need."
+            "title": "Professional Care & Community Spirit",
+            "p1": "Our primary focus is providing top-tier maintenance and repair services for all types of motorcycles—from daily commuter scooters to high-performance sport bikes.",
+            "p2": "But our roots run deep in the riding community. That's why we uniquely offer fully-equipped DIY bays for riders who prefer the satisfaction of turning their own wrenches alongside our expert mechanics."
         },
         "imagePlaceholder": "Garage Interior",
         "features": {
             "equipment": {
-                "title": "Professional Equipment",
-                "description": "Hydraulic lifts, air compressors, and high-quality hand tools."
+                "title": "Master Mechanics",
+                "description": "Highly trained professionals specializing in engine rebuilds, diagnostics, and routine maintenance."
             },
             "community": {
-                "title": "Community",
-                "description": "Connect with other riders and share knowledge."
+                "title": "Pro Infrastructure",
+                "description": "Equipped with hydraulic lifts, specialty scanners, air compressors, and high-quality master tools."
             },
             "support": {
-                "title": "Support",
-                "description": "Expert advice available when you get stuck."
+                "title": "DIY Freedom",
+                "description": "Rent a bay, use our tools, and get expert coaching from our staff if you get stuck."
             }
         }
     },
@@ -163,6 +228,8 @@
         }
     },
     "bookingForm": {
+        "toggleService": "Book Mechanic Service",
+        "toggleDIY": "Rent DIY Garage",
         "name": "Name",
         "namePlaceholder": "Your Name",
         "service": "Service",

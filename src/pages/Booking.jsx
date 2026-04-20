@@ -1,12 +1,14 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import BookingForm from '../components/BookingForm';
+import SEO from '../components/SEO';
 
 const Booking = () => {
   const { t } = useTranslation();
 
   return (
     <div className="page-container container section">
+      <SEO pageKey="booking" />
       <div className="section-header">
         <h1>{t('booking.title')}</h1>
         <p>{t('booking.subtitle')}</p>

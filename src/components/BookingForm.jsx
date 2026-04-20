@@ -1,20 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useSearchParams } from 'react-router-dom';
 
 const BookingForm = () => {
     const { t } = useTranslation();
-    const [searchParams] = useSearchParams();
-    const [formType, setFormType] = useState('diy'); // 'diy' or 'service'
+    const [searchParams, setSearchParams] = useSearchParams();
+    
+    const formType = searchParams.get('type') === 'service' ? 'service' : 'diy';
 
-    useEffect(() => {
-        const type = searchParams.get('type');
-        if (type === 'service') {
-            setFormType('service');
-        } else {
-            setFormType('diy');
-        }
-    }, [searchParams]);
+    const setFormType = (type) => {
+        setSearchParams({ type });
+    };
 
     const [formData, setFormData] = useState({
         name: '',
@@ -65,14 +61,14 @@ const BookingForm = () => {
                     onClick={() => setFormType('service')}
                     type="button"
                 >
-                    {t('home.hero.ctaService')}
+                    {t('bookingForm.toggleService')}
                 </button>
                 <button 
                     className={`toggle-btn ${formType === 'diy' ? 'active' : ''}`}
                     onClick={() => setFormType('diy')}
                     type="button"
                 >
-                    {t('home.hero.ctaDIY')}
+                    {t('bookingForm.toggleDIY')}
                 </button>
             </div>
 

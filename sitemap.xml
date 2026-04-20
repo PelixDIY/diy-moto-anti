@@ -12,18 +12,43 @@
   </url>
 
   <url>
-    <loc>https://diymotogarage.com/tools</loc>
+    <loc>https://diymotogarage.com/motorcycle-repair-bali</loc>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://diymotogarage.com/pricing</loc>
+    <loc>https://diymotogarage.com/motorcycle-service-bali</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://diymotogarage.com/oil-change-bali</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://diymotogarage.com/brake-service-bali</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://diymotogarage.com/engine-repair-bali</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://diymotogarage.com/about</loc>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://diymotogarage.com/contact</loc>
     <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://diymotogarage.com/booking</loc>
+    <priority>0.5</priority>
   </url>
 
 </urlset>

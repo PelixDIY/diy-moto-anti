@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import ServiceCard from '../components/ServiceCard';
 import PriceList from '../components/PriceList';
+import SEO from '../components/SEO';
 
 const Services = () => {
   const { t } = useTranslation();
@@ -45,8 +46,11 @@ const Services = () => {
 
   return (
     <div className="page-container container section">
-      <div className="section-header">
-        <h1>{t('servicesPage.title')}</h1>
+      <SEO pageKey="services" />
+      <PriceList />
+
+      <div className="section-header" style={{ marginTop: '4rem' }}>
+        <h2>{t('servicesPage.title')}</h2>
         <p>{t('servicesPage.subtitle')}</p>
       </div>
 
@@ -55,8 +59,6 @@ const Services = () => {
           <ServiceCard key={index} {...service} />
         ))}
       </div>
-
-      <PriceList />
 
       <div className="additional-info section">
         <h2>{t('servicesPage.membership.title')}</h2>
