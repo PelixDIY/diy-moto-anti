@@ -132,7 +132,6 @@ const Shop = () => {
                 const stock = getStockStatus(product.stockQuantity);
                 return (
                   <div key={product.id} className="product-card">
-                    <div className="product-category-tag">{t(`shop.categories.${product.category}`)}</div>
                     <div className="product-info">
                       <h3>{product.name}</h3>
                       <div className="product-meta">
@@ -265,18 +264,6 @@ const Shop = () => {
           box-shadow: 0 10px 30px rgba(0,0,0,0.5);
         }
 
-        .product-category-tag {
-          position: absolute;
-          top: 1rem;
-          right: 1rem;
-          background: rgba(0,0,0,0.6);
-          padding: 0.3rem 0.8rem;
-          border-radius: 12px;
-          font-size: 0.75rem;
-          color: var(--color-accent-orange);
-          backdrop-filter: blur(4px);
-          border: 1px solid rgba(255,107,0,0.3);
-        }
 
         .product-info {
           padding: 1.5rem;
