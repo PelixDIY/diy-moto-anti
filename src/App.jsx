@@ -13,6 +13,7 @@ import MotorcycleService from './pages/MotorcycleService'
 import OilChange from './pages/OilChange'
 import BrakeService from './pages/BrakeService'
 import EngineRepair from './pages/EngineRepair'
+import Shop from './pages/Shop'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/shop" element={<Shop />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/booking" element={<Booking />} />
           <Route path="/motorcycle-repair-bali" element={<MotorcycleRepair />} />

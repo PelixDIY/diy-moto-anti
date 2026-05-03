@@ -19,6 +19,10 @@
         "booking": {
             "title": "Book a Motorcycle Repair Service or DIY Workspace",
             "description": "Easily book your motorcycle repair service or rent a self-service DIY workspace at DIY Moto Garage Bali."
+        },
+        "shop": {
+            "title": "Motorcycle Parts & Motul Oil Store Bali | DIY Moto Garage",
+            "description": "Buy professional motorcycle parts, Motul engine oil, and fluids in Bali. Check live inventory and prices at DIY Moto Garage."
         }
     },
     "navbar": {
@@ -26,6 +30,7 @@
         "about": "About",
         "services": "Services & Prices",
         "contact": "Contact",
+        "shop": "Shop",
         "bookNow": "Book Now"
     },
     "home": {
@@ -467,5 +472,28 @@
         "hours": "Hours",
         "hoursValue": "Mon - Sun: 9am - 6pm",
         "copyright": "DIY MotoGarage. All rights reserved."
+    },
+    "shop": {
+        "title": "Parts & Fluids Store",
+        "subtitle": "High-quality parts and fluids for your motorcycle, available for purchase at our workshop.",
+        "searchPlaceholder": "Search products...",
+        "allCategories": "All Categories",
+        "categories": {
+            "fluid": "Fluids",
+            "part": "Parts",
+            "service": "Services",
+            "accessory": "Accessories",
+            "other": "Other"
+        },
+        "stock": {
+            "inStock": "In Stock",
+            "lowStock": "Low Stock ({{count}} left)",
+            "outOfStock": "Out of Stock"
+        },
+        "buyOnWhatsApp": "Buy on WhatsApp",
+        "sku": "SKU",
+        "loading": "Loading products...",
+        "error": "Error loading inventory. Please try again later.",
+        "noProducts": "No products found matching your criteria."
     }
 }
