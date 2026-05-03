@@ -11,7 +11,7 @@ const Shop = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState('all');
 
-  const categories = ['all', 'fluid', 'part', 'service', 'accessory', 'other'];
+  const categories = ['all', 'fluid', 'part', 'accessory'];
 
   useEffect(() => {
     fetchProducts();
@@ -40,8 +40,12 @@ const Shop = () => {
   const filterProducts = () => {
     let filtered = [...products];
 
+    const allowedCategories = ['fluid', 'part', 'accessory'];
+    
     if (activeCategory !== 'all') {
       filtered = filtered.filter(p => p.category === activeCategory);
+    } else {
+      filtered = filtered.filter(p => allowedCategories.includes(p.category));
     }
 
     if (searchQuery) {
@@ -132,7 +136,7 @@ const Shop = () => {
                     <div className="product-info">
                       <h3>{product.name}</h3>
                       <div className="product-meta">
-                        <span className="sku">{t('shop.sku')}: {product.sku || 'N/A'}</span>
+                        {product.sku && <span className="sku">{t('shop.sku')}: {product.sku}</span>}
                         <span className={`stock-status ${stock.class}`}>{stock.label}</span>
                       </div>
                       <div className="product-footer">
