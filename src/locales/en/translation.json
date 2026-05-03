@@ -478,6 +478,7 @@
         "subtitle": "High-quality parts and fluids for your motorcycle, available for purchase at our workshop.",
         "searchPlaceholder": "Search products...",
         "allCategories": "All Categories",
+        "retry": "Retry",
         "categories": {
             "fluid": "Fluids",
             "part": "Parts",

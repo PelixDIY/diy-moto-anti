@@ -116,7 +116,7 @@ const Shop = () => {
           ) : error ? (
             <div className="error-state">
               <p>{error}</p>
-              <button onClick={fetchProducts} className="btn btn-outline">{t('shop.allCategories')}</button>
+              <button onClick={fetchProducts} className="btn btn-outline">{t('shop.retry')}</button>
             </div>
           ) : filteredProducts.length === 0 ? (
             <div className="empty-state">
