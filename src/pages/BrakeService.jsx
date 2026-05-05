@@ -1,14 +1,11 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 
 const BrakeService = () => {
   return (
     <div className="seo-page">
-      <Helmet>
-        <title>Motorcycle Brake Service Bali | Fast & Reliable Pad Replacement</title>
-        <meta name="description" content="Professional motorcycle brake service in Bali. Brake pad replacement, fluid bleeding, and caliper repair for scooters and big bikes. Or rent our garage and do it yourself." />
-      </Helmet>
+      <SEO pageKey="brake-service" />
 
       <section className="seo-hero">
         <div className="container">

@@ -23,6 +23,38 @@
         "shop": {
             "title": "Motorcycle Parts & Motul Oil Store Bali | DIY Moto Garage",
             "description": "Buy professional motorcycle parts, Motul engine oil, and fluids in Bali. Check live inventory and prices at DIY Moto Garage."
+        },
+        "oil-change": {
+            "title": "Motorcycle Oil Change Bali | Premium Motul Service",
+            "description": "Professional motorcycle oil change in Bali using premium Motul fluids. Fast service for scooters and big bikes."
+        },
+        "brake-service": {
+            "title": "Motorcycle Brake Service Bali | Fast & Reliable Pad Replacement",
+            "description": "Expert motorcycle brake service in Bali. Brake pad replacement, fluid bleeding, and caliper repair."
+        },
+        "engine-repair": {
+            "title": "Motorcycle Engine Repair Bali | Diagnostics & Rebuilds",
+            "description": "Complex motorcycle and scooter engine repair in Bali. Valve adjustments, CVT services, and engine rebuilds."
+        },
+        "motorcycle-repair": {
+            "title": "Motorcycle Repair Bali | Expert Mechanics & Garage",
+            "description": "Top-rated motorcycle repair in Bali. Our expert mechanics service Honda PCX, Yamaha NMAX, and big bikes. Fast service, transparent pricing."
+        },
+        "motorcycle-service": {
+            "title": "Motorcycle Service Bali | Professional Maintenance",
+            "description": "Comprehensive motorcycle service and maintenance in Bali. Keep your bike running smoothly with our professional mechanics."
+        },
+        "suspension-service": {
+            "title": "Motorcycle Suspension Repair Bali | Fork Seals & Shocks",
+            "description": "Professional suspension service in Bali. Fork seal replacement and shock tuning for all motorcycles."
+        },
+        "electrical-diagnostics": {
+            "title": "Motorcycle Electrical Repair Bali | Battery & Wiring",
+            "description": "Expert motorcycle electrical diagnostics in Bali. Battery testing, wiring repair, and sensor replacement."
+        },
+        "full-maintenance": {
+            "title": "Full Motorcycle Maintenance Bali | Comprehensive Check",
+            "description": "Complete motorcycle maintenance and tune-ups in Bali. Ensure your bike is safe and reliable."
         }
     },
     "navbar": {

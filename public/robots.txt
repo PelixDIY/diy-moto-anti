@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
 
+# Sitemaps
 Sitemap: https://diymotogarage.com/sitemap.xml
+

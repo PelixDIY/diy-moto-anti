@@ -1,14 +1,11 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import SEO from '../components/SEO';
 import { Link } from 'react-router-dom';
 
 const OilChange = () => {
   return (
     <div className="seo-page">
-      <Helmet>
-        <title>Motorcycle Oil Change Bali | Premium Motul Service</title>
-        <meta name="description" content="Fast and professional motorcycle oil change in Bali. We use premium Motul and Yamalube for PCX, NMAX, and scooters. Come let our mechanics do it, or do it yourself!" />
-      </Helmet>
+      <SEO pageKey="oil-change" />
 
       <section className="seo-hero">
         <div className="container">

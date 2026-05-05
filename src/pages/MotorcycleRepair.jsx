@@ -1,14 +1,11 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import SEO from '../components/SEO';
 import { Link } from 'react-router-dom';
 
 const MotorcycleRepair = () => {
   return (
     <div className="seo-page">
-      <Helmet>
-        <title>Motorcycle Repair Bali | Expert Mechanics & Garage</title>
-        <meta name="description" content="Top-rated motorcycle repair in Bali. Our expert mechanics service Honda PCX, Yamaha NMAX, and big bikes. Fast service, transparent pricing, or try our DIY Garage." />
-      </Helmet>
+      <SEO pageKey="motorcycle-repair" />
 
       {/* BLOCK 1 & 2 — HERO & INTRO TEXT */}
       <section className="seo-hero">

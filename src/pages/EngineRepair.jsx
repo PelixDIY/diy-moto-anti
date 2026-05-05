@@ -1,14 +1,11 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import SEO from '../components/SEO';
 import { Link } from 'react-router-dom';
 
 const EngineRepair = () => {
   return (
     <div className="seo-page">
-      <Helmet>
-        <title>Motorcycle Engine Repair Bali | Diagnostics & Rebuilds</title>
-        <meta name="description" content="Complex motorcycle and scooter engine repair in Bali. Valve adjustments, CVT services, coolant flushes, and full engine rebuilds. Or rebuild it yourself in our DIY garage." />
-      </Helmet>
+      <SEO pageKey="engine-repair" />
 
       <section className="seo-hero">
         <div className="container">
