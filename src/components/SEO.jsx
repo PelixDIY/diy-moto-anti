@@ -8,16 +8,16 @@ import { useLocation } from 'react-router-dom';
  * @param {string} pageKey - The translation key for the page (e.g. 'home', 'about', 'services')
  * @param {object} customSchema - Optional additional schema data
  */
-export default function SEO({ pageKey, customSchema = null }) {
+export default function SEO({ pageKey, customSchema = null, titleOverride = null, descriptionOverride = null }) {
     const { t, i18n } = useTranslation();
     const { pathname } = useLocation();
     const lang = i18n.language || 'en';
     const siteUrl = 'https://diymotogarage.com';
     const canonicalUrl = `${siteUrl}${pathname}`;
 
-    // Get translations for the specific page
-    const title = t(`seo.${pageKey}.title`);
-    const description = t(`seo.${pageKey}.description`);
+    // Get translations for the specific page, or use overrides
+    const title = titleOverride || t(`seo.${pageKey}.title`);
+    const description = descriptionOverride || t(`seo.${pageKey}.description`);
     const siteName = 'DIY Moto Garage';
 
     // Base Organization/LocalBusiness Schema

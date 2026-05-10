@@ -524,6 +524,11 @@
             "outOfStock": "Out of Stock"
         },
         "buyOnWhatsApp": "Buy on WhatsApp",
+        "waNotice": "Click to start chat with us in Bali",
+        "keyFeatures": "Key Features",
+        "specifications": "Technical Specifications",
+        "productNotFound": "Product Not Found",
+        "backToShop": "Back to Shop",
         "sku": "SKU",
         "loading": "Loading products...",
         "error": "Error loading inventory. Please try again later.",

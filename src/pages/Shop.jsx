@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 
 const Shop = () => {
@@ -72,9 +73,22 @@ const Shop = () => {
     return { label: t('shop.stock.inStock'), color: '#4caf50', class: 'in' };
   };
 
+  const shopSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": filteredProducts.map((p, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "url": `${window.location.origin}/shop/${p.id}`,
+      "name": p.name,
+      "image": p.imageUrl,
+      "description": p.description || p.name
+    }))
+  };
+
   return (
     <div className="shop-page">
-      <SEO pageKey="shop" />
+      <SEO pageKey="shop" customSchema={shopSchema} />
       
       <section className="shop-hero">
         <div className="container">
@@ -132,8 +146,19 @@ const Shop = () => {
                 const stock = getStockStatus(product.stockQuantity);
                 return (
                   <div key={product.id} className="product-card">
+                    <Link to={`/shop/${product.id}`} className="product-image-link">
+                      <div className="product-card-image">
+                        {product.imageUrl ? (
+                          <img src={product.imageUrl} alt={product.name} />
+                        ) : (
+                          <div className="image-placeholder">🏍️</div>
+                        )}
+                      </div>
+                    </Link>
                     <div className="product-info">
-                      <h3>{product.name}</h3>
+                      <Link to={`/shop/${product.id}`}>
+                        <h3>{product.name}</h3>
+                      </Link>
                       <div className="product-meta">
                         {product.sku && <span className="sku">{t('shop.sku')}: {product.sku}</span>}
                         <span className={`stock-status ${stock.class}`}>{stock.label}</span>
@@ -262,6 +287,29 @@ const Shop = () => {
           transform: translateY(-5px);
           border-color: var(--color-accent-orange);
           box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .product-card-image {
+          height: 200px;
+          background: rgba(255,255,255,0.03);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+          border-bottom: 1px solid var(--color-border);
+        }
+        .product-card-image img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.5s ease;
+        }
+        .product-card:hover .product-card-image img {
+          transform: scale(1.1);
+        }
+        .image-placeholder {
+          font-size: 3rem;
+          opacity: 0.2;
         }
 
 
