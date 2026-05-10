@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SEO from '../components/SEO';
+import { slugify } from '../utils/slugify';
 
 const ProductDetails = () => {
-  const { id } = useParams();
+  const { slug } = useParams();
   const navigate = useNavigate();
   const { t, i18n } = useTranslation();
   const [product, setProduct] = useState(null);
@@ -15,10 +16,16 @@ const ProductDetails = () => {
     const fetchProduct = async () => {
       try {
         setLoading(true);
-        const response = await fetch(`https://europe-west1-diy-moto-app.cloudfunctions.net/api/inventory/${id}`);
-        if (!response.ok) throw new Error('Product not found');
-        const data = await response.json();
-        setProduct(data);
+        // Fetch all online products to find the one matching the slug
+        const response = await fetch('https://europe-west1-diy-moto-app.cloudfunctions.net/api/inventory/online');
+        if (!response.ok) throw new Error('Failed to fetch shop inventory');
+        const products = await response.json();
+        
+        // Find product by slug or ID (fallback)
+        const found = products.find(p => slugify(p.name) === slug || p.id === slug);
+        
+        if (!found) throw new Error('Product not found');
+        setProduct(found);
       } catch (err) {
         console.error('Fetch error:', err);
         setError(err.message);
@@ -29,7 +36,7 @@ const ProductDetails = () => {
 
     fetchProduct();
     window.scrollTo(0, 0);
-  }, [id]);
+  }, [slug]);
 
   const handleBuyOnWhatsApp = () => {
     const phoneNumber = '6287700077111';
@@ -80,29 +87,30 @@ const ProductDetails = () => {
     <div className="product-details-page">
       <SEO 
         pageKey="shop"
-        titleOverride={`${product.name} | DIY MotoGarage Bali`}
+        titleOverride={i18n.language === 'ru' 
+          ? `Купить ${product.name} на Бали | Магазин DIY MotoGarage`
+          : `Buy ${product.name} in Bali | DIY MotoGarage Shop`
+        }
         descriptionOverride={product.fullDescription || product.name}
+        imageOverride={product.imageUrl}
         customSchema={productSchema}
       />
       
       <div className="container" style={{ padding: 'var(--spacing-lg) var(--spacing-md)' }}>
         {/* Breadcrumbs */}
         <nav className="breadcrumbs" style={{ marginBottom: 'var(--spacing-lg)', fontSize: '0.9rem', color: 'var(--color-text-secondary)' }}>
-          <Link to="/">{t('nav.home')}</Link> / <Link to="/shop">{t('nav.shop')}</Link> / <span style={{ color: 'var(--color-accent-orange)' }}>{product.name}</span>
+          <Link to="/">{t('navbar.home')}</Link> / <Link to="/shop">{t('navbar.shop')}</Link> / <span style={{ color: 'var(--color-accent-orange)' }}>{product.name}</span>
         </nav>
 
-        <div className="product-main-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--spacing-xl)', marginBottom: 'var(--spacing-xl)' }}>
-          {/* Left: Image */}
-          <div className="product-image-container" style={{ position: 'relative', borderRadius: '12px', overflow: 'hidden', background: 'var(--color-bg-card)', border: '1px solid var(--color-border)', aspectRatio: '1/1', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            {product.imageUrl ? (
-              <img src={product.imageUrl} alt={product.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-            ) : (
-              <div style={{ fontSize: '4rem', opacity: 0.2 }}>🏍️</div>
-            )}
-            <div style={{ position: 'absolute', top: '1rem', right: '1rem', background: 'rgba(0,0,0,0.6)', padding: '4px 12px', borderRadius: '20px', fontSize: '0.8rem', color: '#fff', backdropFilter: 'blur(4px)' }}>
-              {product.category?.toUpperCase()}
+        <div className="product-main-grid" style={{ display: 'grid', gridTemplateColumns: product.imageUrl ? '1fr 1fr' : '1fr', gap: 'var(--spacing-xl)', marginBottom: 'var(--spacing-xl)', maxWidth: product.imageUrl ? 'none' : '800px', margin: product.imageUrl ? '0 0 var(--spacing-xl) 0' : '0 auto var(--spacing-xl) auto' }}>
+          {product.imageUrl && (
+            <div className="product-image-container" style={{ position: 'relative', borderRadius: '12px', overflow: 'hidden', background: 'var(--color-bg-card)', border: '1px solid var(--color-border)', aspectRatio: '1/1', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <img src={product.imageUrl} alt={product.name} style={{ width: '100%', height: '100%', objectFit: 'contain', padding: '2rem' }} />
+              <div style={{ position: 'absolute', top: '1rem', right: '1rem', background: 'rgba(0,0,0,0.6)', padding: '4px 12px', borderRadius: '20px', fontSize: '0.8rem', color: '#fff', backdropFilter: 'blur(4px)' }}>
+                {product.category?.toUpperCase()}
+              </div>
             </div>
-          </div>
+          )}
 
           {/* Right: Info */}
           <div className="product-info-container">

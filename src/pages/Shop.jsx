@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import { slugify } from '../utils/slugify';
 
 const Shop = () => {
   const { t } = useTranslation();
@@ -146,35 +147,35 @@ const Shop = () => {
                 const stock = getStockStatus(product.stockQuantity);
                 return (
                   <div key={product.id} className="product-card">
-                    <Link to={`/shop/${product.id}`} className="product-image-link">
-                      <div className="product-card-image">
-                        {product.imageUrl ? (
-                          <img src={product.imageUrl} alt={product.name} />
-                        ) : (
-                          <div className="image-placeholder">🏍️</div>
-                        )}
-                      </div>
-                    </Link>
-                    <div className="product-info">
-                      <Link to={`/shop/${product.id}`}>
-                        <h3>{product.name}</h3>
-                      </Link>
-                      <div className="product-meta">
-                        {product.sku && <span className="sku">{t('shop.sku')}: {product.sku}</span>}
-                        <span className={`stock-status ${stock.class}`}>{stock.label}</span>
-                      </div>
-                      <div className="product-footer">
+                    <div className="product-card-body">
+                      <div className="product-content">
+                        <Link to={`/shop/${slugify(product.name)}`}>
+                          <h3>{product.name}</h3>
+                        </Link>
+                        <div className="product-meta">
+                          {product.sku && <span className="sku">{t('shop.sku')}: {product.sku}</span>}
+                          <span className={`stock-status ${stock.class}`}>{stock.label}</span>
+                        </div>
                         <div className="price">
                           {new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', minimumFractionDigits: 0 }).format(product.price)}
                         </div>
-                        <button 
-                          className="btn btn-primary buy-btn"
-                          onClick={() => handleBuyOnWhatsApp(product)}
-                          disabled={product.stockQuantity <= 0}
-                        >
-                          {t('shop.buyOnWhatsApp')}
-                        </button>
                       </div>
+                      {product.imageUrl && (
+                        <Link to={`/shop/${slugify(product.name)}`} className="product-thumbnail-link">
+                          <div className="product-thumbnail">
+                            <img src={product.imageUrl} alt={product.name} />
+                          </div>
+                        </Link>
+                      )}
+                    </div>
+                    <div className="product-card-footer">
+                      <button 
+                        className="btn btn-primary buy-btn"
+                        onClick={() => handleBuyOnWhatsApp(product)}
+                        disabled={product.stockQuantity <= 0}
+                      >
+                        {t('shop.buyOnWhatsApp')}
+                      </button>
                     </div>
                   </div>
                 );
@@ -289,46 +290,42 @@ const Shop = () => {
           box-shadow: 0 10px 30px rgba(0,0,0,0.5);
         }
 
-        .product-card-image {
-          height: 200px;
-          background: rgba(255,255,255,0.03);
+        .product-card-body {
           display: flex;
-          align-items: center;
-          justify-content: center;
-          overflow: hidden;
-          border-bottom: 1px solid var(--color-border);
-        }
-        .product-card-image img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          transition: transform 0.5s ease;
-        }
-        .product-card:hover .product-card-image img {
-          transform: scale(1.1);
-        }
-        .image-placeholder {
-          font-size: 3rem;
-          opacity: 0.2;
-        }
-
-
-        .product-info {
+          gap: 1.5rem;
           padding: 1.5rem;
           flex-grow: 1;
+        }
+        .product-content {
+          flex: 1;
           display: flex;
           flex-direction: column;
         }
-        .product-info h3 {
-          font-size: 1.25rem;
+        .product-content h3 {
+          font-size: 1.3rem;
           margin-bottom: 1rem;
           color: #fff;
-          line-height: 1.4;
-          min-height: 3.5rem;
-          display: -webkit-box;
-          -webkit-line-clamp: 2;
-          -webkit-box-orient: vertical;
+          line-height: 1.3;
+          font-weight: 700;
+        }
+        .product-thumbnail-link {
+          flex-shrink: 0;
+          width: 120px;
+        }
+        .product-thumbnail {
+          width: 120px;
+          height: 150px;
+          background: rgba(0,0,0,0.2);
+          border-radius: 8px;
           overflow: hidden;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .product-thumbnail img {
+          max-width: 100%;
+          max-height: 100%;
+          object-fit: contain;
         }
 
         .product-meta {
@@ -336,10 +333,11 @@ const Shop = () => {
           flex-direction: column;
           gap: 0.5rem;
           margin-bottom: 1.5rem;
-          font-size: 0.85rem;
+          font-size: 0.9rem;
         }
         .sku {
           color: var(--color-text-secondary);
+          opacity: 0.8;
         }
         .stock-status {
           font-weight: 600;
@@ -348,21 +346,22 @@ const Shop = () => {
         .stock-status.low { color: #ffa500; }
         .stock-status.out { color: #ff4d4d; }
 
-        .product-footer {
-          margin-top: auto;
-          display: flex;
-          flex-direction: column;
-          gap: 1rem;
-        }
         .price {
-          font-size: 1.5rem;
+          font-size: 1.8rem;
           font-weight: 700;
           color: var(--color-accent-orange);
+          margin-top: auto;
         }
+
+        .product-card-footer {
+          padding: 0 1.5rem 1.5rem;
+        }
+
         .buy-btn {
           width: 100%;
-          font-size: 0.9rem;
-          padding: 0.8rem;
+          font-size: 1rem;
+          padding: 1rem;
+          font-weight: 600;
         }
         .buy-btn:disabled {
           background: #333;

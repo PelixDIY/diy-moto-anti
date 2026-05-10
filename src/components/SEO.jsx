@@ -8,7 +8,7 @@ import { useLocation } from 'react-router-dom';
  * @param {string} pageKey - The translation key for the page (e.g. 'home', 'about', 'services')
  * @param {object} customSchema - Optional additional schema data
  */
-export default function SEO({ pageKey, customSchema = null, titleOverride = null, descriptionOverride = null }) {
+export default function SEO({ pageKey, customSchema = null, titleOverride = null, descriptionOverride = null, imageOverride = null }) {
     const { t, i18n } = useTranslation();
     const { pathname } = useLocation();
     const lang = i18n.language || 'en';
@@ -128,13 +128,13 @@ export default function SEO({ pageKey, customSchema = null, titleOverride = null
             <meta property="og:site_name" content={siteName} />
             <meta property="og:url" content={canonicalUrl} />
             <meta property="og:type" content="website" />
-            <meta property="og:image" content={`${siteUrl}/og-image.jpg`} />
+            <meta property="og:image" content={imageOverride || `${siteUrl}/og-image.jpg`} />
 
             {/* Twitter */}
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:title" content={title} />
             <meta name="twitter:description" content={description} />
-            <meta name="twitter:image" content={`${siteUrl}/og-image.jpg`} />
+            <meta name="twitter:image" content={imageOverride || `${siteUrl}/og-image.jpg`} />
             
             {/* Hreflang */}
             <link rel="alternate" hrefLang="en" href={canonicalUrl} />
