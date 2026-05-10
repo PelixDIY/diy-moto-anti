@@ -17,7 +17,7 @@ const Hero = () => {
         </p>
         <div className="hero-actions">
           <Link to="/booking?type=service" className="btn btn-primary">{t('home.hero.ctaPrimary')}</Link>
-          <a href="https://wa.me/6287700077111" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ backgroundColor: '#25D366', color: '#fff', border: 'none' }}>{t('home.hero.ctaSecondary')}</a>
+          <Link to="/shop" className="btn btn-secondary">{t('home.hero.ctaSecondary')}</Link>
           <Link to="/booking?type=diy" className="btn btn-outline">{t('home.hero.ctaGhost')}</Link>
         </div>
       </div>

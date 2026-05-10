@@ -96,6 +96,16 @@ button {
   color: #ffffff;
 }
 
+.btn-secondary {
+  background-color: var(--color-accent-steel);
+  color: #ffffff;
+}
+
+.btn-secondary:hover {
+  background-color: #2d3748;
+  transform: translateY(-1px);
+}
+
 .section {
   padding: var(--spacing-xl) 0;
 }
