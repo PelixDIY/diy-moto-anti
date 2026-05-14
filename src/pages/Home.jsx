@@ -37,10 +37,10 @@ const Home = () => {
         </div>
       </section>
 
-      {/* BLOCK 3 — SERVICES */}
-      <section className="section container">
+      {/* BLOCK 3 — SERVICES (PRIMARY FOCUS) */}
+      <section className="section container" aria-labelledby="services-title">
         <div className="section-header">
-          <h2>{t('home.services.title')}</h2>
+          <h2 id="services-title">{t('home.services.title')}</h2>
           <p>{t('home.services.description')}</p>
         </div>
         <div className="services-grid">
@@ -57,105 +57,100 @@ const Home = () => {
         </div>
       </section>
 
-      {/* BLOCK 4 — FOR TOURISTS */}
-      <section className="section bg-card" style={{ borderTop: '2px solid var(--color-accent-orange)' }}>
-        <div className="container tourists-split">
+      {/* BLOCK 4 — SHOP PREVIEW (NEW) */}
+      <section className="section bg-card shop-preview-section">
+        <div className="container shop-preview-content">
+          <div className="shop-preview-text">
+            <h2>{t('home.shopPreview.title')}</h2>
+            <p className="lead">{t('home.shopPreview.subtitle')}</p>
+            <ul className="shop-features">
+              {t('home.shopPreview.features', { returnObjects: true }).map((feat, i) => (
+                <li key={i}>🔧 {feat}</li>
+              ))}
+            </ul>
+            <Link to="/shop" className="btn btn-primary" style={{ marginTop: '2rem' }}>
+              {t('home.shopPreview.cta')}
+            </Link>
+          </div>
+          <div className="shop-preview-visual">
+            <div className="shop-img-grid">
+              <div className="shop-img s1"></div>
+              <div className="shop-img s2"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* BLOCK 5 — TOURISTS */}
+      <section className="section container">
+        <div className="tourists-split">
           <div className="tourists-text">
             <h2>{t('home.tourists.title')}</h2>
             <ul className="tourist-features">
-              <li>✔️ {t('home.tourists.features.0', "Fast service while you wait")}</li>
-              <li>✔️ {t('home.tourists.features.1', "No appointment needed")}</li>
-              <li>✔️ {t('home.tourists.features.2', "English-speaking staff")}</li>
-              <li>✔️ {t('home.tourists.features.3', "Suitable for scooters & sport bikes")}</li>
+              {t('home.tourists.features', { returnObjects: true }).map((feat, i) => (
+                <li key={i}>✔️ {feat}</li>
+              ))}
             </ul>
-            <a href="https://wa.me/6287700077111" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ marginTop: '1.5rem' }}>{t('home.tourists.cta')}</a>
+            <a href="https://wa.me/6287700077111" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ marginTop: '1.5rem' }}>{t('home.tourists.cta')}</a>
           </div>
           <div className="tourists-image"></div>
         </div>
       </section>
 
-      {/* BLOCK 5 — HOW IT WORKS */}
-      <section className="section container">
-        <div className="section-header">
-          <h2>{t('home.howItWorks.title')}</h2>
-        </div>
-        <div className="steps-row">
-          {[0,1,2,3,4].map(num => (
-            <div key={num} className="step-item">
-              <div className="step-number">{num + 1}</div>
-              <p>{t(`home.howItWorks.steps.${num}`)}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* BLOCK 6 — PRICING PREVIEW */}
+      {/* BLOCK 6 — HOW IT WORKS */}
       <section className="section bg-card">
         <div className="container">
           <div className="section-header">
-            <h2>{t('home.pricingPreview.title')}</h2>
+            <h2>{t('home.howItWorks.title')}</h2>
           </div>
-          <div className="pricing-preview-grid">
-            <div className="price-card-sm">{t('home.pricingPreview.cards.oil')}</div>
-            <div className="price-card-sm">{t('home.pricingPreview.cards.diagnostics')}</div>
-            <div className="price-card-sm">{t('home.pricingPreview.cards.hourly')}</div>
-            <div className="price-card-sm">{t('home.pricingPreview.cards.packages')}</div>
-          </div>
-          <div style={{ textAlign: 'center', marginTop: '2.5rem' }}>
-            <Link to="/services" className="btn btn-primary">{t('home.pricingPreview.cta')}</Link>
-          </div>
-        </div>
-      </section>
-
-      {/* BLOCK 7 — DIY GARAGE */}
-      <section className="section container diy-highlight">
-        <div className="diy-content">
-          <h2>{t('home.diyGarage.title')}</h2>
-          <p style={{ whiteSpace: 'pre-line' }}>{t('home.diyGarage.text')}</p>
-          <Link to="/booking?type=diy" className="btn btn-outline" style={{ marginTop: '1.5rem', display: 'inline-block' }}>{t('home.diyGarage.cta')}</Link>
-        </div>
-      </section>
-
-      {/* BLOCK 8 — TOOLS & WORKSHOP */}
-      <section className="section">
-        <div className="container">
-          <div className="section-header">
-            <h2>{t('home.toolsShop.title')}</h2>
-          </div>
-          <div className="tools-grid">
-            <div className="tool-img t1"></div>
-            <div className="tool-img t2"></div>
-            <div className="tool-img t3"></div>
-          </div>
-        </div>
-      </section>
-
-      {/* BLOCK 10 — FAQ */}
-      <section className="section bg-card">
-        <div className="container">
-          <div className="section-header">
-            <h2>{t('home.faq.title')}</h2>
-          </div>
-          <div className="faq-container">
-            {[0,1,2,3,4,5].map(idx => (
-              <div key={idx} className={`faq-item ${openFaq === idx ? 'open' : ''}`} onClick={() => toggleFaq(idx)}>
-                <div className="faq-question">
-                  {t(`home.faq.questions.${idx}.q`)}
-                  <span className="faq-icon">{openFaq === idx ? '−' : '+'}</span>
-                </div>
-                {openFaq === idx && (
-                  <div className="faq-answer">
-                    {t(`home.faq.questions.${idx}.a`)}
-                  </div>
-                )}
+          <div className="steps-row">
+            {[0,1,2,3,4].map(num => (
+              <div key={num} className="step-item">
+                <div className="step-number">{num + 1}</div>
+                <p>{t(`home.howItWorks.steps.${num}`)}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* BLOCK 12 — FINAL CTA */}
-      <section className="section cta-banner">
+      {/* BLOCK 7 — FAQ */}
+      <section className="section container">
+        <div className="section-header">
+          <h2>{t('home.faq.title')}</h2>
+        </div>
+        <div className="faq-container">
+          {[0,1,2,3,4,5].map(idx => (
+            <div key={idx} className={`faq-item ${openFaq === idx ? 'open' : ''}`} onClick={() => toggleFaq(idx)}>
+              <div className="faq-question">
+                {t(`home.faq.questions.${idx}.q`)}
+                <span className="faq-icon">{openFaq === idx ? '−' : '+'}</span>
+              </div>
+              {openFaq === idx && (
+                <div className="faq-answer">
+                  {t(`home.faq.questions.${idx}.a`)}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* BLOCK 8 — DIY GARAGE (SECONDARY) */}
+      <section className="section bg-card">
+        <div className="container">
+           <div className="diy-highlight">
+            <div className="diy-content">
+              <h2>{t('home.diyGarage.title')}</h2>
+              <p style={{ whiteSpace: 'pre-line' }}>{t('home.diyGarage.text')}</p>
+              <Link to="/booking?type=diy" className="btn btn-outline" style={{ marginTop: '1.5rem', display: 'inline-block' }}>{t('home.diyGarage.cta')}</Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* BLOCK 9 — FINAL CTA */}
+      <section className="section cta-banner container">
         <div className="container">
           <h2>{t('home.finalCta.title')}</h2>
           <div className="cta-actions">
@@ -203,38 +198,54 @@ const Home = () => {
           font-size: 1.2rem;
         }
 
-        /* Services Grid */
-        .services-grid {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-          gap: 1.5rem;
+        /* Shop Preview */
+        .shop-preview-content {
+          display: flex;
+          align-items: center;
+          gap: 4rem;
         }
-        .service-card-new {
-          background: rgba(255,255,255,0.03);
-          border: 1px solid rgba(255,255,255,0.05);
-          border-radius: 8px;
-          padding: 2rem;
-          text-decoration: none;
-          color: inherit;
-          transition: transform 0.3s ease, border-color 0.3s ease;
+        .shop-preview-text {
+          flex: 1;
         }
-        .service-card-new:hover {
-          transform: translateY(-5px);
-          border-color: var(--color-accent-orange);
-        }
-        .service-icon {
+        .shop-preview-text h2 {
           font-size: 2.5rem;
           margin-bottom: 1rem;
-        }
-        .service-card-new h3 {
-          margin-bottom: 0.8rem;
           color: #fff;
         }
-        .service-card-new p {
+        .shop-preview-text .lead {
+          font-size: 1.2rem;
           color: var(--color-text-secondary);
-          font-size: 0.95rem;
-          line-height: 1.5;
+          margin-bottom: 2rem;
         }
+        .shop-features {
+          list-style: none;
+          padding: 0;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 1rem;
+          margin-bottom: 1rem;
+        }
+        .shop-features li {
+          color: var(--color-text-primary);
+          font-weight: 500;
+        }
+        .shop-preview-visual {
+          flex: 1;
+        }
+        .shop-img-grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 1rem;
+          height: 400px;
+        }
+        .shop-img {
+          background-size: cover;
+          background-position: center;
+          border-radius: 12px;
+          border: 1px solid rgba(255,255,255,0.1);
+        }
+        .s1 { background-image: url('https://images.unsplash.com/photo-1611080005391-7243c2c10972?auto=format&fit=crop&q=80'); }
+        .s2 { background-image: url('https://images.unsplash.com/photo-1486006396193-47103bad89a7?auto=format&fit=crop&q=80'); }
 
         /* Tourists */
         .tourists-split {
@@ -256,6 +267,7 @@ const Home = () => {
           color: var(--color-text-secondary);
           font-size: 1.1rem;
           line-height: 1.8;
+          margin-bottom: 1.5rem;
         }
         .tourist-features li {
           margin-bottom: 0.5rem;
@@ -332,10 +344,13 @@ const Home = () => {
           position: relative;
           z-index: 1;
           max-width: 600px;
+          margin: 0 auto;
+          text-align: center;
         }
         .diy-content h2 {
           font-size: 2.2rem;
           margin-bottom: 1.5rem;
+          color: #fff;
         }
         .diy-content p {
           font-size: 1.1rem;
@@ -421,6 +436,13 @@ const Home = () => {
         }
 
         @media (max-width: 768px) {
+          .shop-preview-content {
+            flex-direction: column;
+            gap: 2rem;
+          }
+          .shop-img-grid {
+            height: 250px;
+          }
           .tourists-split {
             flex-direction: column;
           }

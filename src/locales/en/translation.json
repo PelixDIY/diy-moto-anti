@@ -1,8 +1,8 @@
 {
     "seo": {
         "home": {
-            "title": "Motorcycle Repair Bali | DIY Moto Garage",
-            "description": "Motorcycle repair and service in Bali. Professional mechanics + DIY garage option."
+            "title": "Professional Motorcycle Repair Bali | Parts & Motul Oil — DIY Moto Garage",
+            "description": "Professional motorcycle and scooter repair in Bali. Oil change, engine diagnostics, and genuine parts shop. Expert service for Honda PCX, NMAX, ADV and big bikes."
         },
         "about": {
             "title": "About DIY Moto Garage | Bali Motorcycle Community",
@@ -67,11 +67,11 @@
     },
     "home": {
         "hero": {
-            "title": "Motorcycle Repair & Service in Bali",
-            "subtitle": "Professional mechanics for Honda, Yamaha, Kawasaki & scooters.\nFast, reliable service — or fix your bike yourself in our DIY garage.",
+            "title": "Professional Motorcycle Repair & Service in Bali",
+            "subtitle": "Expert mechanics for Honda, Yamaha, Kawasaki & scooters.\nGenuine parts and Motul oils always in stock.\nFast service — or fix it yourself in our DIY garage.",
             "ctaPrimary": "Book Service",
-            "ctaSecondary": "Visit Shop",
-            "ctaGhost": "Try DIY Garage"
+            "ctaSecondary": "Parts & Oils",
+            "ctaGhost": "Rent DIY Bay"
         },
         "trustBar": {
             "mechanics": "Experienced Mechanics",
@@ -127,6 +127,17 @@
             "title": "Prefer to Work on Your Bike Yourself?",
             "text": "If you prefer, you can also use our fully equipped DIY motorcycle garage in Bali:\n\n- Lift rental\n- Professional tools\n- Mechanic assistance if needed",
             "cta": "Explore DIY Garage"
+        },
+        "shopPreview": {
+            "title": "Parts & Consumables",
+            "subtitle": "Everything your motorcycle needs, always in stock. We use only premium fluids and genuine spare parts.",
+            "features": [
+                "Motul Oils in stock",
+                "Filters & Brake Pads",
+                "Batteries & Spark Plugs",
+                "Tires & Chains"
+            ],
+            "cta": "Go to Shop"
         },
         "toolsShop": {
             "title": "Professional Equipment & Workspace"
