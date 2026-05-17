@@ -75,14 +75,20 @@ const Hero = () => {
 
         @media (max-width: 768px) {
           .hero-title {
-            font-size: 2.5rem;
+            font-size: clamp(1.8rem, 8vw, 2.2rem);
+            letter-spacing: 1px;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            hyphens: auto;
           }
           .hero-subtitle {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
           }
           .hero-actions {
             flex-direction: column;
             width: 100%;
+            gap: 1rem;
           }
           .btn {
             width: 100%;
