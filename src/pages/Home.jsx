@@ -7,6 +7,26 @@ import SEO from '../components/SEO';
 const Home = () => {
   const { t } = useTranslation();
   const [openFaq, setOpenFaq] = useState(null);
+  const [previewProducts, setPreviewProducts] = useState([]);
+  const [loadingShop, setLoadingShop] = useState(true);
+
+  React.useEffect(() => {
+    const fetchShopPreview = async () => {
+      try {
+        const res = await fetch('https://europe-west1-diy-moto-app.cloudfunctions.net/api/inventory/online');
+        if (!res.ok) throw new Error('Network response was not ok');
+        const data = await res.json();
+        const available = data.filter(p => p.stockQuantity > 0 && p.imageUrl);
+        const shuffled = available.sort(() => 0.5 - Math.random());
+        setPreviewProducts(shuffled.slice(0, 2));
+      } catch (err) {
+        console.error("Failed to load shop preview", err);
+      } finally {
+        setLoadingShop(false);
+      }
+    };
+    fetchShopPreview();
+  }, []);
 
   const toggleFaq = (index) => {
     setOpenFaq(openFaq === index ? null : index);
@@ -73,9 +93,24 @@ const Home = () => {
             </Link>
           </div>
           <div className="shop-preview-visual">
-            <div className="shop-img-grid">
-              <div className="shop-img s1"></div>
-              <div className="shop-img s2"></div>
+            <div className="shop-preview-grid">
+              {loadingShop ? (
+                <div style={{ color: '#fff', opacity: 0.5 }}>Loading shop items...</div>
+              ) : previewProducts.length > 0 ? (
+                previewProducts.map(p => (
+                  <Link to={`/shop/${p.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`} key={p.id} className="preview-product-card">
+                    <div className="preview-product-img">
+                      <img src={p.imageUrl} alt={p.name} />
+                    </div>
+                    <div className="preview-product-info">
+                      <h4>{p.name}</h4>
+                      <p className="price">{new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', minimumFractionDigits: 0 }).format(p.price)}</p>
+                    </div>
+                  </Link>
+                ))
+              ) : (
+                <div style={{ color: '#fff', opacity: 0.5 }}>Visit our shop to see parts!</div>
+              )}
             </div>
           </div>
         </div>
@@ -232,20 +267,63 @@ const Home = () => {
         .shop-preview-visual {
           flex: 1;
         }
-        .shop-img-grid {
+        .shop-preview-grid {
           display: grid;
           grid-template-columns: 1fr 1fr;
-          gap: 1rem;
-          height: 400px;
+          gap: 1.5rem;
         }
-        .shop-img {
-          background-size: cover;
-          background-position: center;
-          border-radius: 12px;
+        .preview-product-card {
+          background: rgba(255,255,255,0.03);
           border: 1px solid rgba(255,255,255,0.1);
+          border-radius: 12px;
+          overflow: hidden;
+          text-decoration: none;
+          color: white;
+          transition: transform 0.3s ease, border-color 0.3s ease;
+          display: flex;
+          flex-direction: column;
         }
-        .s1 { background-image: url('https://images.unsplash.com/photo-1611080005391-7243c2c10972?auto=format&fit=crop&q=80'); }
-        .s2 { background-image: url('https://images.unsplash.com/photo-1486006396193-47103bad89a7?auto=format&fit=crop&q=80'); }
+        .preview-product-card:hover {
+          transform: translateY(-5px);
+          border-color: var(--color-accent-orange);
+        }
+        .preview-product-img {
+          height: 180px;
+          background: rgba(0,0,0,0.5);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+          padding: 1rem;
+        }
+        .preview-product-img img {
+          max-width: 100%;
+          max-height: 100%;
+          object-fit: contain;
+          transition: transform 0.3s ease;
+        }
+        .preview-product-card:hover .preview-product-img img {
+          transform: scale(1.05);
+        }
+        .preview-product-info {
+          padding: 1.5rem;
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+          flex-grow: 1;
+        }
+        .preview-product-info h4 {
+          font-size: 1.1rem;
+          margin: 0;
+          font-weight: 600;
+          line-height: 1.3;
+        }
+        .preview-product-info .price {
+          font-size: 1.2rem;
+          color: var(--color-accent-orange);
+          font-weight: 700;
+          margin: auto 0 0;
+        }
 
         /* Tourists */
         .tourists-split {

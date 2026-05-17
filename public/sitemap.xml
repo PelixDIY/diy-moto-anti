@@ -2,428 +2,476 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://diymotogarage.com/</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/services</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/motorcycle-repair-bali</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/motorcycle-service-bali</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/oil-change-bali</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/brake-service-bali</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/engine-repair-bali</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/about</loc>
+    <lastmod>2026-05-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/contact</loc>
+    <lastmod>2026-05-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/booking</loc>
+    <lastmod>2026-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://diymotogarage.com/bikes/yamaha-nmax</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://diymotogarage.com/bikes/honda-pcx-160</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://diymotogarage.com/bikes/honda-adv-160</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://diymotogarage.com/bikes/yamaha-xmax</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://diymotogarage.com/bikes/yamaha-r15</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://diymotogarage.com/bikes/yamaha-mt-15</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://diymotogarage.com/bikes/yamaha-r25</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://diymotogarage.com/bikes/yamaha-mt-25</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://diymotogarage.com/bikes/honda-cb150x</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://diymotogarage.com/bikes/honda-cb150r</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://diymotogarage.com/bikes/honda-cbr150r</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://diymotogarage.com/bikes/honda-cbr250rr</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://diymotogarage.com/bikes/honda-crf150l</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://diymotogarage.com/bikes/honda-crf250l</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://diymotogarage.com/bikes/kawasaki-ninja-250</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://diymotogarage.com/bikes/kawasaki-zx-25rr</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://diymotogarage.com/bikes/suzuki-v-strom-250</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://diymotogarage.com/shop/air-cleaner-element-s-xmax</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/air-filter-honda-cb150</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/air-filter-honda-cbr250rr</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/brake-pad-front-honda-cbr250rr</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/brake-pad-kit-yamaha-r25</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/brake-pad-rear-honda-cbr250rr</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/brake-pad-kit-2-yamaha-r15</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/brake-pad-kit-2-yamaha-r25</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/brake-pad-kit-2-yamaha-x-max</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/brake-pad-kit-yamaha-r15</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/brake-pad-kit-yamaha-r25</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/brake-pad-kit-yamaha-x-max</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/brake-pads-rear-honda-cb150</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/chain-did-520-xring</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/ezypower-rust-remover</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/element-air-cleaner-yanaha-n-max</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/element-air-fiter-x-max</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/element-assy-air-cleaner-r15</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/lavr-helmet-cleaner</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/motul-3000-plus-4t-10w-40-1l</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/motul-3100-gold-4t-10w-40-1l</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/motul-5100-4t-10w-40-1l</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/motul-7100-4t-10w-40-1l</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/motul-7100-4t-20w-50-1l</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/motul-c1-chain-clean-04l</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/motul-c3-chain-lube-off-road-015l</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/motul-dot-4-05l</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/motul-fork-oil-10w-1l</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/motul-fork-oil-5w-1l</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/motul-gp-matic-4t-10w-40-1l</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/motul-gp-power-4t-10w-40-1l</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/motul-m1-helmetvisor-clean-025l</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/motul-m2-helmet-interior-clean-025l</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/motul-moto-4t-10w-40-1l</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/motul-motocool-expert-37-1l</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/motul-scooter-expert-le-10w-40-1l</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/motul-scooter-gear-80w-90</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/motul-scooter-le-4t-10w-30-1l</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/oil-filter-kawasaki-klx-ninja</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/oil-filter-suzuki-vstorm-250</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/rexco-18-contact-cleaner-tersedia-220ml</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/rexco-25-chain-lube-tersedia-120ml</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/rexco-50-lubricant-350ml</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/rexco-70-degreaser-500ml</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/rexco-81-carb-cleaner-500ml</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/rexco-82-parts-brake-cleaner-500ml</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/spark-plug-yamaha-r15</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/spark-plug-yamaha-r25</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/spark-plug-yamaha-x-max</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/spark-plugs-yamaha-n-max</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diymotogarage.com/shop/thread-locker-10gram-grip-on</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://diymotogarage.com/bikes</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://diymotogarage.com/bikes/yamaha-nmax</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://diymotogarage.com/bikes/honda-pcx-160</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://diymotogarage.com/bikes/honda-adv-160</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://diymotogarage.com/bikes/yamaha-xmax</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://diymotogarage.com/bikes/yamaha-r15</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://diymotogarage.com/bikes/yamaha-mt-15</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://diymotogarage.com/bikes/yamaha-r25</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://diymotogarage.com/bikes/yamaha-mt-25</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://diymotogarage.com/bikes/honda-cb150x</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://diymotogarage.com/bikes/honda-cb150r</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://diymotogarage.com/bikes/honda-cbr150r</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://diymotogarage.com/bikes/honda-cbr250rr</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://diymotogarage.com/bikes/honda-crf150l</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://diymotogarage.com/bikes/honda-crf250l</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://diymotogarage.com/bikes/kawasaki-ninja-250</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://diymotogarage.com/bikes/kawasaki-zx-25rr</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://diymotogarage.com/bikes/suzuki-v-strom-250</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 </urlset>
