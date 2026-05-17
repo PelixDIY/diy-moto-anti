@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useSearchParams } from 'react-router-dom';
 
-const BookingForm = () => {
+const BookingForm = ({ initialBikeModel = '', initialType = 'service', source = 'general', initialProblem = '' }) => {
     const { t } = useTranslation();
     const [searchParams, setSearchParams] = useSearchParams();
     
-    const formType = searchParams.get('type') === 'service' ? 'service' : 'diy';
+    const formType = searchParams.get('type') || initialType;
 
     const setFormType = (type) => {
         setSearchParams({ type });
@@ -17,8 +17,8 @@ const BookingForm = () => {
         date: '',
         time: '',
         service: 'lift', // For DIY
-        bikeModel: '', // For Service
-        problemDescription: '' // For Service
+        bikeModel: initialBikeModel, // For Service
+        problemDescription: initialProblem // For Service
     });
 
     const handleChange = (e) => {
@@ -37,9 +37,9 @@ const BookingForm = () => {
 
         if (formType === 'diy') {
             const serviceLabel = t(`bookingForm.services.${service}`);
-            message = `${t('bookingForm.whatsappMessageDIY')}%0A%0A*${t('bookingForm.name')}:* ${name}%0A*${t('bookingForm.service')}:* ${serviceLabel}%0A*${t('bookingForm.date')}:* ${date}%0A*${t('bookingForm.time')}:* ${time}`;
+            message = `${t('bookingForm.whatsappMessageDIY')}%0A%0A*${t('bookingForm.name')}:* ${name}%0A*${t('bookingForm.service')}:* ${serviceLabel}%0A*${t('bookingForm.date')}:* ${date}%0A*${t('bookingForm.time')}:* ${time}%0A%0A*Source:* ${source}%0A*URL:* ${window.location.href}`;
         } else {
-            message = `${t('bookingForm.whatsappMessageService')}%0A%0A*${t('bookingForm.name')}:* ${name}%0A*${t('bookingForm.bikeModel')}:* ${bikeModel}%0A*${t('bookingForm.problemDescription')}:* ${problemDescription}%0A*${t('bookingForm.date')}:* ${date}%0A*${t('bookingForm.time')}:* ${time}`;
+            message = `${t('bookingForm.whatsappMessageService')}%0A%0A*${t('bookingForm.name')}:* ${name}%0A*${t('bookingForm.bikeModel')}:* ${bikeModel}%0A*${t('bookingForm.problemDescription')}:* ${problemDescription}%0A*${t('bookingForm.date')}:* ${date}%0A*${t('bookingForm.time')}:* ${time}%0A%0A*Source:* ${source}%0A*URL:* ${window.location.href}`;
         }
 
         // WhatsApp API URL

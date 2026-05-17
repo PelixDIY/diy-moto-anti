@@ -19,6 +19,7 @@ const Navbar = () => {
     { name: t('navbar.about'), href: '/about' },
     { name: t('navbar.services'), href: '/services' },
     { name: t('navbar.shop'), href: '/shop' },
+    { name: t('navbar.bikes'), href: '/bikes' },
     { name: t('navbar.contact'), href: '/contact' },
     { name: t('navbar.bookNow'), href: '/booking', isCta: true },
   ];

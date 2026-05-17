@@ -1,548 +1,2309 @@
 {
-    "seo": {
-        "home": {
-            "title": "Professional Motorcycle Repair Bali | Parts & Motul Oil — DIY Moto Garage",
-            "description": "Professional motorcycle and scooter repair in Bali. Oil change, engine diagnostics, and genuine parts shop. Expert service for Honda PCX, NMAX, ADV and big bikes."
-        },
-        "about": {
-            "title": "About DIY Moto Garage | Bali Motorcycle Community",
-            "description": "Learn about DIY Moto Garage. We provide a space for motorcycle enthusiasts in Bali to fix, maintain, and connect in a professional workspace."
-        },
-        "services": {
-            "title": "Motorcycle Service & DIY Workspace Pricing Bali",
-            "description": "Check our prices for DIY motorcycle workspaces, lifts, and professional repair packages in Bali. Suitable for scooters, big bikes, and all models."
-        },
-        "contact": {
-            "title": "Contact DIY Moto Garage Bali",
-            "description": "Get in touch with DIY Moto Garage in Kerobokan, Bali. Find our address, phone number, WhatsApp and opening hours."
-        },
-        "booking": {
-            "title": "Book a Motorcycle Repair Service or DIY Workspace",
-            "description": "Easily book your motorcycle repair service or rent a self-service DIY workspace at DIY Moto Garage Bali."
-        },
-        "shop": {
-            "title": "Motorcycle Parts & Motul Oil Store Bali | DIY Moto Garage",
-            "description": "Buy professional motorcycle parts, Motul engine oil, and fluids in Bali. Check live inventory and prices at DIY Moto Garage."
-        },
-        "oil-change": {
-            "title": "Motorcycle Oil Change Bali | Premium Motul Service",
-            "description": "Professional motorcycle oil change in Bali using premium Motul fluids. Fast service for scooters and big bikes."
-        },
-        "brake-service": {
-            "title": "Motorcycle Brake Service Bali | Fast & Reliable Pad Replacement",
-            "description": "Expert motorcycle brake service in Bali. Brake pad replacement, fluid bleeding, and caliper repair."
-        },
-        "engine-repair": {
-            "title": "Motorcycle Engine Repair Bali | Diagnostics & Rebuilds",
-            "description": "Complex motorcycle and scooter engine repair in Bali. Valve adjustments, CVT services, and engine rebuilds."
-        },
-        "motorcycle-repair": {
-            "title": "Motorcycle Repair Bali | Expert Mechanics & Garage",
-            "description": "Top-rated motorcycle repair in Bali. Our expert mechanics service Honda PCX, Yamaha NMAX, and big bikes. Fast service, transparent pricing."
-        },
-        "motorcycle-service": {
-            "title": "Motorcycle Service Bali | Professional Maintenance",
-            "description": "Comprehensive motorcycle service and maintenance in Bali. Keep your bike running smoothly with our professional mechanics."
-        },
-        "suspension-service": {
-            "title": "Motorcycle Suspension Repair Bali | Fork Seals & Shocks",
-            "description": "Professional suspension service in Bali. Fork seal replacement and shock tuning for all motorcycles."
-        },
-        "electrical-diagnostics": {
-            "title": "Motorcycle Electrical Repair Bali | Battery & Wiring",
-            "description": "Expert motorcycle electrical diagnostics in Bali. Battery testing, wiring repair, and sensor replacement."
-        },
-        "full-maintenance": {
-            "title": "Full Motorcycle Maintenance Bali | Comprehensive Check",
-            "description": "Complete motorcycle maintenance and tune-ups in Bali. Ensure your bike is safe and reliable."
-        }
-    },
-    "navbar": {
-        "home": "Home",
-        "about": "About",
-        "services": "Services & Prices",
-        "contact": "Contact",
-        "shop": "Shop",
-        "bookNow": "Book Now"
-    },
+  "seo": {
     "home": {
-        "hero": {
-            "title": "Professional Motorcycle Repair & Service in Bali",
-            "subtitle": "Expert mechanics for Honda, Yamaha, Kawasaki & scooters.\nGenuine parts and Motul oils always in stock.\nFast service — or fix it yourself in our DIY garage.",
-            "ctaPrimary": "Book Service",
-            "ctaSecondary": "Parts & Oils",
-            "ctaGhost": "Rent DIY Bay"
-        },
-        "trustBar": {
-            "mechanics": "Experienced Mechanics",
-            "fast": "Same-Day Service",
-            "pricing": "Transparent Pricing",
-            "tools": "All Tools Available",
-            "location": "Bali-Based Workshop"
-        },
-        "services": {
-            "title": "Our Motorcycle Services",
-            "description": "We provide professional motorcycle repair and maintenance in Bali.",
-            "items": {
-                "oil": { "title": "Oil Change", "desc": "Premium Motul packages for all bikes." },
-                "brakes": { "title": "Brake Service", "desc": "Pads replacement, bleeding, and fluid." },
-                "engine": { "title": "Engine Repair", "desc": "Valve adjustments, CVT service, and rebuilds." },
-                "suspension": { "title": "Suspension Service", "desc": "Fork seals and shock replacement." },
-                "electrical": { "title": "Electrical Diagnostics", "desc": "Battery testing and wiring repairs." },
-                "maintenance": { "title": "Full Maintenance", "desc": "Comprehensive check and tune-ups." }
-            },
-            "cta": "View All Services"
-        },
-        "tourists": {
-            "title": "Motorcycle Repair for Tourists in Bali",
-            "features": [
-                "Fast service while you wait",
-                "No appointment needed",
-                "English-speaking staff",
-                "Suitable for scooters & sport bikes"
-            ],
-            "cta": "Book Now"
-        },
-        "howItWorks": {
-            "title": "How It Works",
-            "steps": [
-                "Contact us / Book",
-                "Bring your motorcycle",
-                "We inspect & quote",
-                "We fix it",
-                "You ride"
-            ]
-        },
-        "pricingPreview": {
-            "title": "Service Pricing",
-            "cards": {
-                "oil": "Oil Change (from 50K IDR)",
-                "diagnostics": "Diagnostics",
-                "hourly": "Hourly Work",
-                "packages": "Service Packages"
-            },
-            "cta": "View Full Pricing"
-        },
-        "diyGarage": {
-            "title": "Prefer to Work on Your Bike Yourself?",
-            "text": "If you prefer, you can also use our fully equipped DIY motorcycle garage in Bali:\n\n- Lift rental\n- Professional tools\n- Mechanic assistance if needed",
-            "cta": "Explore DIY Garage"
-        },
-        "shopPreview": {
-            "title": "Parts & Consumables",
-            "subtitle": "Everything your motorcycle needs, always in stock. We use only premium fluids and genuine spare parts.",
-            "features": [
-                "Motul Oils in stock",
-                "Filters & Brake Pads",
-                "Batteries & Spark Plugs",
-                "Tires & Chains"
-            ],
-            "cta": "Go to Shop"
-        },
-        "toolsShop": {
-            "title": "Professional Equipment & Workspace"
-        },
-        "reviews": {
-            "title": "What Riders Say"
-        },
-        "faq": {
-            "title": "Frequently Asked Questions",
-            "questions": [
-                { "q": "Do you repair motorcycles in Bali?", "a": "Yes, we provide professional motorcycle repair and maintenance services in Bali. Our expert mechanics are experienced with a wide range of motorcycles and scooters." },
-                { "q": "Can you service Honda PCX or Yamaha NMAX?", "a": "Absolutely. We specialize in scooter repair in Bali, including popular models like Honda PCX, Yamaha NMAX, and ADV." },
-                { "q": "How much does motorcycle service cost?", "a": "Our pricing is transparent. Basic services like an oil change start at very affordable rates, and we offer comprehensive service packages. See our pricing page for details." },
-                { "q": "Do I need to book in advance?", "a": "While we recommend booking for major repairs, we also offer fast service while you wait for minor issues. No appointment is strictly needed for quick fixes." },
-                { "q": "Can tourists use your service?", "a": "Yes! We offer dedicated motorcycle repair for tourists in Bali with English-speaking staff to ensure smooth communication and fast turnarounds." },
-                { "q": "Do you also offer DIY garage?", "a": "Yes. While we focus on professional repair, if you prefer to work on your bike yourself, you can rent our fully equipped DIY garage space by the hour." }
-            ]
-        },
-        "location": {
-            "title": "Visit Our Workshop"
-        },
-        "finalCta": {
-            "title": "Need Motorcycle Repair in Bali?",
-            "buttons": {
-                "primary": "Book Service",
-                "secondary": "WhatsApp Now"
-            }
-        }
+      "title": "Professional Motorcycle Repair Bali | Parts & Motul Oil — DIY Moto Garage",
+      "description": "Professional motorcycle and scooter repair in Bali. Oil change, engine diagnostics, and genuine parts shop. Expert service for Honda PCX, NMAX, ADV and big bikes."
     },
     "about": {
-        "title": "About DIY MotoGarage",
-        "lead": "Born from a passion for mechanics and the freedom of the ride, DIY MotoGarage is a full-service professional motorcycle workshop in Bali, offering both expert repairs and a community workspace.",
-        "mission": {
-            "title": "Professional Care & Community Spirit",
-            "p1": "Our primary focus is providing top-tier maintenance and repair services for all types of motorcycles—from daily commuter scooters to high-performance sport bikes.",
-            "p2": "But our roots run deep in the riding community. That's why we uniquely offer fully-equipped DIY bays for riders who prefer the satisfaction of turning their own wrenches alongside our expert mechanics."
-        },
-        "imagePlaceholder": "Garage Interior",
-        "features": {
-            "equipment": {
-                "title": "Master Mechanics",
-                "description": "Highly trained professionals specializing in engine rebuilds, diagnostics, and routine maintenance."
-            },
-            "community": {
-                "title": "Pro Infrastructure",
-                "description": "Equipped with hydraulic lifts, specialty scanners, air compressors, and high-quality master tools."
-            },
-            "support": {
-                "title": "DIY Freedom",
-                "description": "Rent a bay, use our tools, and get expert coaching from our staff if you get stuck."
-            }
-        }
+      "title": "About DIY Moto Garage | Bali Motorcycle Community",
+      "description": "Learn about DIY Moto Garage. We provide a space for motorcycle enthusiasts in Bali to fix, maintain, and connect in a professional workspace."
     },
-    "servicesPage": {
-        "title": "Self service price",
-        "subtitle": "",
-        "paddockBay": {
-            "title": "Scooters / Small Bikes up to 170cc",
-            "price": "Rp 150k / hr",
-            "description": "Scooter lift. Tools Set",
-            "features": {
-                "bay": "Designated Bay",
-                "stand": "Paddock Stand",
-                "disposal": "Waste Oil Disposal",
-                "towels": "Shop Towels"
-            }
-        },
-        "liftBay": {
-            "title": "Bikes from 170cc",
-            "price": "Rp 200k / hr",
-            "description": "Bay with lift and basic tools.",
-            "features": {
-                "lift": "Hydraulic Lift",
-                "tools": "Basic Tool Set",
-                "compressor": "Air Compressor",
-                "bench": "Work Bench"
-            }
-        },
-        "proBay": {
-            "title": "Helper For Technical Support & Coaching",
-            "price": "Rp 250k / hr",
-            "description": "Full access to everything.",
-            "features": {
-                "lift": "Hydraulic Lift",
-                "masterTools": "Master Tool Set",
-                "specialtyTools": "Specialty Tools",
-                "scanner": "Diagnostic Scanner",
-                "electricTools": "Electric Tools"
-            }
-        },
-        "membership": {
-            "title": "Membership Options",
-            "description": "Frequent fixer? Ask us about our monthly membership plans for unlimited access."
-        }
+    "services": {
+      "title": "Motorcycle Service & DIY Workspace Pricing Bali",
+      "description": "Check our prices for DIY motorcycle workspaces, lifts, and professional repair packages in Bali. Suitable for scooters, big bikes, and all models."
     },
     "contact": {
-        "title": "Contact Us",
-        "subtitle": "Get in touch or drop by the garage.",
-        "info": {
-            "address": {
-                "title": "Address",
-                "value": "Jalan Raya Kesambi No. 34<br />Kerobokan, Bali 80361"
-            },
-            "phone": {
-                "title": "Phone / WhatsApp",
-                "value": "+62 877 000 77 111"
-            },
-            "email": {
-                "title": "Email",
-                "value": "hello@diymotogarage.com"
-            },
-            "hours": {
-                "title": "Opening Hours",
-                "value": "Monday - Sunday: 9:00 AM - 6:00 PM"
-            }
-        },
-        "form": {
-            "title": "Send us a message",
-            "name": "Name",
-            "namePlaceholder": "Your Name",
-            "email": "Email",
-            "emailPlaceholder": "Your Email",
-            "message": "Message",
-            "messagePlaceholder": "How can we help?",
-            "submit": "Send Message"
-        }
+      "title": "Contact DIY Moto Garage Bali",
+      "description": "Get in touch with DIY Moto Garage in Kerobokan, Bali. Find our address, phone number, WhatsApp and opening hours."
     },
     "booking": {
-        "title": "Book Your Bay",
-        "subtitle": "Select your time and tools below.",
-        "policy": {
-            "title": "Booking Policy",
-            "arrival": "Please arrive 15 minutes before your scheduled time.",
-            "cancellation": "Cancellations must be made at least 24 hours in advance.",
-            "safety": "Safety gear (closed-toe shoes) is mandatory."
-        }
-    },
-    "bookingForm": {
-        "toggleService": "Book Mechanic Service",
-        "toggleDIY": "Rent DIY Garage",
-        "name": "Name",
-        "namePlaceholder": "Your Name",
-        "service": "Service",
-        "date": "Date",
-        "time": "Time",
-        "submit": "Book via WhatsApp",
-        "services": {
-            "paddock": "Scooters / Small Bikes up to 170cc (Rp 150k / hr)",
-            "lift": "Bikes from 170cc (Rp 200k / hr)",
-            "pro": "Helper For Technical Support & Coaching (Rp 250k / hr)"
-        },
-        "bikeModel": "Bike Model",
-        "bikeModelPlaceholder": "e.g., Yamaha Nmax 155",
-        "problemDescription": "Problem Description",
-        "problemPlaceholder": "What seems to be the issue?",
-        "whatsappMessageDIY": "Hello, I would like to book a DIY slot at DIY MotoGarage.",
-        "whatsappMessageService": "Hello, I need a service/repair for my bike."
-    },
-    "priceList": {
-        "title": "MECHANICS WORK PRICE LIST",
-        "subtitle": "Professional service for scooters & bikes in Bali",
-        "categories": {
-            "bigBikes": {
-                "title": "BIG SCOOTERS & SPORT BIKES",
-                "icon": "🏍️",
-                "sections": [
-                    {
-                        "title": "BASIC MAINTENANCE",
-                        "icon": "🔧",
-                        "items": [
-                            {"name": "Oil change", "price": "80K–120K"},
-                            {"name": "Oil + filter", "price": "100K–150K"},
-                            {"name": "Air filter", "price": "50K–150K"},
-                            {"name": "Spark plugs (2–4 cyl)", "price": "200K–250K"},
-                            {"name": "Full basic service", "price": "150K–250K"}
-                        ]
-                    },
-                    {
-                        "title": "BRAKE SERVICE",
-                        "icon": "🛑",
-                        "items": [
-                            {"name": "Brake pads", "price": "80K–120K"},
-                            {"name": "Brake fluid", "price": "100K–150K"},
-                            {"name": "Brake bleeding", "price": "100K–150K"},
-                            {"name": "Caliper service", "price": "200K–300K"}
-                        ]
-                    },
-                    {
-                        "title": "CHAIN & DRIVE",
-                        "icon": "🔗",
-                        "items": [
-                            {"name": "Lubrication", "price": "30K–50K"},
-                            {"name": "Adjustment", "price": "50K–80K"},
-                            {"name": "Chain & sprocket", "price": "150K–250K"}
-                        ]
-                    },
-                    {
-                        "title": "ELECTRICAL",
-                        "icon": "🔋",
-                        "items": [
-                            {"name": "Battery install", "price": "50K–80K"},
-                            {"name": "Diagnostics", "price": "100K–200K"},
-                            {"name": "Charging check", "price": "80K–150K"}
-                        ]
-                    },
-                    {
-                        "title": "SUSPENSION",
-                        "icon": "🛠️",
-                        "items": [
-                            {"name": "Fork oil", "price": "500K–650K"},
-                            {"name": "Fork seals", "price": "500K–650K"},
-                            {"name": "Shock replacement", "price": "250K–350K"}
-                        ]
-                    },
-                    {
-                        "title": "ENGINE",
-                        "icon": "🔧",
-                        "items": [
-                            {"name": "Valve adjustment", "price": "1M–1.5M"},
-                            {"name": "Head gasket", "price": "600K–1M"},
-                            {"name": "Water pump", "price": "250K–400K"}
-                        ]
-                    },
-                    {
-                        "title": "COOLING",
-                        "icon": "🌡️",
-                        "items": [
-                            {"name": "Coolant", "price": "100K–150K"},
-                            {"name": "Flush", "price": "150K–250K"}
-                        ]
-                    },
-                    {
-                        "title": "DIAGNOSTICS",
-                        "icon": "🧠",
-                        "items": [
-                            {"name": "Computer scan", "price": "250K–350K"},
-                            {"name": "Full inspection", "price": "250K–350K"}
-                        ]
-                    }
-                ],
-                "packagesTitle": "SERVICE PACKAGES",
-                "packagesTitleIcon": "💰",
-                "packages": [
-                    {
-                        "title": "BASIC",
-                        "icon": "🟢",
-                        "price": "180K–250K",
-                        "features": ["Oil change", "General check"]
-                    },
-                    {
-                        "title": "STANDARD",
-                        "icon": "🔵",
-                        "price": "300K–450K",
-                        "features": ["Oil + filter", "Brake check", "Chain service", "Diagnostics"]
-                    },
-                    {
-                        "title": "FULL",
-                        "icon": "🔴",
-                        "price": "500K–800K",
-                        "features": ["Oil + filters", "Brakes", "Suspension", "Full diagnostics"]
-                    }
-                ]
-            },
-            "scooters": {
-                "title": "SCOOTERS (NMAX • PCX • ADV)",
-                "icon": "🛵",
-                "sections": [
-                    {
-                        "title": "BASIC MAINTENANCE",
-                        "icon": "🔧",
-                        "items": [
-                            {"name": "Oil change", "price": "50K–80K"},
-                            {"name": "Oil + filter", "price": "70K–100K"},
-                            {"name": "Air filter", "price": "30K–50K"},
-                            {"name": "Spark plug", "price": "20K–40K"},
-                            {"name": "Basic service", "price": "100K–150K"}
-                        ]
-                    },
-                    {
-                        "title": "CVT SERVICE",
-                        "icon": "⚙️",
-                        "items": [
-                            {"name": "Cleaning", "price": "100K–150K"},
-                            {"name": "Belt", "price": "100K–150K"},
-                            {"name": "Rollers", "price": "100K–150K"},
-                            {"name": "Full CVT", "price": "150K–250K"}
-                        ]
-                    },
-                    {
-                        "title": "BRAKES",
-                        "icon": "🛑",
-                        "items": [
-                            {"name": "Pads", "price": "50K–80K"},
-                            {"name": "Fluid", "price": "80K–120K"},
-                            {"name": "Bleeding", "price": "50K–150K"},
-                            {"name": "Caliper", "price": "150K–250K"}
-                        ]
-                    },
-                    {
-                        "title": "ELECTRICAL",
-                        "icon": "🔋",
-                        "items": [
-                            {"name": "Battery", "price": "30K–50K"},
-                            {"name": "Charging check", "price": "50K–100K"},
-                            {"name": "Diagnostics", "price": "100K–150K"}
-                        ]
-                    },
-                    {
-                        "title": "SUSPENSION",
-                        "icon": "🛠️",
-                        "items": [
-                            {"name": "Fork oil", "price": "300K–500K"},
-                            {"name": "Fork seals", "price": "300K–500K"},
-                            {"name": "Shock replacement", "price": "300K–500K"}
-                        ]
-                    },
-                    {
-                        "title": "ENGINE",
-                        "icon": "🔧",
-                        "items": [
-                            {"name": "Valve adjustment", "price": "300K–500K"},
-                            {"name": "Head gasket", "price": "300K–500K"},
-                            {"name": "Water pump", "price": "150K–250K"}
-                        ]
-                    },
-                    {
-                        "title": "COOLING",
-                        "icon": "🌡️",
-                        "items": [
-                            {"name": "Coolant", "price": "100K–150K"},
-                            {"name": "Flush", "price": "120K–180K"}
-                        ]
-                    },
-                    {
-                        "title": "DIAGNOSTICS",
-                        "icon": "🧠",
-                        "items": [
-                            {"name": "Scan", "price": "100K–150K"},
-                            {"name": "Full check", "price": "150K–250K"}
-                        ]
-                    }
-                ],
-                "packagesTitle": "SERVICE PACKAGES",
-                "packagesTitleIcon": "💰",
-                "packages": [
-                    {
-                        "title": "BASIC",
-                        "icon": "🟢",
-                        "price": "120K–150K",
-                        "features": []
-                    },
-                    {
-                        "title": "STANDARD",
-                        "icon": "🔵",
-                        "price": "180K–250K",
-                        "features": []
-                    },
-                    {
-                        "title": "FULL",
-                        "icon": "🔴",
-                        "price": "300K–450K",
-                        "features": []
-                    }
-                ]
-            }
-        },
-        "footer": {
-            "guarantee": "Clean garage. Professional mechanics. Guaranteed results.",
-            "cta": "DM now to book your service!"
-        }
-    },
-    "footer": {
-        "tagline": "Your space to fix, service, and ride.",
-        "contact": "Contact",
-        "hours": "Hours",
-        "hoursValue": "Mon - Sun: 9am - 6pm",
-        "copyright": "DIY MotoGarage. All rights reserved."
+      "title": "Book a Motorcycle Repair Service or DIY Workspace",
+      "description": "Easily book your motorcycle repair service or rent a self-service DIY workspace at DIY Moto Garage Bali."
     },
     "shop": {
-        "title": "Parts & Fluids Store",
-        "subtitle": "High-quality parts and fluids for your motorcycle, available for purchase at our workshop.",
-        "searchPlaceholder": "Search products...",
-        "allCategories": "All Categories",
-        "retry": "Retry",
-        "categories": {
-            "fluid": "Fluids",
-            "part": "Parts",
-            "service": "Services",
-            "accessory": "Accessories",
-            "other": "Other"
-        },
-        "stock": {
-            "inStock": "In Stock",
-            "lowStock": "Low Stock ({{count}} left)",
-            "outOfStock": "Out of Stock"
-        },
-        "buyOnWhatsApp": "Buy on WhatsApp",
-        "waNotice": "Click to start chat with us in Bali",
-        "keyFeatures": "Key Features",
-        "specifications": "Technical Specifications",
-        "productNotFound": "Product Not Found",
-        "backToShop": "Back to Shop",
-        "sku": "SKU",
-        "loading": "Loading products...",
-        "error": "Error loading inventory. Please try again later.",
-        "noProducts": "No products found matching your criteria."
+      "title": "Motorcycle Parts & Motul Oil Store Bali | DIY Moto Garage",
+      "description": "Buy professional motorcycle parts, Motul engine oil, and fluids in Bali. Check live inventory and prices at DIY Moto Garage."
+    },
+    "oil-change": {
+      "title": "Motorcycle Oil Change Bali | Premium Motul Service",
+      "description": "Professional motorcycle oil change in Bali using premium Motul fluids. Fast service for scooters and big bikes."
+    },
+    "brake-service": {
+      "title": "Motorcycle Brake Service Bali | Fast & Reliable Pad Replacement",
+      "description": "Expert motorcycle brake service in Bali. Brake pad replacement, fluid bleeding, and caliper repair."
+    },
+    "engine-repair": {
+      "title": "Motorcycle Engine Repair Bali | Diagnostics & Rebuilds",
+      "description": "Complex motorcycle and scooter engine repair in Bali. Valve adjustments, CVT services, and engine rebuilds."
+    },
+    "motorcycle-repair": {
+      "title": "Motorcycle Repair Bali | Expert Mechanics & Garage",
+      "description": "Top-rated motorcycle repair in Bali. Our expert mechanics service Honda PCX, Yamaha NMAX, and big bikes. Fast service, transparent pricing."
+    },
+    "motorcycle-service": {
+      "title": "Motorcycle Service Bali | Professional Maintenance",
+      "description": "Comprehensive motorcycle service and maintenance in Bali. Keep your bike running smoothly with our professional mechanics."
+    },
+    "suspension-service": {
+      "title": "Motorcycle Suspension Repair Bali | Fork Seals & Shocks",
+      "description": "Professional suspension service in Bali. Fork seal replacement and shock tuning for all motorcycles."
+    },
+    "electrical-diagnostics": {
+      "title": "Motorcycle Electrical Repair Bali | Battery & Wiring",
+      "description": "Expert motorcycle electrical diagnostics in Bali. Battery testing, wiring repair, and sensor replacement."
+    },
+    "full-maintenance": {
+      "title": "Full Motorcycle Maintenance Bali | Comprehensive Check",
+      "description": "Full technical service and tuning for motorcycles in Bali. Ensure your bike is safe and reliable."
+    },
+    "bikes-list": {
+      "title": "Motorcycle & Scooter Knowledge Base Bali | Service & Repair",
+      "description": "Technical specs, service schedules, and common issues for popular bikes and scooters in Bali (NMAX, PCX, XMAX, R15 etc.)."
     }
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services & Prices",
+    "contact": "Contact",
+    "shop": "Shop",
+    "bikes": "Bikes",
+    "bookNow": "Book Now"
+  },
+  "home": {
+    "hero": {
+      "title": "Professional Motorcycle Repair & Service in Bali",
+      "subtitle": "Expert mechanics for Honda, Yamaha, Kawasaki & scooters.\nGenuine parts and Motul oils always in stock.\nFast service — or fix it yourself in our DIY garage.",
+      "ctaPrimary": "Book Service",
+      "ctaSecondary": "Parts & Oils",
+      "ctaGhost": "Rent DIY Bay"
+    },
+    "trustBar": {
+      "mechanics": "Experienced Mechanics",
+      "fast": "Same-Day Service",
+      "pricing": "Transparent Pricing",
+      "tools": "All Tools Available",
+      "location": "Bali-Based Workshop"
+    },
+    "services": {
+      "title": "Our Motorcycle Services",
+      "description": "We provide professional motorcycle repair and maintenance in Bali.",
+      "items": {
+        "oil": {
+          "title": "Oil Change",
+          "desc": "Premium Motul packages for all bikes."
+        },
+        "brakes": {
+          "title": "Brake Service",
+          "desc": "Pads replacement, bleeding, and fluid."
+        },
+        "engine": {
+          "title": "Engine Repair",
+          "desc": "Valve adjustments, CVT service, and rebuilds."
+        },
+        "suspension": {
+          "title": "Suspension Service",
+          "desc": "Fork seals and shock replacement."
+        },
+        "electrical": {
+          "title": "Electrical Diagnostics",
+          "desc": "Battery testing and wiring repairs."
+        },
+        "maintenance": {
+          "title": "Full Maintenance",
+          "desc": "Comprehensive check and tune-ups."
+        }
+      },
+      "cta": "View All Services"
+    },
+    "tourists": {
+      "title": "Motorcycle Repair for Tourists in Bali",
+      "features": [
+        "Fast service while you wait",
+        "No appointment needed",
+        "English-speaking staff",
+        "Suitable for scooters & sport bikes"
+      ],
+      "cta": "Book Now"
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "steps": [
+        "Contact us / Book",
+        "Bring your motorcycle",
+        "We inspect & quote",
+        "We fix it",
+        "You ride"
+      ]
+    },
+    "pricingPreview": {
+      "title": "Service Pricing",
+      "cards": {
+        "oil": "Oil Change (from 50K IDR)",
+        "diagnostics": "Diagnostics",
+        "hourly": "Hourly Work",
+        "packages": "Service Packages"
+      },
+      "cta": "View Full Pricing"
+    },
+    "diyGarage": {
+      "title": "Prefer to Work on Your Bike Yourself?",
+      "text": "If you prefer, you can also use our fully equipped DIY motorcycle garage in Bali:\n\n- Lift rental\n- Professional tools\n- Mechanic assistance if needed",
+      "cta": "Explore DIY Garage"
+    },
+    "shopPreview": {
+      "title": "Parts & Consumables",
+      "subtitle": "Everything your motorcycle needs, always in stock. We use only premium fluids and genuine spare parts.",
+      "features": [
+        "Motul Oils in stock",
+        "Filters & Brake Pads",
+        "Batteries & Spark Plugs",
+        "Tires & Chains"
+      ],
+      "cta": "Go to Shop"
+    },
+    "toolsShop": {
+      "title": "Professional Equipment & Workspace"
+    },
+    "reviews": {
+      "title": "What Riders Say"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "questions": [
+        {
+          "q": "Do you repair motorcycles in Bali?",
+          "a": "Yes, we provide professional motorcycle repair and maintenance services in Bali. Our expert mechanics are experienced with a wide range of motorcycles and scooters."
+        },
+        {
+          "q": "Can you service Honda PCX or Yamaha NMAX?",
+          "a": "Absolutely. We specialize in scooter repair in Bali, including popular models like Honda PCX, Yamaha NMAX, and ADV."
+        },
+        {
+          "q": "How much does motorcycle service cost?",
+          "a": "Our pricing is transparent. Basic services like an oil change start at very affordable rates, and we offer comprehensive service packages. See our pricing page for details."
+        },
+        {
+          "q": "Do I need to book in advance?",
+          "a": "While we recommend booking for major repairs, we also offer fast service while you wait for minor issues. No appointment is strictly needed for quick fixes."
+        },
+        {
+          "q": "Can tourists use your service?",
+          "a": "Yes! We offer dedicated motorcycle repair for tourists in Bali with English-speaking staff to ensure smooth communication and fast turnarounds."
+        },
+        {
+          "q": "Do you also offer DIY garage?",
+          "a": "Yes. While we focus on professional repair, if you prefer to work on your bike yourself, you can rent our fully equipped DIY garage space by the hour."
+        }
+      ]
+    },
+    "location": {
+      "title": "Visit Our Workshop"
+    },
+    "finalCta": {
+      "title": "Need Motorcycle Repair in Bali?",
+      "buttons": {
+        "primary": "Book Service",
+        "secondary": "WhatsApp Now"
+      }
+    }
+  },
+  "about": {
+    "title": "About DIY MotoGarage",
+    "lead": "Born from a passion for mechanics and the freedom of the ride, DIY MotoGarage is a full-service professional motorcycle workshop in Bali, offering both expert repairs and a community workspace.",
+    "mission": {
+      "title": "Professional Care & Community Spirit",
+      "p1": "Our primary focus is providing top-tier maintenance and repair services for all types of motorcycles—from daily commuter scooters to high-performance sport bikes.",
+      "p2": "But our roots run deep in the riding community. That's why we uniquely offer fully-equipped DIY bays for riders who prefer the satisfaction of turning their own wrenches alongside our expert mechanics."
+    },
+    "imagePlaceholder": "Garage Interior",
+    "features": {
+      "equipment": {
+        "title": "Master Mechanics",
+        "description": "Highly trained professionals specializing in engine rebuilds, diagnostics, and routine maintenance."
+      },
+      "community": {
+        "title": "Pro Infrastructure",
+        "description": "Equipped with hydraulic lifts, specialty scanners, air compressors, and high-quality master tools."
+      },
+      "support": {
+        "title": "DIY Freedom",
+        "description": "Rent a bay, use our tools, and get expert coaching from our staff if you get stuck."
+      }
+    }
+  },
+  "servicesPage": {
+    "title": "Self service price",
+    "subtitle": "",
+    "paddockBay": {
+      "title": "Scooters / Small Bikes up to 170cc",
+      "price": "Rp 150k / hr",
+      "description": "Scooter lift. Tools Set",
+      "features": {
+        "bay": "Designated Bay",
+        "stand": "Paddock Stand",
+        "disposal": "Waste Oil Disposal",
+        "towels": "Shop Towels"
+      }
+    },
+    "liftBay": {
+      "title": "Bikes from 170cc",
+      "price": "Rp 200k / hr",
+      "description": "Bay with lift and basic tools.",
+      "features": {
+        "lift": "Hydraulic Lift",
+        "tools": "Basic Tool Set",
+        "compressor": "Air Compressor",
+        "bench": "Work Bench"
+      }
+    },
+    "proBay": {
+      "title": "Helper For Technical Support & Coaching",
+      "price": "Rp 250k / hr",
+      "description": "Full access to everything.",
+      "features": {
+        "lift": "Hydraulic Lift",
+        "masterTools": "Master Tool Set",
+        "specialtyTools": "Specialty Tools",
+        "scanner": "Diagnostic Scanner",
+        "electricTools": "Electric Tools"
+      }
+    },
+    "membership": {
+      "title": "Membership Options",
+      "description": "Frequent fixer? Ask us about our monthly membership plans for unlimited access."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch or drop by the garage.",
+    "info": {
+      "address": {
+        "title": "Address",
+        "value": "Jalan Raya Kesambi No. 34<br />Kerobokan, Bali 80361"
+      },
+      "phone": {
+        "title": "Phone / WhatsApp",
+        "value": "+62 877 000 77 111"
+      },
+      "email": {
+        "title": "Email",
+        "value": "hello@diymotogarage.com"
+      },
+      "hours": {
+        "title": "Opening Hours",
+        "value": "Monday - Sunday: 9:00 AM - 6:00 PM"
+      }
+    },
+    "form": {
+      "title": "Send us a message",
+      "name": "Name",
+      "namePlaceholder": "Your Name",
+      "email": "Email",
+      "emailPlaceholder": "Your Email",
+      "message": "Message",
+      "messagePlaceholder": "How can we help?",
+      "submit": "Send Message"
+    }
+  },
+  "booking": {
+    "title": "Book Your Bay",
+    "subtitle": "Select your time and tools below.",
+    "policy": {
+      "title": "Booking Policy",
+      "arrival": "Please arrive 15 minutes before your scheduled time.",
+      "cancellation": "Cancellations must be made at least 24 hours in advance.",
+      "safety": "Safety gear (closed-toe shoes) is mandatory."
+    }
+  },
+  "bookingForm": {
+    "toggleService": "Book Mechanic Service",
+    "toggleDIY": "Rent DIY Garage",
+    "name": "Name",
+    "namePlaceholder": "Your Name",
+    "service": "Service",
+    "date": "Date",
+    "time": "Time",
+    "submit": "Book via WhatsApp",
+    "services": {
+      "paddock": "Scooters / Small Bikes up to 170cc (Rp 150k / hr)",
+      "lift": "Bikes from 170cc (Rp 200k / hr)",
+      "pro": "Helper For Technical Support & Coaching (Rp 250k / hr)"
+    },
+    "bikeModel": "Bike Model",
+    "bikeModelPlaceholder": "e.g., Yamaha Nmax 155",
+    "problemDescription": "Problem Description",
+    "problemPlaceholder": "What seems to be the issue?",
+    "whatsappMessageDIY": "Hello, I would like to book a DIY slot at DIY MotoGarage.",
+    "whatsappMessageService": "Hello, I need a service/repair for my bike."
+  },
+  "priceList": {
+    "title": "MECHANICS WORK PRICE LIST",
+    "subtitle": "Professional service for scooters & bikes in Bali",
+    "categories": {
+      "bigBikes": {
+        "title": "BIG SCOOTERS & SPORT BIKES",
+        "icon": "🏍️",
+        "sections": [
+          {
+            "title": "BASIC MAINTENANCE",
+            "icon": "🔧",
+            "items": [
+              {
+                "name": "Oil change",
+                "price": "80K–120K"
+              },
+              {
+                "name": "Oil + filter",
+                "price": "100K–150K"
+              },
+              {
+                "name": "Air filter",
+                "price": "50K–150K"
+              },
+              {
+                "name": "Spark plugs (2–4 cyl)",
+                "price": "200K–250K"
+              },
+              {
+                "name": "Full basic service",
+                "price": "150K–250K"
+              }
+            ]
+          },
+          {
+            "title": "BRAKE SERVICE",
+            "icon": "🛑",
+            "items": [
+              {
+                "name": "Brake pads",
+                "price": "80K–120K"
+              },
+              {
+                "name": "Brake fluid",
+                "price": "100K–150K"
+              },
+              {
+                "name": "Brake bleeding",
+                "price": "100K–150K"
+              },
+              {
+                "name": "Caliper service",
+                "price": "200K–300K"
+              }
+            ]
+          },
+          {
+            "title": "CHAIN & DRIVE",
+            "icon": "🔗",
+            "items": [
+              {
+                "name": "Lubrication",
+                "price": "30K–50K"
+              },
+              {
+                "name": "Adjustment",
+                "price": "50K–80K"
+              },
+              {
+                "name": "Chain & sprocket",
+                "price": "150K–250K"
+              }
+            ]
+          },
+          {
+            "title": "ELECTRICAL",
+            "icon": "🔋",
+            "items": [
+              {
+                "name": "Battery install",
+                "price": "50K–80K"
+              },
+              {
+                "name": "Diagnostics",
+                "price": "100K–200K"
+              },
+              {
+                "name": "Charging check",
+                "price": "80K–150K"
+              }
+            ]
+          },
+          {
+            "title": "SUSPENSION",
+            "icon": "🛠️",
+            "items": [
+              {
+                "name": "Fork oil",
+                "price": "500K–650K"
+              },
+              {
+                "name": "Fork seals",
+                "price": "500K–650K"
+              },
+              {
+                "name": "Shock replacement",
+                "price": "250K–350K"
+              }
+            ]
+          },
+          {
+            "title": "ENGINE",
+            "icon": "🔧",
+            "items": [
+              {
+                "name": "Valve adjustment",
+                "price": "1M–1.5M"
+              },
+              {
+                "name": "Head gasket",
+                "price": "600K–1M"
+              },
+              {
+                "name": "Water pump",
+                "price": "250K–400K"
+              }
+            ]
+          },
+          {
+            "title": "COOLING",
+            "icon": "🌡️",
+            "items": [
+              {
+                "name": "Coolant",
+                "price": "100K–150K"
+              },
+              {
+                "name": "Flush",
+                "price": "150K–250K"
+              }
+            ]
+          },
+          {
+            "title": "DIAGNOSTICS",
+            "icon": "🧠",
+            "items": [
+              {
+                "name": "Computer scan",
+                "price": "250K–350K"
+              },
+              {
+                "name": "Full inspection",
+                "price": "250K–350K"
+              }
+            ]
+          }
+        ],
+        "packagesTitle": "SERVICE PACKAGES",
+        "packagesTitleIcon": "💰",
+        "packages": [
+          {
+            "title": "BASIC",
+            "icon": "🟢",
+            "price": "180K–250K",
+            "features": [
+              "Oil change",
+              "General check"
+            ]
+          },
+          {
+            "title": "STANDARD",
+            "icon": "🔵",
+            "price": "300K–450K",
+            "features": [
+              "Oil + filter",
+              "Brake check",
+              "Chain service",
+              "Diagnostics"
+            ]
+          },
+          {
+            "title": "FULL",
+            "icon": "🔴",
+            "price": "500K–800K",
+            "features": [
+              "Oil + filters",
+              "Brakes",
+              "Suspension",
+              "Full diagnostics"
+            ]
+          }
+        ]
+      },
+      "scooters": {
+        "title": "SCOOTERS (NMAX • PCX • ADV)",
+        "icon": "🛵",
+        "sections": [
+          {
+            "title": "BASIC MAINTENANCE",
+            "icon": "🔧",
+            "items": [
+              {
+                "name": "Oil change",
+                "price": "50K–80K"
+              },
+              {
+                "name": "Oil + filter",
+                "price": "70K–100K"
+              },
+              {
+                "name": "Air filter",
+                "price": "30K–50K"
+              },
+              {
+                "name": "Spark plug",
+                "price": "20K–40K"
+              },
+              {
+                "name": "Basic service",
+                "price": "100K–150K"
+              }
+            ]
+          },
+          {
+            "title": "CVT SERVICE",
+            "icon": "⚙️",
+            "items": [
+              {
+                "name": "Cleaning",
+                "price": "100K–150K"
+              },
+              {
+                "name": "Belt",
+                "price": "100K–150K"
+              },
+              {
+                "name": "Rollers",
+                "price": "100K–150K"
+              },
+              {
+                "name": "Full CVT",
+                "price": "150K–250K"
+              }
+            ]
+          },
+          {
+            "title": "BRAKES",
+            "icon": "🛑",
+            "items": [
+              {
+                "name": "Pads",
+                "price": "50K–80K"
+              },
+              {
+                "name": "Fluid",
+                "price": "80K–120K"
+              },
+              {
+                "name": "Bleeding",
+                "price": "50K–150K"
+              },
+              {
+                "name": "Caliper",
+                "price": "150K–250K"
+              }
+            ]
+          },
+          {
+            "title": "ELECTRICAL",
+            "icon": "🔋",
+            "items": [
+              {
+                "name": "Battery",
+                "price": "30K–50K"
+              },
+              {
+                "name": "Charging check",
+                "price": "50K–100K"
+              },
+              {
+                "name": "Diagnostics",
+                "price": "100K–150K"
+              }
+            ]
+          },
+          {
+            "title": "SUSPENSION",
+            "icon": "🛠️",
+            "items": [
+              {
+                "name": "Fork oil",
+                "price": "300K–500K"
+              },
+              {
+                "name": "Fork seals",
+                "price": "300K–500K"
+              },
+              {
+                "name": "Shock replacement",
+                "price": "300K–500K"
+              }
+            ]
+          },
+          {
+            "title": "ENGINE",
+            "icon": "🔧",
+            "items": [
+              {
+                "name": "Valve adjustment",
+                "price": "300K–500K"
+              },
+              {
+                "name": "Head gasket",
+                "price": "300K–500K"
+              },
+              {
+                "name": "Water pump",
+                "price": "150K–250K"
+              }
+            ]
+          },
+          {
+            "title": "COOLING",
+            "icon": "🌡️",
+            "items": [
+              {
+                "name": "Coolant",
+                "price": "100K–150K"
+              },
+              {
+                "name": "Flush",
+                "price": "120K–180K"
+              }
+            ]
+          },
+          {
+            "title": "DIAGNOSTICS",
+            "icon": "🧠",
+            "items": [
+              {
+                "name": "Scan",
+                "price": "100K–150K"
+              },
+              {
+                "name": "Full check",
+                "price": "150K–250K"
+              }
+            ]
+          }
+        ],
+        "packagesTitle": "SERVICE PACKAGES",
+        "packagesTitleIcon": "💰",
+        "packages": [
+          {
+            "title": "BASIC",
+            "icon": "🟢",
+            "price": "120K–150K",
+            "features": []
+          },
+          {
+            "title": "STANDARD",
+            "icon": "🔵",
+            "price": "180K–250K",
+            "features": []
+          },
+          {
+            "title": "FULL",
+            "icon": "🔴",
+            "price": "300K–450K",
+            "features": []
+          }
+        ]
+      }
+    },
+    "footer": {
+      "guarantee": "Clean garage. Professional mechanics. Guaranteed results.",
+      "cta": "DM now to book your service!"
+    }
+  },
+  "footer": {
+    "tagline": "Your space to fix, service, and ride.",
+    "contact": "Contact",
+    "hours": "Hours",
+    "hoursValue": "Mon - Sun: 9am - 6pm",
+    "copyright": "DIY MotoGarage. All rights reserved."
+  },
+  "shop": {
+    "title": "Parts & Fluids Store",
+    "subtitle": "High-quality parts and fluids for your motorcycle, available for purchase at our workshop.",
+    "searchPlaceholder": "Search products...",
+    "allCategories": "All Categories",
+    "retry": "Retry",
+    "categories": {
+      "fluid": "Fluids",
+      "part": "Parts",
+      "service": "Services",
+      "accessory": "Accessories",
+      "other": "Other"
+    },
+    "stock": {
+      "inStock": "In Stock",
+      "lowStock": "Low Stock ({{count}} left)",
+      "outOfStock": "Out of Stock"
+    },
+    "buyOnWhatsApp": "Buy on WhatsApp",
+    "waNotice": "Click to start chat with us in Bali",
+    "keyFeatures": "Key Features",
+    "specifications": "Technical Specifications",
+    "productNotFound": "Product Not Found",
+    "backToShop": "Back to Shop",
+    "sku": "SKU",
+    "loading": "Loading products...",
+    "error": "Error loading inventory. Please try again later.",
+    "noProducts": "No products found matching your criteria."
+  },
+  "bikes": {
+    "list": {
+      "title": "Bali Bike Knowledge Base",
+      "subtitle": "Everything about maintenance, parts, and repairs for popular models.",
+      "categories": {
+        "scooters": "Scooters",
+        "motorcycles": "Motorcycles"
+      },
+      "viewDetails": "View Details"
+    },
+    "detail": {
+      "bookService": "Book Service",
+      "whatsappConsult": "Consult on WhatsApp",
+      "diagnosisTitle": "What to do right now?",
+      "diagnosisSubtitle": "Quick steps for common problems. Follow in order — this will help quickly identify the cause.",
+      "commonIssues": "Common Problems",
+      "serviceSchedule": "Maintenance Schedule",
+      "servicePrices": "Prices in Bali (approximate)",
+      "popularParts": "Popular Parts",
+      "ownerMistakes": "Common Owner Mistakes",
+      "whoIsItFor": "Who is it for?",
+      "suitableFor": "Suitable for:",
+      "notSuitableFor": "Not suitable for:",
+      "faqTitle": "Quick Answers (FAQ)",
+      "noIssuesInfo": "Common issues information is being updated.",
+      "weakSpot": "Weakest spot",
+      "symptoms": "Symptoms:",
+      "reason": "Reason:",
+      "action": "What to do:",
+      "intervals": {
+        "oil": "Oil change",
+        "filters": "Filter, CVT check",
+        "drive": "CVT belt, rollers"
+      },
+      "pricing": {
+        "basic": "Basic Service",
+        "full": "Full Service",
+        "additional": "Additional Work"
+      }
+    },
+    "models": {
+      "yamaha-nmax": {
+        "description": "Popular maxi-scooter, perfectly suited for Bali roads. Comfort, power, and reliability in city conditions and on long trips.",
+        "features": {
+          "reliable": "Reliable and comfortable",
+          "city_travel": "Ideal for city and travel",
+          "serviceable": "Affordable maintenance",
+          "popular": "Popular on Bali"
+        },
+        "diagnostics": {
+          "no_start": {
+            "title": "Doesn't start?",
+            "steps": [
+              "Check the battery",
+              "Try starting with throttle",
+              "Ensure there is fuel"
+            ],
+            "info": "If it didn't help: most likely a battery, spark plug, or starter problem."
+          },
+          "noise_accel": {
+            "title": "Noise / knock on acceleration?",
+            "steps": [
+              "Stop aggressive riding",
+              "Check if the sound increases"
+            ],
+            "info": "Most likely: CVT (rollers or belt)."
+          },
+          "vibration": {
+            "title": "Vibration?",
+            "steps": [
+              "CVT rollers wear",
+              "Uneven belt"
+            ],
+            "info": "We recommend checking the CVT."
+          }
+        },
+        "detailed_issues": {
+          "cvt": {
+            "title": "CVT",
+            "symptoms": "noise on acceleration, jerking, loss of smoothness",
+            "reason": "rollers or belt wear",
+            "action": "replace rollers, check and clean the belt"
+          },
+          "battery": {
+            "title": "Battery",
+            "symptoms": "won't start, weak start",
+            "reason": "fast discharge (heat + short trips)",
+            "action": "charge or replace"
+          },
+          "electronics": {
+            "title": "Sensors / Electronics",
+            "symptoms": "errors on the panel, unstable operation",
+            "reason": "humidity, dirt",
+            "action": "diagnostics"
+          },
+          "gearbox": {
+            "title": "Final Drive",
+            "symptoms": "hum from the rear",
+            "reason": "oil wear",
+            "action": "replace final drive oil"
+          }
+        },
+        "pricing": {
+          "oil_change": "Oil Change",
+          "cvt_rollers": "CVT Rollers",
+          "cvt_belt": "CVT Belt",
+          "battery": "Battery Replacement",
+          "diagnosis": "Professional Diagnostics"
+        },
+        "owner_mistakes": {
+          "ignore_noise": "Ignore CVT noise",
+          "late_oil": "Change oil too rarely",
+          "cheap_parts": "Install cheap parts",
+          "ride_to_break": "Ride until belt completely breaks"
+        },
+        "target_fit": {
+          "suitable": {
+            "city": "city trips",
+            "travel": "island travels",
+            "comfort": "comfortable riding",
+            "daily": "daily use"
+          },
+          "not_suitable": {
+            "offroad": "off-road",
+            "aggressive": "aggressive riding",
+            "heavy_cargo": "carrying heavy cargo"
+          }
+        },
+        "faq": {
+          "why_jerks": {
+            "q": "Why does it jerk on acceleration?",
+            "a": "Most often the cause is in the CVT (rollers or belt wear)."
+          },
+          "why_no_start": {
+            "q": "Why won't it start?",
+            "a": "Reasons: discharged battery, spark plug, or starter."
+          },
+          "why_noise": {
+            "q": "Why did noise appear?",
+            "a": "Noise usually occurs due to the CVT or final drive."
+          },
+          "why_vibrates": {
+            "q": "Why does it vibrate?",
+            "a": "Reason: CVT rollers wear or wrong belt."
+          },
+          "oil_interval": {
+            "q": "How often to change oil?",
+            "a": "We recommend every 2,000 – 3,000 km or every 2 months."
+          },
+          "fuel_type": {
+            "q": "What fuel to use?",
+            "a": "Use fuel with an octane rating of at least 92 (Pertamax)."
+          }
+        }
+      },
+      "honda-pcx-160": {
+        "description": "Elegant and powerful scooter. Known for its smooth ride, premium design, and high fuel efficiency.",
+        "features": {
+          "elegant": "Elegant Design",
+          "smooth_ride": "Smooth Riding",
+          "fuel_efficient": "Fuel Efficiency",
+          "premium": "Premium Class"
+        },
+        "diagnostics": {
+          "no_start": {
+            "title": "Won't Start?",
+            "steps": [
+              "Check Smart Key (Keyless)",
+              "Battery voltage",
+              "Side stand position"
+            ],
+            "info": "Common cause is a dead keyless remote battery or discharged bike battery."
+          },
+          "vibration_start": {
+            "title": "Vibration on Start?",
+            "steps": [
+              "Check clutch bell",
+              "Dust in CVT"
+            ],
+            "info": "CVT cleaning is recommended to resolve the 'gredek' vibration."
+          },
+          "belt_noise": {
+            "title": "Belt Noise?",
+            "steps": [
+              "Inspect for cracks",
+              "Check roller condition"
+            ],
+            "info": "Belt might wear prematurely under heavy use."
+          }
+        },
+        "detailed_issues": {
+          "cvt_vibration": {
+            "title": "CVT Vibration",
+            "symptoms": "shaking during initial acceleration",
+            "reason": "dust on clutch pads",
+            "action": "CVT cleaning and maintenance"
+          },
+          "battery_contacts": {
+            "title": "Battery Terminals",
+            "symptoms": "intermittent power loss",
+            "reason": "terminal oxidation",
+            "action": "clean and tighten terminals"
+          },
+          "hiss_system": {
+            "title": "Keyless System",
+            "symptoms": "key not detected",
+            "reason": "low remote battery",
+            "action": "replace CR2032 battery"
+          }
+        },
+        "pricing": {
+          "oil_change": "Oil Change",
+          "cvt_service": "CVT Service",
+          "battery": "Battery Replacement",
+          "diagnosis": "Professional Diagnostics"
+        },
+        "owner_mistakes": [
+          "late oil change",
+          "cheap filters",
+          "ignoring vibration"
+        ],
+        "target_fit": {
+          "suitable": {
+            "city_premium": "city premium",
+            "daily_commute": "daily commute",
+            "comfort_riding": "comfort riding"
+          },
+          "not_suitable": {
+            "rough_terrain": "bad roads",
+            "sporty_riding": "aggressive riding"
+          }
+        },
+        "faq": {
+          "why_vibrates": {
+            "q": "Why does it vibrate on start?",
+            "a": "This is a common 'gredek' issue, solved by CVT cleaning."
+          },
+          "oil_type": {
+            "q": "What oil is best?",
+            "a": "We recommend Motul Scooter Expert 10W30 or 10W40."
+          },
+          "keyless_issues": {
+            "q": "What to do if key not detected?",
+            "a": "First, replace the battery in your remote."
+          }
+        }
+      },
+      "honda-adv-160": {
+        "description": "Adventure-style scooter. Robust suspension, high ground clearance, and aggressive design for all Bali roads.",
+        "features": {
+          "adventure_style": "Adventure Style",
+          "robust_suspension": "Robust Suspension",
+          "comfortable_posture": "Comfortable Posture",
+          "high_ground_clearance": "High Ground Clearance"
+        },
+        "diagnostics": {
+          "no_start": {
+            "title": "Won't Start?",
+            "steps": [
+              "Check smart key",
+              "Ensure kill switch is OFF",
+              "Battery charge"
+            ],
+            "info": "Check if battery terminals are loose from vibration."
+          },
+          "abs_warning": {
+            "title": "ABS light on?",
+            "steps": [
+              "Clean ABS sensors",
+              "Check brake fluid level"
+            ],
+            "info": "Dirt on sensors is a common cause for false warnings."
+          },
+          "suspension_noise": {
+            "title": "Suspension knock?",
+            "steps": [
+              "Check bolt tightness",
+              "Inspect seals"
+            ],
+            "info": "Suspension needs frequent checks when riding off-road."
+          }
+        },
+        "detailed_issues": {
+          "suspension_stiffness": {
+            "title": "Suspension Stiffness",
+            "symptoms": "harsh feedback, discomfort",
+            "reason": "factory settings or oil wear",
+            "action": "suspension service and tuning"
+          },
+          "cvt_dirt_entry": {
+            "title": "Dirt in CVT",
+            "symptoms": "strange noises after off-road",
+            "reason": "dust entry through filter",
+            "action": "CVT cleaning and filter replacement"
+          },
+          "smart_key_range": {
+            "title": "Smart Key Range",
+            "symptoms": "start button hard to trigger",
+            "reason": "interference or weak battery",
+            "action": "replace remote battery"
+          }
+        },
+        "pricing": {
+          "oil_change": "Oil Change",
+          "suspension_service": "Fork/Shock Service",
+          "cvt_service": "CVT Service",
+          "diagnosis": "Diagnostics"
+        },
+        "owner_mistakes": [
+          "off-road without prep",
+          "ignoring CVT cleaning",
+          "high-pressure wash"
+        ],
+        "target_fit": {
+          "suitable": {
+            "bad_roads": "bad roads",
+            "island_touring": "island touring",
+            "tall_riders": "tall riders"
+          },
+          "not_suitable": {
+            "very_short_riders": "short riders",
+            "strict_city_only": "perfect asphalt only"
+          }
+        },
+        "faq": {
+          "offroad_capability": {
+            "q": "Can it handle mountains?",
+            "a": "Yes, ADV is great for light off-road and mountain hairpins."
+          },
+          "abs_behavior": {
+            "q": "How does ABS work on gravel?",
+            "a": "ABS helps prevent lockup, but braking distance may increase on loose ground."
+          },
+          "storage_space": {
+            "q": "Does a helmet fit?",
+            "a": "Yes, most full-face helmets fit under the seat."
+          }
+        }
+      },
+      "yamaha-xmax": {
+        "description": "Powerful 250cc maxi-scooter. Superior highway stability, huge storage, and modern safety systems.",
+        "features": {
+          "powerful_250cc": "Powerful Engine",
+          "huge_storage": "Huge Storage",
+          "traction_control": "Traction Control",
+          "stability": "Stability"
+        },
+        "diagnostics": {
+          "no_start": {
+            "title": "Won't Start?",
+            "steps": [
+              "Check voltage (on dash)",
+              "Spark plug",
+              "Fuel pressure"
+            ],
+            "info": "XMAX is sensitive to battery charge. If below 12V — it might not start."
+          },
+          "tcs_error": {
+            "title": "TCS Error?",
+            "steps": [
+              "Check tire pressure",
+              "Clean wheel sensors"
+            ],
+            "info": "Different tire pressure can trigger the traction control system error."
+          },
+          "coolant_leak": {
+            "title": "Coolant Leak?",
+            "steps": [
+              "Inspect water pump",
+              "Check hose clamps"
+            ],
+            "info": "Watch the temperature gauge, overheating is dangerous."
+          }
+        },
+        "detailed_issues": {
+          "coolant_system": {
+            "title": "Cooling System",
+            "symptoms": "temp rising, leaks",
+            "reason": "water pump gasket wear",
+            "action": "cooling system service"
+          },
+          "heavy_weight_handling": {
+            "title": "Handling",
+            "symptoms": "sluggish in corners",
+            "reason": "tire wear or steering bearings",
+            "action": "chassis diagnostics"
+          },
+          "battery_drain": {
+            "title": "Battery Drain",
+            "symptoms": "dies quickly when parked",
+            "reason": "leakage or old battery",
+            "action": "electrical circuit check"
+          }
+        },
+        "pricing": {
+          "oil_change_synthetic": "Full Synthetic Change",
+          "coolant_flush": "Coolant Flush",
+          "cvt_full_service": "Full CVT Service",
+          "diagnosis": "Complex Diagnostics"
+        },
+        "owner_mistakes": [
+          "ignoring coolant level",
+          "riding on low tire pressure",
+          "overloading storage"
+        ],
+        "target_fit": {
+          "suitable": {
+            "long_distance": "long distance",
+            "highway_riding": "highways",
+            "two_up_riding": "riding with passenger"
+          },
+          "not_suitable": {
+            "narrow_alleys": "narrow alleys",
+            "beginners_due_to_weight": "beginners (due to weight)"
+          }
+        },
+        "faq": {
+          "fuel_consumption": {
+            "q": "What is the fuel consumption?",
+            "a": "Average 3-3.5 liters per 100 km, depending on riding style."
+          },
+          "maintenance_cost": {
+            "q": "Is it expensive to maintain?",
+            "a": "More expensive than standard scooters due to oil volume and 250cc part costs."
+          },
+          "handling_in_traffic": {
+            "q": "How is it in traffic?",
+            "a": "Size needs getting used to, but maneuverability is great for its class."
+          }
+        }
+      },
+      "yamaha-r15": {
+        "description": "Racing DNA in 150cc class. Aggressive look, USD forks, and VVA engine for speed lovers.",
+        "features": {
+          "racing_dna": "Racing DNA",
+          "vva_engine": "VVA Engine",
+          "slipper_clutch": "Slipper Clutch",
+          "sporty_look": "Sporty Look"
+        },
+        "diagnostics": {
+          "hard_start": {
+            "title": "Hard to Start?",
+            "steps": [
+              "Check spark plug",
+              "Fuel quality",
+              "Air filter"
+            ],
+            "info": "High-rev engines are sensitive to spark plug condition."
+          },
+          "clutch_slipping": {
+            "title": "Clutch Slipping?",
+            "steps": [
+              "Check lever free play",
+              "Oil color"
+            ],
+            "info": "Aggressive starts wear out clutch plates quickly."
+          },
+          "overheating": {
+            "title": "Overheating?",
+            "steps": [
+              "Coolant level",
+              "Fan operation"
+            ],
+            "info": "In Bali traffic, it's vital to monitor the cooling system."
+          }
+        },
+        "detailed_issues": {
+          "clutch_wear": {
+            "title": "Clutch Wear",
+            "symptoms": "RPM rises without acceleration",
+            "reason": "aggressive riding",
+            "action": "replace clutch plates"
+          },
+          "fairing_vibration": {
+            "title": "Fairing Vibration",
+            "symptoms": "rattling at mid RPM",
+            "reason": "loose fasteners",
+            "action": "tighten and dampening"
+          },
+          "chain_slack": {
+            "title": "Chain Slack",
+            "symptoms": "clicking, jerking",
+            "reason": "lack of lubrication",
+            "action": "clean, lube, adjust"
+          }
+        },
+        "pricing": {
+          "oil_synthetic": "Full Synthetic Oil",
+          "chain_sprocket_kit": "Chain/Sprocket Kit",
+          "clutch_plates": "Clutch Plates",
+          "diagnosis": "Engine Diagnostics"
+        },
+        "owner_mistakes": [
+          "poor chain lube",
+          "harsh shifting",
+          "riding without service"
+        ],
+        "target_fit": {
+          "suitable": {
+            "sport_enthusiasts": "sport enthusiasts",
+            "track_days": "track days",
+            "speed_lovers": "speed lovers"
+          },
+          "not_suitable": {
+            "long_touring_comfort": "comfortable touring",
+            "carrying_passengers": "riding with passenger",
+            "back_pain_sufferers": "back pain sufferers"
+          }
+        },
+        "faq": {
+          "top_speed": {
+            "q": "What is the top speed?",
+            "a": "About 140-150 km/h depending on conditions."
+          },
+          "vva_activation": {
+            "q": "When does VVA activate?",
+            "a": "VVA activates at 7,400 RPM, giving a boost."
+          },
+          "riding_position": {
+            "q": "Is it comfortable for long rides?",
+            "a": "Sporty position, hands and back will tire in long trips."
+          }
+        }
+      },
+      "yamaha-mt-15": {
+        "description": "Naked version of R15. Same bold engine but with a comfortable upright posture for the city.",
+        "features": {
+          "aggressive_look": "Aggressive Look",
+          "upright_posture": "Upright Posture",
+          "torque": "Good Torque",
+          "agile": "Agile"
+        },
+        "diagnostics": {
+          "hard_start": {
+            "title": "Hard to Start?",
+            "steps": [
+              "Check battery voltage",
+              "Fuel pump prime"
+            ],
+            "info": "Sensitive electrical system."
+          },
+          "chain_noise": {
+            "title": "Chain Noise?",
+            "steps": [
+              "Check chain tension",
+              "Lube chain"
+            ],
+            "info": "Factory chain can be noisy if not maintained."
+          },
+          "clutch_slipping": {
+            "title": "Clutch Slipping?",
+            "steps": [
+              "Check lever free play",
+              "Oil color"
+            ],
+            "info": "Aggressive riding wears out clutch plates."
+          }
+        },
+        "detailed_issues": {
+          "chain_slack": {
+            "title": "Chain Slack",
+            "symptoms": "jerking and noise",
+            "reason": "poor lubrication",
+            "action": "adjust and lube"
+          },
+          "clutch_wear": {
+            "title": "Clutch Wear",
+            "symptoms": "slipping under load",
+            "reason": "aggressive starts",
+            "action": "replace plates"
+          },
+          "headlight_vibration": {
+            "title": "Headlight Vibration",
+            "symptoms": "rattling at high rpm",
+            "reason": "loose bolts",
+            "action": "tighten mounts"
+          }
+        },
+        "pricing": {
+          "oil_synthetic": "Full Synthetic Oil",
+          "chain_sprocket": "Chain Kit Replacement",
+          "diagnosis": "Engine Diagnostics"
+        },
+        "owner_mistakes": {
+          "improper_chain_lube": "improper chain lube",
+          "aggressive_starts": "aggressive starts"
+        },
+        "target_fit": {
+          "suitable": {
+            "city_traffic": "city traffic",
+            "stunt_beginners": "stunt beginners"
+          },
+          "not_suitable": {
+            "long_touring": "long touring",
+            "carrying_passengers": "carrying passengers"
+          }
+        },
+        "faq": {
+          "top_speed": {
+            "q": "What is the top speed?",
+            "a": "Around 130 km/h."
+          },
+          "riding_position": {
+            "q": "Is the riding position aggressive?",
+            "a": "No, it's very upright and comfortable for the city."
+          }
+        }
+      },
+      "yamaha-r25": {
+        "description": "Twin-cylinder sport bike. The golden middle between speed and reliability.",
+        "features": {
+          "twin_cylinder": "Twin Cylinder",
+          "high_revs": "High Revs",
+          "stability": "Stability",
+          "sporty_look": "Sporty Look"
+        },
+        "diagnostics": {
+          "overheating": {
+            "title": "Overheating?",
+            "steps": [
+              "Check coolant level",
+              "Fan operation"
+            ],
+            "info": "Common in heavy traffic."
+          },
+          "water_pump_leak": {
+            "title": "Coolant Leak?",
+            "steps": [
+              "Check water pump weephole",
+              "Hoses"
+            ],
+            "info": "A known weak spot on early models."
+          },
+          "fork_leak": {
+            "title": "Fork Leak?",
+            "steps": [
+              "Check fork seals",
+              "Wipe stanchions"
+            ],
+            "info": "Heavy braking can stress seals."
+          }
+        },
+        "detailed_issues": {
+          "water_pump": {
+            "title": "Water Pump Leak",
+            "symptoms": "coolant dripping",
+            "reason": "worn seals",
+            "action": "rebuild water pump"
+          },
+          "stator_failure": {
+            "title": "Stator Failure",
+            "symptoms": "battery not charging",
+            "reason": "heat cycle damage",
+            "action": "replace stator"
+          },
+          "fork_seals": {
+            "title": "Fork Seals Leak",
+            "symptoms": "oil on fork legs",
+            "reason": "dirt or wear",
+            "action": "replace seals and oil"
+          }
+        },
+        "pricing": {
+          "oil_synthetic": "Full Synthetic Oil",
+          "water_pump_rebuild": "Water Pump Rebuild",
+          "diagnosis": "Engine Diagnostics"
+        },
+        "owner_mistakes": {
+          "ignore_coolant": "ignoring coolant",
+          "late_oil_change": "late oil changes"
+        },
+        "target_fit": {
+          "suitable": {
+            "highway_riding": "highway riding",
+            "track_days": "track days"
+          },
+          "not_suitable": {
+            "dense_traffic": "dense traffic",
+            "offroad": "offroad"
+          }
+        },
+        "faq": {
+          "fuel_consumption": {
+            "q": "How is the fuel consumption?",
+            "a": "Around 4-5 liters per 100 km."
+          },
+          "maintenance_cost": {
+            "q": "Is it expensive to maintain?",
+            "a": "Reasonable for a 250cc twin."
+          }
+        }
+      },
+      "yamaha-mt-25": {
+        "description": "Powerful naked for the city. Hurricane dynamics in a compact body.",
+        "features": {
+          "hyper_naked": "Hyper Naked",
+          "master_torque": "Master of Torque",
+          "nimble": "Nimble",
+          "twin_cylinder": "Twin Cylinder"
+        },
+        "diagnostics": {
+          "overheating": {
+            "title": "Overheating?",
+            "steps": [
+              "Check radiator fan",
+              "Coolant level"
+            ],
+            "info": "Naked bikes run hotter in slow traffic."
+          },
+          "electrical_issue": {
+            "title": "Electrical Issue?",
+            "steps": [
+              "Check battery",
+              "Rectifier voltage"
+            ],
+            "info": "Common stator/rectifier wear."
+          },
+          "chain_noise": {
+            "title": "Chain Noise?",
+            "steps": [
+              "Check tension",
+              "Lube"
+            ],
+            "info": "High torque wears chains faster."
+          }
+        },
+        "detailed_issues": {
+          "radiator_fan": {
+            "title": "Radiator Fan",
+            "symptoms": "overheating in traffic",
+            "reason": "fan motor failure",
+            "action": "replace fan"
+          },
+          "rectifier": {
+            "title": "Rectifier Failure",
+            "symptoms": "dead battery",
+            "reason": "overheating components",
+            "action": "replace rectifier"
+          },
+          "chain_wear": {
+            "title": "Chain Wear",
+            "symptoms": "loose chain",
+            "reason": "high torque riding",
+            "action": "replace chain and sprockets"
+          }
+        },
+        "pricing": {
+          "oil_synthetic": "Full Synthetic Oil",
+          "electrical_diag": "Electrical Diagnostics",
+          "diagnosis": "Engine Diagnostics"
+        },
+        "owner_mistakes": {
+          "ignore_temp_gauge": "ignoring temp gauge",
+          "cheap_chain": "buying cheap chains"
+        },
+        "target_fit": {
+          "suitable": {
+            "city_commuting": "city commuting",
+            "weekend_rides": "weekend rides"
+          },
+          "not_suitable": {
+            "offroad": "offroad",
+            "long_touring": "long touring"
+          }
+        },
+        "faq": {
+          "fuel_consumption": {
+            "q": "Fuel consumption?",
+            "a": "Around 4 liters per 100 km."
+          },
+          "top_speed": {
+            "q": "Top speed?",
+            "a": "Around 160-170 km/h."
+          }
+        }
+      },
+      "honda-cb150x": {
+        "description": "Small adventure tourer. The best choice for exploring remote corners of Bali.",
+        "features": {
+          "touring_ready": "Touring Ready",
+          "wind_protection": "Wind Protection",
+          "long_travel": "Long Travel Suspension",
+          "comfortable": "Comfortable"
+        },
+        "diagnostics": {
+          "engine_noise": {
+            "title": "Engine Noise?",
+            "steps": [
+              "Check valve clearance",
+              "Timing chain"
+            ],
+            "info": "Common ticking noise from valves."
+          },
+          "chain_slack": {
+            "title": "Chain Slack?",
+            "steps": [
+              "Adjust chain",
+              "Lube"
+            ],
+            "info": "Long suspension travel requires proper chain slack."
+          },
+          "hard_start": {
+            "title": "Hard to Start?",
+            "steps": [
+              "Check spark plug",
+              "Fuel pump"
+            ],
+            "info": "Usually poor fuel quality."
+          }
+        },
+        "detailed_issues": {
+          "timing_chain": {
+            "title": "Timing Chain Tensioner",
+            "symptoms": "rattling noise",
+            "reason": "tensioner spring wear",
+            "action": "replace tensioner"
+          },
+          "valve_clearance": {
+            "title": "Valve Clearance",
+            "symptoms": "ticking sound, power loss",
+            "reason": "normal wear",
+            "action": "adjust valves"
+          },
+          "box_mounts": {
+            "title": "Top Box Mounts",
+            "symptoms": "wobbly top box",
+            "reason": "overloading",
+            "action": "reinforce mounts"
+          }
+        },
+        "pricing": {
+          "oil_change": "Oil Change",
+          "timing_chain_tensioner": "Timing Chain Tensioner",
+          "diagnosis": "Engine Diagnostics"
+        },
+        "owner_mistakes": {
+          "overloading": "overloading",
+          "ignore_valve_noise": "ignoring valve noise"
+        },
+        "target_fit": {
+          "suitable": {
+            "island_touring": "island touring",
+            "bad_roads": "bad roads"
+          },
+          "not_suitable": {
+            "aggressive_offroad": "aggressive offroad",
+            "high_speed_highway": "high speed highway"
+          }
+        },
+        "faq": {
+          "top_speed": {
+            "q": "Top speed?",
+            "a": "Around 115 km/h."
+          },
+          "seat_height": {
+            "q": "Is it too tall?",
+            "a": "Seat height is 817mm, accessible for most riders."
+          }
+        }
+      },
+      "honda-cb150r": {
+        "description": "Modern neo-classic. Style and technology in one bottle.",
+        "features": {
+          "neo_sports_cafe": "Neo Sports Café",
+          "led_lighting": "LED Lighting",
+          "compact": "Compact",
+          "agile": "Agile"
+        },
+        "diagnostics": {
+          "engine_rattle": {
+            "title": "Engine Rattle?",
+            "steps": [
+              "Check timing chain tensioner"
+            ],
+            "info": "Very common on Honda 150cc engines."
+          },
+          "electrical_issue": {
+            "title": "Electrical Issue?",
+            "steps": [
+              "Check battery",
+              "Fuses"
+            ],
+            "info": "LED lights are sensitive to voltage drops."
+          },
+          "chain_slack": {
+            "title": "Chain Slack?",
+            "steps": [
+              "Adjust chain",
+              "Lube"
+            ],
+            "info": "Regular maintenance needed."
+          }
+        },
+        "detailed_issues": {
+          "chain_tensioner": {
+            "title": "Timing Chain Tensioner",
+            "symptoms": "rattling noise",
+            "reason": "tensioner spring wear",
+            "action": "replace tensioner"
+          },
+          "water_pump": {
+            "title": "Water Pump Seal",
+            "symptoms": "coolant leak",
+            "reason": "seal wear",
+            "action": "replace seal"
+          },
+          "battery_drain": {
+            "title": "Battery Drain",
+            "symptoms": "won't start",
+            "reason": "aftermarket accessories",
+            "action": "check wiring"
+          }
+        },
+        "pricing": {
+          "oil_change": "Oil Change",
+          "chain_tensioner": "Timing Chain Tensioner",
+          "diagnosis": "Engine Diagnostics"
+        },
+        "owner_mistakes": {
+          "ignore_engine_noise": "ignoring engine noise",
+          "cheap_oil": "using cheap oil"
+        },
+        "target_fit": {
+          "suitable": {
+            "city_riding": "city riding",
+            "beginners": "beginners"
+          },
+          "not_suitable": {
+            "offroad": "offroad",
+            "long_touring": "long touring"
+          }
+        },
+        "faq": {
+          "fuel_consumption": {
+            "q": "Fuel consumption?",
+            "a": "Very economical, around 2-2.5 liters per 100 km."
+          },
+          "maintenance_cost": {
+            "q": "Maintenance cost?",
+            "a": "Very affordable."
+          }
+        }
+      },
+      "honda-cbr150r": {
+        "description": "Honda's sporty character. Reliable and predictable bike for beginners.",
+        "features": {
+          "total_control": "Total Control",
+          "aerodynamic": "Aerodynamic",
+          "reliable_honda": "Honda Reliability",
+          "sporty": "Sporty"
+        },
+        "diagnostics": {
+          "clutch_slipping": {
+            "title": "Clutch Slipping?",
+            "steps": [
+              "Check lever free play",
+              "Oil color"
+            ],
+            "info": "Common with aggressive riders."
+          },
+          "fairing_rattle": {
+            "title": "Fairing Rattle?",
+            "steps": [
+              "Check clips and bolts"
+            ],
+            "info": "Plastics can vibrate over time."
+          },
+          "hard_start": {
+            "title": "Hard to Start?",
+            "steps": [
+              "Check spark plug",
+              "Fuel pump"
+            ],
+            "info": "Usually spark plug wear."
+          }
+        },
+        "detailed_issues": {
+          "clutch_wear": {
+            "title": "Clutch Wear",
+            "symptoms": "RPM rises without acceleration",
+            "reason": "aggressive riding",
+            "action": "replace plates"
+          },
+          "fairing_clips": {
+            "title": "Fairing Clips",
+            "symptoms": "rattling noise",
+            "reason": "broken clips",
+            "action": "replace clips"
+          },
+          "chain_wear": {
+            "title": "Chain Wear",
+            "symptoms": "loose chain",
+            "reason": "poor lubrication",
+            "action": "replace chain and sprockets"
+          }
+        },
+        "pricing": {
+          "oil_change": "Oil Change",
+          "clutch_plates": "Clutch Plates",
+          "diagnosis": "Engine Diagnostics"
+        },
+        "owner_mistakes": {
+          "aggressive_shifting": "aggressive shifting",
+          "poor_chain_lube": "poor chain lube"
+        },
+        "target_fit": {
+          "suitable": {
+            "sport_beginners": "sport beginners",
+            "city_commuting": "city commuting"
+          },
+          "not_suitable": {
+            "offroad": "offroad",
+            "long_touring": "long touring"
+          }
+        },
+        "faq": {
+          "top_speed": {
+            "q": "Top speed?",
+            "a": "Around 135 km/h."
+          },
+          "riding_position": {
+            "q": "Is the riding position comfortable?",
+            "a": "Sporty but relatively relaxed compared to true supersports."
+          }
+        }
+      },
+      "honda-cbr250rr": {
+        "description": "Technological masterpiece. Riding modes, ride-by-wire, and best-in-class handling.",
+        "features": {
+          "ride_by_wire": "Ride-by-Wire",
+          "riding_modes": "Riding Modes",
+          "pro_suspension": "Pro Suspension",
+          "quickshifter_ready": "Quickshifter Ready"
+        },
+        "diagnostics": {
+          "throttle_error": {
+            "title": "Throttle Error?",
+            "steps": [
+              "Check throttle sensor",
+              "Wiring"
+            ],
+            "info": "Ride-by-wire system can sometimes throw codes."
+          },
+          "no_start": {
+            "title": "Won't Start?",
+            "steps": [
+              "Check battery voltage",
+              "Fuses"
+            ],
+            "info": "High electronics load requires a strong battery."
+          },
+          "overheating": {
+            "title": "Overheating?",
+            "steps": [
+              "Check coolant level",
+              "Fan operation"
+            ],
+            "info": "High performance engine runs hot."
+          }
+        },
+        "detailed_issues": {
+          "throttle_sensor": {
+            "title": "Throttle Sensor Error",
+            "symptoms": "check engine light, limp mode",
+            "reason": "sensor glitch or wiring",
+            "action": "diagnostic scan, replace if needed"
+          },
+          "battery_drain": {
+            "title": "Battery Drain",
+            "symptoms": "won't start",
+            "reason": "high electrical load",
+            "action": "charge or replace battery"
+          },
+          "chain_wear": {
+            "title": "Chain Wear",
+            "symptoms": "loose chain",
+            "reason": "high power",
+            "action": "replace chain and sprockets"
+          }
+        },
+        "pricing": {
+          "oil_synthetic": "Full Synthetic Oil",
+          "throttle_body_sync": "Throttle Body Sync",
+          "diagnosis": "Engine Diagnostics"
+        },
+        "owner_mistakes": {
+          "ignore_error_codes": "ignoring error codes",
+          "cheap_fuel": "using cheap fuel"
+        },
+        "target_fit": {
+          "suitable": {
+            "track_days": "track days",
+            "highway_riding": "highway riding"
+          },
+          "not_suitable": {
+            "dense_traffic": "dense traffic",
+            "offroad": "offroad"
+          }
+        },
+        "faq": {
+          "fuel_consumption": {
+            "q": "Fuel consumption?",
+            "a": "Around 4-5 liters per 100 km."
+          },
+          "riding_modes_diff": {
+            "q": "Are the riding modes noticeable?",
+            "a": "Yes, Sport+ significantly changes throttle response."
+          }
+        }
+      },
+      "honda-crf150l": {
+        "description": "Off-road king. Light, torquey, and practically indestructible on dirt.",
+        "features": {
+          "offroad_king": "Off-road King",
+          "lightweight": "Lightweight",
+          "durable": "Durable",
+          "long_travel": "Long Travel Suspension"
+        },
+        "diagnostics": {
+          "clutch_slipping": {
+            "title": "Clutch Slipping?",
+            "steps": [
+              "Check lever free play",
+              "Oil color"
+            ],
+            "info": "Common from heavy clutch use offroad."
+          },
+          "wheel_wobble": {
+            "title": "Wheel Wobble?",
+            "steps": [
+              "Check spokes",
+              "Wheel bearings"
+            ],
+            "info": "Spokes loosen after jumps."
+          },
+          "hard_start": {
+            "title": "Hard to Start?",
+            "steps": [
+              "Check air filter",
+              "Carburetor/Injector"
+            ],
+            "info": "Dirt in the air filter or fuel."
+          }
+        },
+        "detailed_issues": {
+          "clutch_wear": {
+            "title": "Clutch Wear",
+            "symptoms": "slipping",
+            "reason": "offroad abuse",
+            "action": "replace plates"
+          },
+          "loose_spokes": {
+            "title": "Loose Spokes",
+            "symptoms": "wobbly wheel",
+            "reason": "impacts",
+            "action": "tighten and true wheel"
+          },
+          "dirty_carb": {
+            "title": "Dirty Injector/Carb",
+            "symptoms": "bogging down",
+            "reason": "dust and bad fuel",
+            "action": "clean fuel system"
+          }
+        },
+        "pricing": {
+          "oil_change": "Oil Change",
+          "clutch_plates": "Clutch Plates",
+          "wheel_truing": "Wheel Truing"
+        },
+        "owner_mistakes": {
+          "half_clutch_offroad": "riding half-clutch offroad",
+          "ignore_air_filter": "ignoring air filter cleaning",
+          "ignore_spokes": "ignoring loose spokes"
+        },
+        "target_fit": {
+          "suitable": {
+            "offroad": "offroad",
+            "dirt_trails": "dirt trails",
+            "tall_riders": "tall riders"
+          },
+          "not_suitable": {
+            "highway_touring": "highway touring",
+            "short_riders": "short riders"
+          }
+        },
+        "faq": {
+          "top_speed": {
+            "q": "Top speed?",
+            "a": "Around 100-110 km/h."
+          },
+          "seat_height": {
+            "q": "Is the seat height high?",
+            "a": "Yes, 869mm, better for taller riders."
+          }
+        }
+      },
+      "honda-crf250l": {
+        "description": "Serious enduro. More power, more capabilities, more adventures.",
+        "features": {
+          "true_adventure": "True Adventure",
+          "powerful_single": "Powerful Single",
+          "long_suspension": "Long Suspension",
+          "liquid_cooled": "Liquid Cooled"
+        },
+        "diagnostics": {
+          "engine_rattle": {
+            "title": "Engine Rattle?",
+            "steps": [
+              "Check timing chain tensioner"
+            ],
+            "info": "Common Honda tensioner issue."
+          },
+          "overheating": {
+            "title": "Overheating?",
+            "steps": [
+              "Check radiator for mud",
+              "Coolant level"
+            ],
+            "info": "Radiator clogs with mud offroad."
+          },
+          "suspension_leak": {
+            "title": "Suspension Leak?",
+            "steps": [
+              "Check fork seals",
+              "Wipe stanchions"
+            ],
+            "info": "Dirt damages seals."
+          }
+        },
+        "detailed_issues": {
+          "timing_chain": {
+            "title": "Timing Chain Tensioner",
+            "symptoms": "rattling noise",
+            "reason": "tensioner wear",
+            "action": "replace tensioner"
+          },
+          "radiator_damage": {
+            "title": "Radiator Damage",
+            "symptoms": "leaking coolant, overheating",
+            "reason": "impacts or mud",
+            "action": "clean or replace radiator"
+          },
+          "fork_seals": {
+            "title": "Fork Seals Leak",
+            "symptoms": "oil on fork legs",
+            "reason": "dirt ingress",
+            "action": "replace seals"
+          }
+        },
+        "pricing": {
+          "oil_synthetic": "Full Synthetic Oil",
+          "fork_rebuild": "Fork Rebuild",
+          "diagnosis": "Engine Diagnostics"
+        },
+        "owner_mistakes": {
+          "no_skid_plate": "riding without skid plate",
+          "ignore_coolant": "ignoring coolant temp"
+        },
+        "target_fit": {
+          "suitable": {
+            "adventure_touring": "adventure touring",
+            "offroad": "offroad",
+            "tall_riders": "tall riders"
+          },
+          "not_suitable": {
+            "city_commuting": "city commuting",
+            "short_riders": "short riders"
+          }
+        },
+        "faq": {
+          "weight": {
+            "q": "Is it heavy?",
+            "a": "Around 145kg, heavier than pure dirt bikes."
+          },
+          "fuel_consumption": {
+            "q": "Fuel consumption?",
+            "a": "Around 3.5 liters per 100 km."
+          }
+        }
+      },
+      "kawasaki-ninja-250": {
+        "description": "A legend among twin-cylinder sports. Kawasaki speed and style.",
+        "features": {
+          "legendary": "Legendary",
+          "parallel_twin": "Parallel Twin",
+          "sharp_look": "Sharp Look",
+          "highway_cruiser": "Highway Cruiser"
+        },
+        "diagnostics": {
+          "overheating": {
+            "title": "Overheating?",
+            "steps": [
+              "Check cooling fan",
+              "Coolant level"
+            ],
+            "info": "Fan relays commonly fail."
+          },
+          "rough_idle": {
+            "title": "Rough Idle?",
+            "steps": [
+              "Check throttle body sync",
+              "Spark plugs"
+            ],
+            "info": "Twin cylinders need synchronization."
+          },
+          "brake_fade": {
+            "title": "Brake Fade?",
+            "steps": [
+              "Check brake fluid",
+              "Pads"
+            ],
+            "info": "Heavy bike requires good brakes."
+          }
+        },
+        "detailed_issues": {
+          "cooling_fan": {
+            "title": "Cooling Fan Failure",
+            "symptoms": "overheating in traffic",
+            "reason": "relay or motor failure",
+            "action": "replace relay/fan"
+          },
+          "throttle_sync": {
+            "title": "Throttle Body Out of Sync",
+            "symptoms": "rough idle, jerky throttle",
+            "reason": "normal wear",
+            "action": "synchronize throttle bodies"
+          },
+          "brake_discs": {
+            "title": "Warped Brake Discs",
+            "symptoms": "pulsating under braking",
+            "reason": "overheating brakes",
+            "action": "replace discs"
+          }
+        },
+        "pricing": {
+          "oil_synthetic": "Full Synthetic Oil",
+          "throttle_sync": "Throttle Body Sync",
+          "diagnosis": "Engine Diagnostics"
+        },
+        "owner_mistakes": {
+          "traffic_jam_overheating": "overheating in traffic jams",
+          "ignore_brake_fluid": "ignoring brake fluid replacement"
+        },
+        "target_fit": {
+          "suitable": {
+            "highway_touring": "highway touring",
+            "sport_riding": "sport riding"
+          },
+          "not_suitable": {
+            "heavy_traffic": "heavy traffic",
+            "offroad": "offroad"
+          }
+        },
+        "faq": {
+          "top_speed": {
+            "q": "Top speed?",
+            "a": "Around 170 km/h."
+          },
+          "riding_position": {
+            "q": "Is the riding position aggressive?",
+            "a": "It's relatively relaxed for a sport bike, good for touring."
+          }
+        }
+      },
+      "kawasaki-zx-25rr": {
+        "description": "4 cylinders and 17,000 RPM. The sound and power of a real superbike in 250cc.",
+        "features": {
+          "inline_four": "Inline Four",
+          "quickshifter": "Quickshifter",
+          "screamer": "Screamer Engine",
+          "premium_suspension": "Premium Suspension"
+        },
+        "diagnostics": {
+          "check_engine": {
+            "title": "Check Engine Light?",
+            "steps": [
+              "Read diagnostic codes"
+            ],
+            "info": "Complex electronics require a scanner."
+          },
+          "tire_wear": {
+            "title": "High Tire Wear?",
+            "steps": [
+              "Check tire pressure",
+              "Suspension setup"
+            ],
+            "info": "High power output eats tires."
+          },
+          "high_fuel_consumption": {
+            "title": "High Fuel Consumption?",
+            "steps": [
+              "Check air filter",
+              "Riding style"
+            ],
+            "info": "Inline-4s are thirsty."
+          }
+        },
+        "detailed_issues": {
+          "electronics_glitch": {
+            "title": "Electronics Glitch",
+            "symptoms": "random error codes",
+            "reason": "software/sensor issues",
+            "action": "clear codes, update software"
+          },
+          "tire_wear": {
+            "title": "Rapid Tire Wear",
+            "symptoms": "bald tires",
+            "reason": "high RPM, aggressive riding",
+            "action": "replace tires"
+          },
+          "chain_stretch": {
+            "title": "Chain Stretch",
+            "symptoms": "loose chain",
+            "reason": "high power output",
+            "action": "replace with premium chain"
+          }
+        },
+        "pricing": {
+          "oil_synthetic_premium": "Premium Synthetic Oil",
+          "tire_replacement": "Tire Replacement",
+          "diagnosis": "Engine Diagnostics"
+        },
+        "owner_mistakes": {
+          "cheap_oil": "using cheap oil",
+          "ignore_chain_slack": "ignoring chain slack",
+          "wrong_fuel": "using low octane fuel"
+        },
+        "target_fit": {
+          "suitable": {
+            "track_days": "track days",
+            "pure_sport": "pure sport",
+            "sound_lovers": "sound lovers"
+          },
+          "not_suitable": {
+            "daily_commuting": "daily commuting",
+            "budget_riders": "riders on a budget"
+          }
+        },
+        "faq": {
+          "fuel_consumption": {
+            "q": "Is fuel consumption high?",
+            "a": "Yes, comparable to a 600cc bike (6+ liters per 100 km)."
+          },
+          "maintenance_cost": {
+            "q": "Is maintenance expensive?",
+            "a": "Yes, it's a premium high-performance machine requiring expensive parts."
+          }
+        }
+      },
+      "suzuki-v-strom-250": {
+        "description": "Universal soldier. Tourer comfort and city bike maneuverability.",
+        "features": {
+          "all_rounder": "All-rounder",
+          "comfortable": "Very Comfortable",
+          "practical": "Practical",
+          "oil_cooled": "Oil Cooled"
+        },
+        "diagnostics": {
+          "hard_start": {
+            "title": "Hard to Start?",
+            "steps": [
+              "Check battery",
+              "Spark plug"
+            ],
+            "info": "Usually simple fixes."
+          },
+          "chain_noise": {
+            "title": "Chain Noise?",
+            "steps": [
+              "Adjust chain",
+              "Lube"
+            ],
+            "info": "Keep it lubricated for long life."
+          },
+          "weak_headlight": {
+            "title": "Weak Headlight?",
+            "steps": [
+              "Check bulb",
+              "Battery voltage"
+            ],
+            "info": "Stock headlight is famously dim."
+          }
+        },
+        "detailed_issues": {
+          "top_heavy": {
+            "title": "Top Heavy Feel",
+            "symptoms": "hard to balance at low speed",
+            "reason": "design characteristic",
+            "action": "practice low speed maneuvers"
+          },
+          "headlight_brightness": {
+            "title": "Headlight Brightness",
+            "symptoms": "poor visibility at night",
+            "reason": "weak stock LED",
+            "action": "add auxiliary lights"
+          },
+          "chain_wear": {
+            "title": "Chain Wear",
+            "symptoms": "loose chain",
+            "reason": "normal wear",
+            "action": "replace chain and sprockets"
+          }
+        },
+        "pricing": {
+          "oil_change": "Oil Change",
+          "chain_kit": "Chain Kit Replacement",
+          "diagnosis": "Engine Diagnostics"
+        },
+        "owner_mistakes": {
+          "drop_at_low_speed": "dropping at low speed",
+          "ignore_oil_cooler": "ignoring oil cooler cleaning"
+        },
+        "target_fit": {
+          "suitable": {
+            "island_touring": "island touring",
+            "comfortable_commuting": "comfortable commuting",
+            "tall_riders": "tall riders"
+          },
+          "not_suitable": {
+            "aggressive_offroad": "aggressive offroad",
+            "short_riders": "short riders"
+          }
+        },
+        "faq": {
+          "seat_height": {
+            "q": "Is the seat height high?",
+            "a": "Yes, 835mm, might be challenging for shorter riders."
+          },
+          "offroad_capability": {
+            "q": "Is it good for offroad?",
+            "a": "It's a soft-roader, good for gravel and light trails, not hard enduro."
+          }
+        }
+      }
+    },
+    "features_coming_soon": "Feature list coming soon...",
+    "diagnostics_title": "What to do right now?",
+    "diagnostics_subtitle": "Quick troubleshooting steps for common issues",
+    "fix_it_btn": "Fix it →",
+    "data_updating": "Technical diagnostics for this model are being updated...",
+    "common_problems_title": "Typical Technical Issues",
+    "symptoms": "Symptoms",
+    "reason": "Root Cause",
+    "action": "Recommendation",
+    "maintenance_schedule": "Service Schedule",
+    "pricing_title": "Service & Parts",
+    "pricing_note": "Approximate prices at DIY MotoGarage",
+    "owner_mistakes_title": "Common Mistakes by Owners",
+    "suitable_for": "Perfect for",
+    "not_suitable_for": "Not ideal for",
+    "faq_title": "Frequently Asked Questions",
+    "ready_to_book": "Ready to give your bike the best care?",
+    "cta_text": "Join hundreds of happy riders on Bali. Book your professional maintenance or repair today."
+  }
 }

@@ -1,0 +1,1012 @@
+{
+  "yamaha-mt-15": {
+    "description": "Naked version of R15. Same bold engine but with a comfortable upright posture for the city.",
+    "features": {
+      "aggressive_look": "Aggressive Look",
+      "upright_posture": "Upright Posture",
+      "torque": "Good Torque",
+      "agile": "Agile"
+    },
+    "diagnostics": {
+      "hard_start": {
+        "title": "Hard to Start?",
+        "steps": [
+          "Check battery voltage",
+          "Fuel pump prime"
+        ],
+        "info": "Sensitive electrical system."
+      },
+      "chain_noise": {
+        "title": "Chain Noise?",
+        "steps": [
+          "Check chain tension",
+          "Lube chain"
+        ],
+        "info": "Factory chain can be noisy if not maintained."
+      },
+      "clutch_slipping": {
+        "title": "Clutch Slipping?",
+        "steps": [
+          "Check lever free play",
+          "Oil color"
+        ],
+        "info": "Aggressive riding wears out clutch plates."
+      }
+    },
+    "detailed_issues": {
+      "chain_slack": {
+        "title": "Chain Slack",
+        "symptoms": "jerking and noise",
+        "reason": "poor lubrication",
+        "action": "adjust and lube"
+      },
+      "clutch_wear": {
+        "title": "Clutch Wear",
+        "symptoms": "slipping under load",
+        "reason": "aggressive starts",
+        "action": "replace plates"
+      },
+      "headlight_vibration": {
+        "title": "Headlight Vibration",
+        "symptoms": "rattling at high rpm",
+        "reason": "loose bolts",
+        "action": "tighten mounts"
+      }
+    },
+    "pricing": {
+      "oil_synthetic": "Full Synthetic Oil",
+      "chain_sprocket": "Chain Kit Replacement",
+      "diagnosis": "Engine Diagnostics"
+    },
+    "owner_mistakes": [
+      "improper chain lube",
+      "aggressive starts"
+    ],
+    "target_fit": {
+      "suitable": {
+        "city_traffic": "city traffic",
+        "stunt_beginners": "stunt beginners"
+      },
+      "not_suitable": {
+        "long_touring": "long touring",
+        "carrying_passengers": "carrying passengers"
+      }
+    },
+    "faq": {
+      "top_speed": {
+        "q": "What is the top speed?",
+        "a": "Around 130 km/h."
+      },
+      "riding_position": {
+        "q": "Is the riding position aggressive?",
+        "a": "No, it's very upright and comfortable for the city."
+      }
+    }
+  },
+  "yamaha-r25": {
+    "description": "Twin-cylinder sport bike. The golden middle between speed and reliability.",
+    "features": {
+      "twin_cylinder": "Twin Cylinder",
+      "high_revs": "High Revs",
+      "stability": "Stability",
+      "sporty_look": "Sporty Look"
+    },
+    "diagnostics": {
+      "overheating": {
+        "title": "Overheating?",
+        "steps": [
+          "Check coolant level",
+          "Fan operation"
+        ],
+        "info": "Common in heavy traffic."
+      },
+      "water_pump_leak": {
+        "title": "Coolant Leak?",
+        "steps": [
+          "Check water pump weephole",
+          "Hoses"
+        ],
+        "info": "A known weak spot on early models."
+      },
+      "fork_leak": {
+        "title": "Fork Leak?",
+        "steps": [
+          "Check fork seals",
+          "Wipe stanchions"
+        ],
+        "info": "Heavy braking can stress seals."
+      }
+    },
+    "detailed_issues": {
+      "water_pump": {
+        "title": "Water Pump Leak",
+        "symptoms": "coolant dripping",
+        "reason": "worn seals",
+        "action": "rebuild water pump"
+      },
+      "stator_failure": {
+        "title": "Stator Failure",
+        "symptoms": "battery not charging",
+        "reason": "heat cycle damage",
+        "action": "replace stator"
+      },
+      "fork_seals": {
+        "title": "Fork Seals Leak",
+        "symptoms": "oil on fork legs",
+        "reason": "dirt or wear",
+        "action": "replace seals and oil"
+      }
+    },
+    "pricing": {
+      "oil_synthetic": "Full Synthetic Oil",
+      "water_pump_rebuild": "Water Pump Rebuild",
+      "diagnosis": "Engine Diagnostics"
+    },
+    "owner_mistakes": [
+      "ignoring coolant",
+      "late oil changes"
+    ],
+    "target_fit": {
+      "suitable": {
+        "highway_riding": "highway riding",
+        "track_days": "track days"
+      },
+      "not_suitable": {
+        "dense_traffic": "dense traffic",
+        "offroad": "offroad"
+      }
+    },
+    "faq": {
+      "fuel_consumption": {
+        "q": "How is the fuel consumption?",
+        "a": "Around 4-5 liters per 100 km."
+      },
+      "maintenance_cost": {
+        "q": "Is it expensive to maintain?",
+        "a": "Reasonable for a 250cc twin."
+      }
+    }
+  },
+  "yamaha-mt-25": {
+    "description": "Powerful naked for the city. Hurricane dynamics in a compact body.",
+    "features": {
+      "hyper_naked": "Hyper Naked",
+      "master_torque": "Master of Torque",
+      "nimble": "Nimble",
+      "twin_cylinder": "Twin Cylinder"
+    },
+    "diagnostics": {
+      "overheating": {
+        "title": "Overheating?",
+        "steps": [
+          "Check radiator fan",
+          "Coolant level"
+        ],
+        "info": "Naked bikes run hotter in slow traffic."
+      },
+      "electrical_issue": {
+        "title": "Electrical Issue?",
+        "steps": [
+          "Check battery",
+          "Rectifier voltage"
+        ],
+        "info": "Common stator/rectifier wear."
+      },
+      "chain_noise": {
+        "title": "Chain Noise?",
+        "steps": [
+          "Check tension",
+          "Lube"
+        ],
+        "info": "High torque wears chains faster."
+      }
+    },
+    "detailed_issues": {
+      "radiator_fan": {
+        "title": "Radiator Fan",
+        "symptoms": "overheating in traffic",
+        "reason": "fan motor failure",
+        "action": "replace fan"
+      },
+      "rectifier": {
+        "title": "Rectifier Failure",
+        "symptoms": "dead battery",
+        "reason": "overheating components",
+        "action": "replace rectifier"
+      },
+      "chain_wear": {
+        "title": "Chain Wear",
+        "symptoms": "loose chain",
+        "reason": "high torque riding",
+        "action": "replace chain and sprockets"
+      }
+    },
+    "pricing": {
+      "oil_synthetic": "Full Synthetic Oil",
+      "electrical_diag": "Electrical Diagnostics",
+      "diagnosis": "Engine Diagnostics"
+    },
+    "owner_mistakes": [
+      "ignoring temp gauge",
+      "buying cheap chains"
+    ],
+    "target_fit": {
+      "suitable": {
+        "city_commuting": "city commuting",
+        "weekend_rides": "weekend rides"
+      },
+      "not_suitable": {
+        "offroad": "offroad",
+        "long_touring": "long touring"
+      }
+    },
+    "faq": {
+      "fuel_consumption": {
+        "q": "Fuel consumption?",
+        "a": "Around 4 liters per 100 km."
+      },
+      "top_speed": {
+        "q": "Top speed?",
+        "a": "Around 160-170 km/h."
+      }
+    }
+  },
+  "honda-cb150x": {
+    "description": "Small adventure tourer. The best choice for exploring remote corners of Bali.",
+    "features": {
+      "touring_ready": "Touring Ready",
+      "wind_protection": "Wind Protection",
+      "long_travel": "Long Travel Suspension",
+      "comfortable": "Comfortable"
+    },
+    "diagnostics": {
+      "engine_noise": {
+        "title": "Engine Noise?",
+        "steps": [
+          "Check valve clearance",
+          "Timing chain"
+        ],
+        "info": "Common ticking noise from valves."
+      },
+      "chain_slack": {
+        "title": "Chain Slack?",
+        "steps": [
+          "Adjust chain",
+          "Lube"
+        ],
+        "info": "Long suspension travel requires proper chain slack."
+      },
+      "hard_start": {
+        "title": "Hard to Start?",
+        "steps": [
+          "Check spark plug",
+          "Fuel pump"
+        ],
+        "info": "Usually poor fuel quality."
+      }
+    },
+    "detailed_issues": {
+      "timing_chain": {
+        "title": "Timing Chain Tensioner",
+        "symptoms": "rattling noise",
+        "reason": "tensioner spring wear",
+        "action": "replace tensioner"
+      },
+      "valve_clearance": {
+        "title": "Valve Clearance",
+        "symptoms": "ticking sound, power loss",
+        "reason": "normal wear",
+        "action": "adjust valves"
+      },
+      "box_mounts": {
+        "title": "Top Box Mounts",
+        "symptoms": "wobbly top box",
+        "reason": "overloading",
+        "action": "reinforce mounts"
+      }
+    },
+    "pricing": {
+      "oil_change": "Oil Change",
+      "timing_chain_tensioner": "Timing Chain Tensioner",
+      "diagnosis": "Engine Diagnostics"
+    },
+    "owner_mistakes": [
+      "overloading",
+      "ignoring valve noise"
+    ],
+    "target_fit": {
+      "suitable": {
+        "island_touring": "island touring",
+        "bad_roads": "bad roads"
+      },
+      "not_suitable": {
+        "aggressive_offroad": "aggressive offroad",
+        "high_speed_highway": "high speed highway"
+      }
+    },
+    "faq": {
+      "top_speed": {
+        "q": "Top speed?",
+        "a": "Around 115 km/h."
+      },
+      "seat_height": {
+        "q": "Is it too tall?",
+        "a": "Seat height is 817mm, accessible for most riders."
+      }
+    }
+  },
+  "honda-cb150r": {
+    "description": "Modern neo-classic. Style and technology in one bottle.",
+    "features": {
+      "neo_sports_cafe": "Neo Sports Café",
+      "led_lighting": "LED Lighting",
+      "compact": "Compact",
+      "agile": "Agile"
+    },
+    "diagnostics": {
+      "engine_rattle": {
+        "title": "Engine Rattle?",
+        "steps": [
+          "Check timing chain tensioner"
+        ],
+        "info": "Very common on Honda 150cc engines."
+      },
+      "electrical_issue": {
+        "title": "Electrical Issue?",
+        "steps": [
+          "Check battery",
+          "Fuses"
+        ],
+        "info": "LED lights are sensitive to voltage drops."
+      },
+      "chain_slack": {
+        "title": "Chain Slack?",
+        "steps": [
+          "Adjust chain",
+          "Lube"
+        ],
+        "info": "Regular maintenance needed."
+      }
+    },
+    "detailed_issues": {
+      "chain_tensioner": {
+        "title": "Timing Chain Tensioner",
+        "symptoms": "rattling noise",
+        "reason": "tensioner spring wear",
+        "action": "replace tensioner"
+      },
+      "water_pump": {
+        "title": "Water Pump Seal",
+        "symptoms": "coolant leak",
+        "reason": "seal wear",
+        "action": "replace seal"
+      },
+      "battery_drain": {
+        "title": "Battery Drain",
+        "symptoms": "won't start",
+        "reason": "aftermarket accessories",
+        "action": "check wiring"
+      }
+    },
+    "pricing": {
+      "oil_change": "Oil Change",
+      "chain_tensioner": "Timing Chain Tensioner",
+      "diagnosis": "Engine Diagnostics"
+    },
+    "owner_mistakes": [
+      "ignoring engine noise",
+      "using cheap oil"
+    ],
+    "target_fit": {
+      "suitable": {
+        "city_riding": "city riding",
+        "beginners": "beginners"
+      },
+      "not_suitable": {
+        "offroad": "offroad",
+        "long_touring": "long touring"
+      }
+    },
+    "faq": {
+      "fuel_consumption": {
+        "q": "Fuel consumption?",
+        "a": "Very economical, around 2-2.5 liters per 100 km."
+      },
+      "maintenance_cost": {
+        "q": "Maintenance cost?",
+        "a": "Very affordable."
+      }
+    }
+  },
+  "honda-cbr150r": {
+    "description": "Honda's sporty character. Reliable and predictable bike for beginners.",
+    "features": {
+      "total_control": "Total Control",
+      "aerodynamic": "Aerodynamic",
+      "reliable_honda": "Honda Reliability",
+      "sporty": "Sporty"
+    },
+    "diagnostics": {
+      "clutch_slipping": {
+        "title": "Clutch Slipping?",
+        "steps": [
+          "Check lever free play",
+          "Oil color"
+        ],
+        "info": "Common with aggressive riders."
+      },
+      "fairing_rattle": {
+        "title": "Fairing Rattle?",
+        "steps": [
+          "Check clips and bolts"
+        ],
+        "info": "Plastics can vibrate over time."
+      },
+      "hard_start": {
+        "title": "Hard to Start?",
+        "steps": [
+          "Check spark plug",
+          "Fuel pump"
+        ],
+        "info": "Usually spark plug wear."
+      }
+    },
+    "detailed_issues": {
+      "clutch_wear": {
+        "title": "Clutch Wear",
+        "symptoms": "RPM rises without acceleration",
+        "reason": "aggressive riding",
+        "action": "replace plates"
+      },
+      "fairing_clips": {
+        "title": "Fairing Clips",
+        "symptoms": "rattling noise",
+        "reason": "broken clips",
+        "action": "replace clips"
+      },
+      "chain_wear": {
+        "title": "Chain Wear",
+        "symptoms": "loose chain",
+        "reason": "poor lubrication",
+        "action": "replace chain and sprockets"
+      }
+    },
+    "pricing": {
+      "oil_change": "Oil Change",
+      "clutch_plates": "Clutch Plates",
+      "diagnosis": "Engine Diagnostics"
+    },
+    "owner_mistakes": [
+      "aggressive shifting",
+      "poor chain lube"
+    ],
+    "target_fit": {
+      "suitable": {
+        "sport_beginners": "sport beginners",
+        "city_commuting": "city commuting"
+      },
+      "not_suitable": {
+        "offroad": "offroad",
+        "long_touring": "long touring"
+      }
+    },
+    "faq": {
+      "top_speed": {
+        "q": "Top speed?",
+        "a": "Around 135 km/h."
+      },
+      "riding_position": {
+        "q": "Is the riding position comfortable?",
+        "a": "Sporty but relatively relaxed compared to true supersports."
+      }
+    }
+  },
+  "honda-cbr250rr": {
+    "description": "Technological masterpiece. Riding modes, ride-by-wire, and best-in-class handling.",
+    "features": {
+      "ride_by_wire": "Ride-by-Wire",
+      "riding_modes": "Riding Modes",
+      "pro_suspension": "Pro Suspension",
+      "quickshifter_ready": "Quickshifter Ready"
+    },
+    "diagnostics": {
+      "throttle_error": {
+        "title": "Throttle Error?",
+        "steps": [
+          "Check throttle sensor",
+          "Wiring"
+        ],
+        "info": "Ride-by-wire system can sometimes throw codes."
+      },
+      "no_start": {
+        "title": "Won't Start?",
+        "steps": [
+          "Check battery voltage",
+          "Fuses"
+        ],
+        "info": "High electronics load requires a strong battery."
+      },
+      "overheating": {
+        "title": "Overheating?",
+        "steps": [
+          "Check coolant level",
+          "Fan operation"
+        ],
+        "info": "High performance engine runs hot."
+      }
+    },
+    "detailed_issues": {
+      "throttle_sensor": {
+        "title": "Throttle Sensor Error",
+        "symptoms": "check engine light, limp mode",
+        "reason": "sensor glitch or wiring",
+        "action": "diagnostic scan, replace if needed"
+      },
+      "battery_drain": {
+        "title": "Battery Drain",
+        "symptoms": "won't start",
+        "reason": "high electrical load",
+        "action": "charge or replace battery"
+      },
+      "chain_wear": {
+        "title": "Chain Wear",
+        "symptoms": "loose chain",
+        "reason": "high power",
+        "action": "replace chain and sprockets"
+      }
+    },
+    "pricing": {
+      "oil_synthetic": "Full Synthetic Oil",
+      "throttle_body_sync": "Throttle Body Sync",
+      "diagnosis": "Engine Diagnostics"
+    },
+    "owner_mistakes": [
+      "ignoring error codes",
+      "using cheap fuel"
+    ],
+    "target_fit": {
+      "suitable": {
+        "track_days": "track days",
+        "highway_riding": "highway riding"
+      },
+      "not_suitable": {
+        "dense_traffic": "dense traffic",
+        "offroad": "offroad"
+      }
+    },
+    "faq": {
+      "fuel_consumption": {
+        "q": "Fuel consumption?",
+        "a": "Around 4-5 liters per 100 km."
+      },
+      "riding_modes_diff": {
+        "q": "Are the riding modes noticeable?",
+        "a": "Yes, Sport+ significantly changes throttle response."
+      }
+    }
+  },
+  "honda-crf150l": {
+    "description": "Off-road king. Light, torquey, and practically indestructible on dirt.",
+    "features": {
+      "offroad_king": "Off-road King",
+      "lightweight": "Lightweight",
+      "durable": "Durable",
+      "long_travel": "Long Travel Suspension"
+    },
+    "diagnostics": {
+      "clutch_slipping": {
+        "title": "Clutch Slipping?",
+        "steps": [
+          "Check lever free play",
+          "Oil color"
+        ],
+        "info": "Common from heavy clutch use offroad."
+      },
+      "wheel_wobble": {
+        "title": "Wheel Wobble?",
+        "steps": [
+          "Check spokes",
+          "Wheel bearings"
+        ],
+        "info": "Spokes loosen after jumps."
+      },
+      "hard_start": {
+        "title": "Hard to Start?",
+        "steps": [
+          "Check air filter",
+          "Carburetor/Injector"
+        ],
+        "info": "Dirt in the air filter or fuel."
+      }
+    },
+    "detailed_issues": {
+      "clutch_wear": {
+        "title": "Clutch Wear",
+        "symptoms": "slipping",
+        "reason": "offroad abuse",
+        "action": "replace plates"
+      },
+      "loose_spokes": {
+        "title": "Loose Spokes",
+        "symptoms": "wobbly wheel",
+        "reason": "impacts",
+        "action": "tighten and true wheel"
+      },
+      "dirty_carb": {
+        "title": "Dirty Injector/Carb",
+        "symptoms": "bogging down",
+        "reason": "dust and bad fuel",
+        "action": "clean fuel system"
+      }
+    },
+    "pricing": {
+      "oil_change": "Oil Change",
+      "clutch_plates": "Clutch Plates",
+      "wheel_truing": "Wheel Truing"
+    },
+    "owner_mistakes": [
+      "riding half-clutch offroad",
+      "ignoring air filter cleaning",
+      "ignoring loose spokes"
+    ],
+    "target_fit": {
+      "suitable": {
+        "offroad": "offroad",
+        "dirt_trails": "dirt trails",
+        "tall_riders": "tall riders"
+      },
+      "not_suitable": {
+        "highway_touring": "highway touring",
+        "short_riders": "short riders"
+      }
+    },
+    "faq": {
+      "top_speed": {
+        "q": "Top speed?",
+        "a": "Around 100-110 km/h."
+      },
+      "seat_height": {
+        "q": "Is the seat height high?",
+        "a": "Yes, 869mm, better for taller riders."
+      }
+    }
+  },
+  "honda-crf250l": {
+    "description": "Serious enduro. More power, more capabilities, more adventures.",
+    "features": {
+      "true_adventure": "True Adventure",
+      "powerful_single": "Powerful Single",
+      "long_suspension": "Long Suspension",
+      "liquid_cooled": "Liquid Cooled"
+    },
+    "diagnostics": {
+      "engine_rattle": {
+        "title": "Engine Rattle?",
+        "steps": [
+          "Check timing chain tensioner"
+        ],
+        "info": "Common Honda tensioner issue."
+      },
+      "overheating": {
+        "title": "Overheating?",
+        "steps": [
+          "Check radiator for mud",
+          "Coolant level"
+        ],
+        "info": "Radiator clogs with mud offroad."
+      },
+      "suspension_leak": {
+        "title": "Suspension Leak?",
+        "steps": [
+          "Check fork seals",
+          "Wipe stanchions"
+        ],
+        "info": "Dirt damages seals."
+      }
+    },
+    "detailed_issues": {
+      "timing_chain": {
+        "title": "Timing Chain Tensioner",
+        "symptoms": "rattling noise",
+        "reason": "tensioner wear",
+        "action": "replace tensioner"
+      },
+      "radiator_damage": {
+        "title": "Radiator Damage",
+        "symptoms": "leaking coolant, overheating",
+        "reason": "impacts or mud",
+        "action": "clean or replace radiator"
+      },
+      "fork_seals": {
+        "title": "Fork Seals Leak",
+        "symptoms": "oil on fork legs",
+        "reason": "dirt ingress",
+        "action": "replace seals"
+      }
+    },
+    "pricing": {
+      "oil_synthetic": "Full Synthetic Oil",
+      "fork_rebuild": "Fork Rebuild",
+      "diagnosis": "Engine Diagnostics"
+    },
+    "owner_mistakes": [
+      "riding without skid plate",
+      "ignoring coolant temp"
+    ],
+    "target_fit": {
+      "suitable": {
+        "adventure_touring": "adventure touring",
+        "offroad": "offroad",
+        "tall_riders": "tall riders"
+      },
+      "not_suitable": {
+        "city_commuting": "city commuting",
+        "short_riders": "short riders"
+      }
+    },
+    "faq": {
+      "weight": {
+        "q": "Is it heavy?",
+        "a": "Around 145kg, heavier than pure dirt bikes."
+      },
+      "fuel_consumption": {
+        "q": "Fuel consumption?",
+        "a": "Around 3.5 liters per 100 km."
+      }
+    }
+  },
+  "kawasaki-ninja-250": {
+    "description": "A legend among twin-cylinder sports. Kawasaki speed and style.",
+    "features": {
+      "legendary": "Legendary",
+      "parallel_twin": "Parallel Twin",
+      "sharp_look": "Sharp Look",
+      "highway_cruiser": "Highway Cruiser"
+    },
+    "diagnostics": {
+      "overheating": {
+        "title": "Overheating?",
+        "steps": [
+          "Check cooling fan",
+          "Coolant level"
+        ],
+        "info": "Fan relays commonly fail."
+      },
+      "rough_idle": {
+        "title": "Rough Idle?",
+        "steps": [
+          "Check throttle body sync",
+          "Spark plugs"
+        ],
+        "info": "Twin cylinders need synchronization."
+      },
+      "brake_fade": {
+        "title": "Brake Fade?",
+        "steps": [
+          "Check brake fluid",
+          "Pads"
+        ],
+        "info": "Heavy bike requires good brakes."
+      }
+    },
+    "detailed_issues": {
+      "cooling_fan": {
+        "title": "Cooling Fan Failure",
+        "symptoms": "overheating in traffic",
+        "reason": "relay or motor failure",
+        "action": "replace relay/fan"
+      },
+      "throttle_sync": {
+        "title": "Throttle Body Out of Sync",
+        "symptoms": "rough idle, jerky throttle",
+        "reason": "normal wear",
+        "action": "synchronize throttle bodies"
+      },
+      "brake_discs": {
+        "title": "Warped Brake Discs",
+        "symptoms": "pulsating under braking",
+        "reason": "overheating brakes",
+        "action": "replace discs"
+      }
+    },
+    "pricing": {
+      "oil_synthetic": "Full Synthetic Oil",
+      "throttle_sync": "Throttle Body Sync",
+      "diagnosis": "Engine Diagnostics"
+    },
+    "owner_mistakes": [
+      "overheating in traffic jams",
+      "ignoring brake fluid replacement"
+    ],
+    "target_fit": {
+      "suitable": {
+        "highway_touring": "highway touring",
+        "sport_riding": "sport riding"
+      },
+      "not_suitable": {
+        "heavy_traffic": "heavy traffic",
+        "offroad": "offroad"
+      }
+    },
+    "faq": {
+      "top_speed": {
+        "q": "Top speed?",
+        "a": "Around 170 km/h."
+      },
+      "riding_position": {
+        "q": "Is the riding position aggressive?",
+        "a": "It's relatively relaxed for a sport bike, good for touring."
+      }
+    }
+  },
+  "kawasaki-zx-25rr": {
+    "description": "4 cylinders and 17,000 RPM. The sound and power of a real superbike in 250cc.",
+    "features": {
+      "inline_four": "Inline Four",
+      "quickshifter": "Quickshifter",
+      "screamer": "Screamer Engine",
+      "premium_suspension": "Premium Suspension"
+    },
+    "diagnostics": {
+      "check_engine": {
+        "title": "Check Engine Light?",
+        "steps": [
+          "Read diagnostic codes"
+        ],
+        "info": "Complex electronics require a scanner."
+      },
+      "tire_wear": {
+        "title": "High Tire Wear?",
+        "steps": [
+          "Check tire pressure",
+          "Suspension setup"
+        ],
+        "info": "High power output eats tires."
+      },
+      "high_fuel_consumption": {
+        "title": "High Fuel Consumption?",
+        "steps": [
+          "Check air filter",
+          "Riding style"
+        ],
+        "info": "Inline-4s are thirsty."
+      }
+    },
+    "detailed_issues": {
+      "electronics_glitch": {
+        "title": "Electronics Glitch",
+        "symptoms": "random error codes",
+        "reason": "software/sensor issues",
+        "action": "clear codes, update software"
+      },
+      "tire_wear": {
+        "title": "Rapid Tire Wear",
+        "symptoms": "bald tires",
+        "reason": "high RPM, aggressive riding",
+        "action": "replace tires"
+      },
+      "chain_stretch": {
+        "title": "Chain Stretch",
+        "symptoms": "loose chain",
+        "reason": "high power output",
+        "action": "replace with premium chain"
+      }
+    },
+    "pricing": {
+      "oil_synthetic_premium": "Premium Synthetic Oil",
+      "tire_replacement": "Tire Replacement",
+      "diagnosis": "Engine Diagnostics"
+    },
+    "owner_mistakes": [
+      "using cheap oil",
+      "ignoring chain slack",
+      "using low octane fuel"
+    ],
+    "target_fit": {
+      "suitable": {
+        "track_days": "track days",
+        "pure_sport": "pure sport",
+        "sound_lovers": "sound lovers"
+      },
+      "not_suitable": {
+        "daily_commuting": "daily commuting",
+        "budget_riders": "riders on a budget"
+      }
+    },
+    "faq": {
+      "fuel_consumption": {
+        "q": "Is fuel consumption high?",
+        "a": "Yes, comparable to a 600cc bike (6+ liters per 100 km)."
+      },
+      "maintenance_cost": {
+        "q": "Is maintenance expensive?",
+        "a": "Yes, it's a premium high-performance machine requiring expensive parts."
+      }
+    }
+  },
+  "suzuki-v-strom-250": {
+    "description": "Universal soldier. Tourer comfort and city bike maneuverability.",
+    "features": {
+      "all_rounder": "All-rounder",
+      "comfortable": "Very Comfortable",
+      "practical": "Practical",
+      "oil_cooled": "Oil Cooled"
+    },
+    "diagnostics": {
+      "hard_start": {
+        "title": "Hard to Start?",
+        "steps": [
+          "Check battery",
+          "Spark plug"
+        ],
+        "info": "Usually simple fixes."
+      },
+      "chain_noise": {
+        "title": "Chain Noise?",
+        "steps": [
+          "Adjust chain",
+          "Lube"
+        ],
+        "info": "Keep it lubricated for long life."
+      },
+      "weak_headlight": {
+        "title": "Weak Headlight?",
+        "steps": [
+          "Check bulb",
+          "Battery voltage"
+        ],
+        "info": "Stock headlight is famously dim."
+      }
+    },
+    "detailed_issues": {
+      "top_heavy": {
+        "title": "Top Heavy Feel",
+        "symptoms": "hard to balance at low speed",
+        "reason": "design characteristic",
+        "action": "practice low speed maneuvers"
+      },
+      "headlight_brightness": {
+        "title": "Headlight Brightness",
+        "symptoms": "poor visibility at night",
+        "reason": "weak stock LED",
+        "action": "add auxiliary lights"
+      },
+      "chain_wear": {
+        "title": "Chain Wear",
+        "symptoms": "loose chain",
+        "reason": "normal wear",
+        "action": "replace chain and sprockets"
+      }
+    },
+    "pricing": {
+      "oil_change": "Oil Change",
+      "chain_kit": "Chain Kit Replacement",
+      "diagnosis": "Engine Diagnostics"
+    },
+    "owner_mistakes": [
+      "dropping at low speed",
+      "ignoring oil cooler cleaning"
+    ],
+    "target_fit": {
+      "suitable": {
+        "island_touring": "island touring",
+        "comfortable_commuting": "comfortable commuting",
+        "tall_riders": "tall riders"
+      },
+      "not_suitable": {
+        "aggressive_offroad": "aggressive offroad",
+        "short_riders": "short riders"
+      }
+    },
+    "faq": {
+      "seat_height": {
+        "q": "Is the seat height high?",
+        "a": "Yes, 835mm, might be challenging for shorter riders."
+      },
+      "offroad_capability": {
+        "q": "Is it good for offroad?",
+        "a": "It's a soft-roader, good for gravel and light trails, not hard enduro."
+      }
+    }
+  }
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { HelmetProvider } from 'react-helmet-async'
 import Layout from './components/Layout'
+import ScrollToTop from './components/ScrollToTop'
 
 import Home from './pages/Home'
 import About from './pages/About'
@@ -15,11 +16,14 @@ import BrakeService from './pages/BrakeService'
 import EngineRepair from './pages/EngineRepair'
 import Shop from './pages/Shop'
 import ProductDetails from './pages/ProductDetails'
+import BikesList from './pages/BikesList'
+import BikeDetail from './pages/BikeDetail'
 
 function App() {
   return (
     <HelmetProvider>
       <Router>
+        <ScrollToTop />
         <Layout>
           <Routes>
           <Route path="/" element={<Home />} />
@@ -27,6 +31,8 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/shop/:slug" element={<ProductDetails />} />
+          <Route path="/bikes" element={<BikesList />} />
+          <Route path="/bikes/:modelId" element={<BikeDetail />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/booking" element={<Booking />} />
           <Route path="/motorcycle-repair-bali" element={<MotorcycleRepair />} />
