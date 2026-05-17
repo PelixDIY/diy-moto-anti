@@ -233,6 +233,41 @@ const Home = () => {
           font-size: 1.2rem;
         }
 
+        /* Services */
+        .services-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+          gap: 2rem;
+        }
+        .service-card-new {
+          background: rgba(255,255,255,0.03);
+          border: 1px solid rgba(255,255,255,0.1);
+          border-radius: 12px;
+          padding: 2rem;
+          text-align: center;
+          transition: transform 0.3s ease, border-color 0.3s ease;
+          display: block;
+          color: white;
+        }
+        .service-card-new:hover {
+          transform: translateY(-5px);
+          border-color: var(--color-accent-orange);
+        }
+        .service-icon {
+          font-size: 3rem;
+          margin-bottom: 1rem;
+        }
+        .service-card-new h3 {
+          font-size: 1.3rem;
+          margin-bottom: 0.5rem;
+          color: #fff;
+        }
+        .service-card-new p {
+          color: var(--color-text-secondary);
+          font-size: 1rem;
+          margin: 0;
+        }
+
         /* Shop Preview */
         .shop-preview-content {
           display: flex;
@@ -387,23 +422,6 @@ const Home = () => {
           font-size: 1.1rem;
         }
 
-        /* Pricing Preview */
-        .pricing-preview-grid {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-          gap: 1.5rem;
-        }
-        .price-card-sm {
-          background: rgba(255,255,255,0.05);
-          padding: 1.5rem;
-          border-radius: 8px;
-          text-align: center;
-          font-size: 1.1rem;
-          color: #fff;
-          font-weight: 500;
-          border: 1px solid rgba(255,255,255,0.05);
-        }
-
         /* DIY Highlight */
         .diy-highlight {
           background: url('https://images.unsplash.com/photo-1616421275384-a4871cf679b2?auto=format&fit=crop&q=80') center/cover;
@@ -435,22 +453,6 @@ const Home = () => {
           color: #ccc;
           line-height: 1.6;
         }
-
-        /* Tools Grid */
-        .tools-grid {
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          gap: 1rem;
-          height: 300px;
-        }
-        .tool-img {
-          background-size: cover;
-          background-position: center;
-          border-radius: 8px;
-        }
-        .t1 { background-image: url('https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&q=80'); }
-        .t2 { background-image: url('https://images.unsplash.com/photo-1590212351717-3bf1cff8e100?auto=format&fit=crop&q=80'); }
-        .t3 { background-image: url('https://images.unsplash.com/photo-1504148455328-c376906d081c?auto=format&fit=crop&q=80'); }
 
         /* FAQ */
         .faq-container {
@@ -514,22 +516,18 @@ const Home = () => {
         }
 
         @media (max-width: 768px) {
+          .services-grid {
+            grid-template-columns: 1fr;
+          }
           .shop-preview-content {
             flex-direction: column;
             gap: 2rem;
           }
-          .shop-img-grid {
-            height: 250px;
+          .shop-preview-grid {
+            grid-template-columns: 1fr;
           }
           .tourists-split {
             flex-direction: column;
-          }
-          .tools-grid {
-            grid-template-columns: 1fr;
-            height: auto;
-          }
-          .tool-img {
-            height: 200px;
           }
           .cta-actions {
             flex-direction: column;
@@ -537,6 +535,9 @@ const Home = () => {
           .steps-row {
             flex-direction: column;
             gap: 2rem;
+          }
+          .shop-features {
+            grid-template-columns: 1fr;
           }
         }
       `}</style>
